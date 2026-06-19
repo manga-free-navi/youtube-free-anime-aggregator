@@ -1,0 +1,62 @@
+[
+  {
+    "id": "UC7wu64jFsV02bbu6UHUd7JA",
+    "name": "ガンダムチャンネル",
+    "displayName": "ガンダムチャンネル",
+    "category": "アニメ"
+  },
+  {
+    "id": "UCUUekIrulAiJnUOawqBRwZQ",
+    "name": "東映アニメーションミュージアムチャンネル",
+    "displayName": "東映アニメ",
+    "category": "アニメ"
+  },
+  {
+    "id": "UCY5fcqgSrQItPAX_Z5Frmwg",
+    "name": "KADOKAWAanime",
+    "displayName": "KADOKAWA",
+    "category": "アニメ"
+  },
+  {
+    "id": "UC14QT5j2nQI8lKBCGtrrBQA",
+    "name": "Aniplex",
+    "displayName": "アニプレックス",
+    "category": "アニメ"
+  },
+  {
+    "id": "UC6dZJd14kL6V14f9uKjT7AA",
+    "name": "EMOTION Label Channel",
+    "displayName": "EMOTION",
+    "category": "アニメ"
+  },
+  {
+    "id": "UC_Y-VKZa6TgbYkP8fLEdsyA",
+    "name": "ジャンプチャンネル",
+    "displayName": "ジャンプ",
+    "category": "コミック・ホビー"
+  },
+  {
+    "id": "UC05UB9qXmnvpNue0DXYRGdw",
+    "name": "TMSアニメ公式チャンネル",
+    "displayName": "TMSアニメ",
+    "category": "アニメ"
+  },
+  {
+    "id": "UCKtxF3ufOkuJohTeKyNbYrQ",
+    "name": "コロコロチャンネル【公式】",
+    "displayName": "コロコロ",
+    "category": "コミック・ホビー"
+  },
+  {
+    "id": "UC9iC5kXiHNJCCDjEi1lD3UA",
+    "name": "avex pictures",
+    "displayName": "エイベックス",
+    "category": "アニメ"
+  },
+  {
+    "id": "UC-QsChDqs8LvV6LMJXlkv0w",
+    "name": "NBCUniversal Anime/Music",
+    "displayName": "NBCユニバーサル",
+    "category": "アニメ"
+  }
+]
