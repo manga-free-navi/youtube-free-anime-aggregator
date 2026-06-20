@@ -129,12 +129,21 @@ export default function MainApp() {
   // 漫画とゲーム of sales.json / games.json フェッチ
   useEffect(() => {
     const fetchCrossData = async () => {
-      const mangaUrls = [
-        '/manga-sale-aggregator/sales.json',
-        '/manga-sale-aggregator/data/sales.json',
-        'https://masayuki-gemini.github.io/manga-sale-aggregator/sales.json',
-        '/sales.json'
-      ];
+      const origin = typeof window !== 'undefined' ? window.location.origin : '';
+      const mangaEnvUrl = process.env.NEXT_PUBLIC_MANGA_SITE_URL || '';
+      const mangaUrls: string[] = [];
+      
+      if (mangaEnvUrl) {
+        mangaUrls.push(`${mangaEnvUrl.replace(/\/$/, '')}/sales.json`);
+      }
+      if (origin) {
+        mangaUrls.push(`${origin}/manga-sale-aggregator/sales.json`);
+        mangaUrls.push(`${origin}/manga-sale-aggregator/data/sales.json`);
+      }
+      mangaUrls.push('/manga-sale-aggregator/sales.json');
+      mangaUrls.push('/manga-sale-aggregator/data/sales.json');
+      mangaUrls.push('/sales.json');
+
       for (const url of mangaUrls) {
         try {
           const res = await fetch(url);
@@ -145,15 +154,25 @@ export default function MainApp() {
               break;
             }
           }
-        } catch (e) {}
+        } catch (e) {
+          // ignore
+        }
       }
       
-      const gameUrls = [
-        '/game-sale-aggregator/games.json',
-        '/game-sale-aggregator/data/games.json',
-        'https://masayuki-gemini.github.io/game-sale-aggregator/games.json',
-        '/games.json'
-      ];
+      const gameEnvUrl = process.env.NEXT_PUBLIC_GAME_SITE_URL || '';
+      const gameUrls: string[] = [];
+      
+      if (gameEnvUrl) {
+        gameUrls.push(`${gameEnvUrl.replace(/\/$/, '')}/games.json`);
+      }
+      if (origin) {
+        gameUrls.push(`${origin}/game-sale-aggregator/games.json`);
+        gameUrls.push(`${origin}/game-sale-aggregator/data/games.json`);
+      }
+      gameUrls.push('/game-sale-aggregator/games.json');
+      gameUrls.push('/game-sale-aggregator/data/games.json');
+      gameUrls.push('/games.json');
+
       for (const url of gameUrls) {
         try {
           const res = await fetch(url);
@@ -164,7 +183,9 @@ export default function MainApp() {
               break;
             }
           }
-        } catch (e) {}
+        } catch (e) {
+          // ignore
+        }
       }
     };
     fetchCrossData();

@@ -815,6 +815,20 @@ async function main() {
   
   // JSONファイルとして書き出し
   fs.writeFileSync(outputPath, JSON.stringify(mergedVideos, null, 2), 'utf8');
+
+  // public/videos.json にも保存（他サイトからのクロスフェッチ用）
+  try {
+    const publicDir = path.join(__dirname, '../../public');
+    const publicOutputPath = path.join(publicDir, 'videos.json');
+    if (!fs.existsSync(publicDir)) {
+      fs.mkdirSync(publicDir, { recursive: true });
+    }
+    fs.writeFileSync(publicOutputPath, JSON.stringify(mergedVideos, null, 2), 'utf8');
+    console.log(`パブリックデータの書き込み完了: ${publicOutputPath}`);
+  } catch (publicError) {
+    console.warn('パブリックディレクトリへのデータ書き込みに失敗しました:', publicError.message);
+  }
+
   console.log("Scraper execution complete.");
 }
 
