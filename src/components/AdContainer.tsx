@@ -117,7 +117,7 @@ export default function AdContainer({ slot, format = 'auto', responsive = 'true'
             <h3 className="promo-title">姉妹サイトも毎日更新中！</h3>
           </div>
           <p className="promo-desc">
-            広告ブロッカーをご利用中の皆様へ。当サイトの姉妹サイト「漫画セール」と「ゲームセール」情報ナビも、ぜひ合わせてお楽しみください！
+            当サイトの姉妹サイト「漫画セール」と「ゲームセール」情報ナビも、ぜひ合わせてお楽しみください！
           </p>
           <div className="promo-actions">
             <a
