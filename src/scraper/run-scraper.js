@@ -54,7 +54,8 @@ const ORIGINAL_WORK_MAP = {
   "キャシャーン": "新造人間キャシャーン",
   "ヤッターマン": "ヤッターマン",
   "銀魂": "銀魂",
-  "ちはやふる": "ちはやふる"
+  "ちはやふる": "ちはやふる",
+  "メジャー": "MAJOR"
 };
 
 /**
@@ -78,7 +79,7 @@ function extractEpisodeMeta(title) {
   let isLatest = title.includes("最新話");
 
   // 1. 複数話一挙の検出 (例: #1〜11, 第1〜12話, #1-6, #1~5)
-  const rangeMatch = title.match(/(?:#|第)\s*(\d+)\s*(?:〜|~|-)\s*(\d+)\s*[話期]?/);
+  const rangeMatch = title.match(/(?:#|第)\s*(\d+)\s*(?:〜|～|~|-|－)\s*(\d+)\s*[話期]?/);
   if (rangeMatch) {
     episodeInfo = `第${rangeMatch[1]}話〜第${rangeMatch[2]}話`;
     isBulk = true;
