@@ -54,6 +54,9 @@ export default function MainApp() {
   const [selectedPlatform, setSelectedPlatform] = useState('all');
   const [mangaFavorites, setMangaFavorites] = useState<string[]>([]);
   const [showBulkOnly, setShowBulkOnly] = useState(false);
+  
+  // 表示件数制御ステート（大量レンダリングによるパフォーマンス低下対策）
+  const [visibleCount, setVisibleCount] = useState(24);
 
   // マウント時に閲覧設定を復元
   useEffect(() => {
@@ -91,6 +94,11 @@ export default function MainApp() {
       console.error('Failed to load anime preferences:', e);
     }
   }, []);
+
+  // フィルター・ソート条件が変わったら表示件数を初期値にリセット
+  useEffect(() => {
+    setVisibleCount(24);
+  }, [selectedChannelId, selectedCategory, searchTerm, sortBy, hideUpcoming, showFavoritesOnly, selectedPlatform, showBulkOnly]);
 
   // 設定保存用ハンドラー
   const handleChannelChange = (channelId: string) => {
@@ -227,6 +235,11 @@ export default function MainApp() {
     });
   }, [filteredVideos, sortBy]);
 
+  // 表示件数分だけ動画を切り出し
+  const displayedVideos = useMemo(() => {
+    return sortedVideos.slice(0, visibleCount);
+  }, [sortedVideos, visibleCount]);
+
   // 動画モーダルを開く
   const handlePlayVideo = (video: Video) => {
     setActiveVideo(video);
@@ -279,35 +292,81 @@ export default function MainApp() {
       </div>
 
       {/* 動画グリッド表示（途中に広告を美しくサンドイッチ） */}
-      {sortedVideos.length > 0 ? (
-        <div className="video-grid" id="video-display-grid">
-          {sortedVideos.map((video, index) => {
-            const cardElement = (
-              <VideoCard 
-                key={video.id} 
-                video={video} 
-                onPlay={handlePlayVideo} 
-                isFavorite={favorites.includes(video.id)}
-                onToggleFavorite={handleToggleFavorite}
-                isMangaFavorite={video.mangaSaleInfo?.id ? mangaFavorites.includes(video.mangaSaleInfo.id) : false}
-              />
-            );
-
-            // 8枚のカードごとに広告を挟む（最初の広告は4枚目の後に配置して見えやすくする）
-            if ((index + 1) % 8 === 4) {
-              return (
-                <div key={`wrapper-${video.id}`} style={{ display: 'contents' }}>
-                  {cardElement}
-                  <div key={`grid-ad-${index}`} style={{ gridColumn: '1 / -1' }}>
-                    <AdContainer slot={`in-grid-ad-${index}`} format="fluid" />
-                  </div>
-                </div>
+      {displayedVideos.length > 0 ? (
+        <>
+          <div className="video-grid" id="video-display-grid">
+            {displayedVideos.map((video, index) => {
+              const cardElement = (
+                <VideoCard 
+                  key={video.id} 
+                  video={video} 
+                  onPlay={handlePlayVideo} 
+                  isFavorite={favorites.includes(video.id)}
+                  onToggleFavorite={handleToggleFavorite}
+                  isMangaFavorite={video.mangaSaleInfo?.id ? mangaFavorites.includes(video.mangaSaleInfo.id) : false}
+                />
               );
-            }
 
-            return cardElement;
-          })}
-        </div>
+              // 8枚のカードごとに広告を挟む（最初の広告は4枚目の後に配置して見えやすくする）
+              if ((index + 1) % 8 === 4) {
+                return (
+                  <div key={`wrapper-${video.id}`} style={{ display: 'contents' }}>
+                    {cardElement}
+                    <div key={`grid-ad-${index}`} style={{ gridColumn: '1 / -1' }}>
+                      <AdContainer slot={`in-grid-ad-${index}`} format="fluid" />
+                    </div>
+                  </div>
+                );
+              }
+
+              return cardElement;
+            })}
+          </div>
+
+          {/* さらに読み込むボタン */}
+          {sortedVideos.length > visibleCount && (
+            <div className="load-more-container" style={{
+              display: 'flex',
+              justifyContent: 'center',
+              margin: '3.5rem 0 1.5rem 0',
+            }}>
+              <button
+                onClick={() => setVisibleCount(prev => prev + 24)}
+                className="load-more-btn"
+                style={{
+                  padding: '0.85rem 2.8rem',
+                  background: 'rgba(255, 255, 255, 0.05)',
+                  border: '1px solid var(--border-color)',
+                  borderRadius: '30px',
+                  color: 'var(--text-main)',
+                  fontSize: '0.95rem',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                  backdropFilter: 'blur(10px)',
+                  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.24)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)';
+                  e.currentTarget.style.borderColor = 'var(--text-main)';
+                  e.currentTarget.style.transform = 'translateY(-2px)';
+                  e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.35)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)';
+                  e.currentTarget.style.borderColor = 'var(--border-color)';
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.24)';
+                }}
+              >
+                <span>🎬</span> さらに読み込む ({sortedVideos.length - visibleCount} 件の作品)
+              </button>
+            </div>
+          )}
+        </>
       ) : (
         <div style={{
           textAlign: 'center',
