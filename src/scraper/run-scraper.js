@@ -461,11 +461,27 @@ async function fetchAbemaFromEPG(youtubeVideos) {
         return;
       }
 
-      const epMeta = extractEpisodeMeta(rawTitle);
       const startIso = parseEPGTime(start);
-      
-      // 現在時刻と比較して未来枠（配信予定）かどうかを判定
       const now = new Date();
+
+      // 無料配信終了期限の自動判定
+      // 1. タイトルや説明文から具体的な終了日を抽出
+      let endDateStr = extractEndDate(rawTitle) || extractEndDate(desc);
+      let calculatedEndDate = null;
+      if (endDateStr) {
+        calculatedEndDate = new Date(`${endDateStr}T23:59:59Z`);
+      } else {
+        // 2. 抽出できない場合、放送開始日時から7日間（見逃し無料期間1週間）をデフォルトの終了日とする
+        const startDate = new Date(startIso);
+        calculatedEndDate = new Date(startDate.getTime() + 7 * 24 * 60 * 60 * 1000);
+      }
+
+      // 3. 無料配信終了期限が現在時刻を過ぎている場合はスキップ（除外）
+      if (calculatedEndDate < now) {
+        return;
+      }
+
+      const epMeta = extractEpisodeMeta(rawTitle);
       const isUpcoming = new Date(startIso) > now;
       const statusSuffix = isUpcoming ? 'upcoming' : 'active';
       const uniqueKey = `${cleanTitle}_${statusSuffix}`;
