@@ -2,20 +2,20 @@
   "name": "アニフリー - YouTube公式無料アニメ・映画まとめ",
   "short_name": "アニフリー",
   "description": "YouTubeで公式無料公開されているアニメや映画の情報をまとめてお届け",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#09090b",
   "theme-color": "#ef4444",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icon.svg",
+      "src": "icon.svg",
       "type": "image/svg+xml",
       "sizes": "any",
       "purpose": "any"
     },
     {
-      "src": "/icon.svg",
+      "src": "icon.svg",
       "type": "image/svg+xml",
       "sizes": "192x192 512x512",
       "purpose": "maskable"
