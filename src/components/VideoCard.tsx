@@ -60,6 +60,14 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
     }
   };
 
+  // 配信予定（未来の公開日時）かどうかを判定
+  const isUpcoming = useMemo(() => {
+    if (!mounted) return false;
+    const now = new Date();
+    const pubDate = new Date(video.publishedAt);
+    return pubDate > now;
+  }, [video.publishedAt, mounted]);
+
   // 配信終了までの残り日数表示の計算
   const remainingDaysText = useMemo(() => {
     if (!video.endDate || !mounted) return null;
@@ -181,7 +189,7 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
   };
 
   return (
-    <article className="video-card" id={`video-card-${video.id}`}>
+    <article className={`video-card ${isUpcoming ? 'upcoming' : ''}`} id={`video-card-${video.id}`}>
       {/* サムネイル */}
       <div className="thumbnail-container" onClick={() => video.url ? window.open(video.url, '_blank', 'noopener,noreferrer') : onPlay(video)}>
         <img 
@@ -190,16 +198,24 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
           className="thumbnail-img" 
           loading="lazy"
         />
-        <div className="play-overlay">
-          <div className="play-btn-circle">
-            <svg className="play-icon" width="20" height="24" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M8 5v14l11-7z" />
-            </svg>
+        {isUpcoming ? (
+          <div className="upcoming-overlay">
+            <span className="upcoming-icon">🎬</span>
+            <span className="upcoming-label">配信予定</span>
           </div>
-        </div>
+        ) : (
+          <div className="play-overlay">
+            <div className="play-btn-circle">
+              <svg className="play-icon" width="20" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+          </div>
+        )}
         
         {/* バッジ表示 */}
         <div className="card-badges">
+          {isUpcoming && <span className="badge-item badge-upcoming" style={{ background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)' }}>公開前</span>}
           {video.url && <span className="badge-item badge-manual" style={{ background: 'linear-gradient(135deg, #ff1744 0%, #ec4899 100%)' }}>外部配信</span>}
           {video.playlistId && <span className="badge-item badge-manual" style={{ background: 'linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)' }}>全話一挙</span>}
           {video.isManual && !video.playlistId && <span className="badge-item badge-manual">注目作</span>}
@@ -213,7 +229,11 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
       {/* カードコンテンツ */}
       <div className="card-body">
         <div className="publish-date">
-          公開日: {formatDate(video.publishedAt)}
+          {isUpcoming ? (
+            <span style={{ color: '#fbbf24', fontWeight: 700 }}>⏰ {formatDate(video.publishedAt)} 配信予定</span>
+          ) : (
+            <>公開日: {formatDate(video.publishedAt)}</>
+          )}
           {mounted && remainingDaysText && (
             <span 
               className={`remaining-badge ${diffDaysVal !== null && diffDaysVal <= 3 && diffDaysVal >= 0 ? 'urgent' : ''}`}

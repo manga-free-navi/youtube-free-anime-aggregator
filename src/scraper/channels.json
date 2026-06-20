@@ -58,6 +58,11 @@
     "name": "NBCUniversal Anime/Music",
     "displayName": "NBCユニバーサル",
     "category": "アニメ"
+  },
+  {
+    "id": "abema",
+    "name": "ABEMA",
+    "displayName": "ABEMA",
+    "category": "アニメ"
   }
 ]
-

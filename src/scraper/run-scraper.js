@@ -349,6 +349,7 @@ async function fetchAbemaFromEPG(youtubeVideos) {
       const rawTitle = $(el).find('title').text();
       const desc = $(el).find('desc').text() || '';
       const start = $(el).attr('start');
+      const iconUrl = $(el).find('icon').attr('src') || '';
       
       const cleanTitle = cleanProgramTitle(rawTitle);
       
@@ -366,27 +367,27 @@ async function fetchAbemaFromEPG(youtubeVideos) {
 
       // 重複は最初に見つかったものを優先
       if (!uniquePrograms.has(cleanTitle)) {
-        let matchedThumbnail = '';
+        let matchedThumbnail = iconUrl;
         let originalWork = '';
         
-        // 1. YouTubeタイトルマップから直接一致を探す
+        // 名寄せ（YouTubeサムネイルおよび原作タイトル）の探索
+        let ytThumbnail = '';
         if (youtubeTitleMap.has(cleanTitle)) {
-          matchedThumbnail = youtubeTitleMap.get(cleanTitle);
+          ytThumbnail = youtubeTitleMap.get(cleanTitle);
           originalWork = cleanTitle;
         } else {
-          // 2. 部分一致を探索
           for (const [key, thumb] of youtubeTitleMap.entries()) {
             if (cleanTitle.includes(key) || key.includes(cleanTitle)) {
-              matchedThumbnail = thumb;
+              ytThumbnail = thumb;
               originalWork = key;
               break;
             }
           }
         }
 
-        // 名寄せできなかった場合は美しい汎用プレースホルダー画像
+        // サムネイル画像：EPG公式画像を最優先、なければYouTube名寄せ画像、それもなければプレースホルダー
         if (!matchedThumbnail) {
-          matchedThumbnail = 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=60';
+          matchedThumbnail = ytThumbnail || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=60';
         }
 
         const searchUrl = `https://abema.tv/search?q=${encodeURIComponent(cleanTitle)}`;
@@ -396,7 +397,7 @@ async function fetchAbemaFromEPG(youtubeVideos) {
         uniquePrograms.set(cleanTitle, {
           id: `abema-auto-${safeId}`,
           title: `${cleanTitle} (ABEMA無料配信中)`,
-          channelId: 'abema-epg',
+          channelId: 'abema',
           channelName: 'ABEMA',
           category: 'アニメ',
           publishedAt: startIso,
