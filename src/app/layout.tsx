@@ -72,7 +72,7 @@ export default function RootLayout({
           
           <header className="site-header">
             <div className="header-content">
-              <a href="#" className="logo-container">
+              <a href={siteUrl} className="logo-container">
                 <div className="logo-icon">V</div>
                 <span className="logo-text">アニフリー</span>
                 <span className="logo-badge">Official Free</span>
@@ -80,7 +80,7 @@ export default function RootLayout({
 
               {/* サイト切り替えタブ */}
               <div className="header-tabs">
-                <a href="#" className="header-tab active">
+                <a href={siteUrl} className="header-tab active">
                   <span>📺 無料アニメ</span>
                 </a>
                 <a 
@@ -100,7 +100,7 @@ export default function RootLayout({
               </div>
 
               <nav className="nav-links">
-                <a href="#" className="nav-link">ホーム</a>
+                <a href={siteUrl} className="nav-link">ホーム</a>
                 <a href="#privacy" className="nav-link">プライバシー</a>
               </nav>
             </div>
@@ -114,7 +114,7 @@ export default function RootLayout({
             <div className="footer-content">
               <div className="footer-logo">アニフリー - YouTube公式無料アニメ・映画まとめ</div>
               <div className="footer-links">
-                <a href="#" className="footer-link">ホーム</a>
+                <a href={siteUrl} className="footer-link">ホーム</a>
                 <a href="#privacy" className="footer-link">プライバシーポリシー・免責事項</a>
               </div>
               <p className="copyright">
