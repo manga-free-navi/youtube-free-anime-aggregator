@@ -84,14 +84,14 @@ export default function RootLayout({
                   <span>📺 無料アニメ</span>
                 </a>
                 <a 
-                  href={process.env.NEXT_PUBLIC_MANGA_SITE_URL || "../manga-sale-aggregator/out/index.html"} 
+                  href={process.env.NEXT_PUBLIC_MANGA_SITE_URL || "https://manga-free-navi.github.io/manga-sale-aggregator/"} 
                   className="header-tab"
                   id="tab-to-manga"
                 >
                   <span>📚 漫画セール</span>
                 </a>
                 <a 
-                  href={process.env.NEXT_PUBLIC_GAME_SITE_URL || "../game-sale-aggregator/out/index.html"} 
+                  href={process.env.NEXT_PUBLIC_GAME_SITE_URL || "https://manga-free-navi.github.io/game-sale-aggregator/"} 
                   className="header-tab"
                   id="tab-to-game"
                 >
