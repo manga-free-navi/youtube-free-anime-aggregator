@@ -11,7 +11,10 @@
     "originalWorkTitle": "猫と竜",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%8C%AB%E3%81%A8%E7%AB%9C"
+    "url": "https://abema.tv/search?q=%E7%8C%AB%E3%81%A8%E7%AB%9C",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Ko44Oq44K5",
@@ -25,7 +28,10 @@
     "originalWorkTitle": "エリスの聖杯",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%A8%E3%83%AA%E3%82%B9%E3%81%AE%E8%81%96%E6%9D%AF"
+    "url": "https://abema.tv/search?q=%E3%82%A8%E3%83%AA%E3%82%B9%E3%81%AE%E8%81%96%E6%9D%AF",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aW944GN44Gq",
@@ -39,7 +45,10 @@
     "originalWorkTitle": "好きな子がめがねを忘れた",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A5%BD%E3%81%8D%E3%81%AA%E5%AD%90%E3%81%8C%E3%82%81%E3%81%8C%E3%81%AD%E3%82%92%E5%BF%98%E3%82%8C%E3%81%9F"
+    "url": "https://abema.tv/search?q=%E5%A5%BD%E3%81%8D%E3%81%AA%E5%AD%90%E3%81%8C%E3%82%81%E3%81%8C%E3%81%AD%E3%82%92%E5%BF%98%E3%82%8C%E3%81%9F",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44KG44KL44Kt",
@@ -53,7 +62,10 @@
     "originalWorkTitle": "ゆるキャン△ SEASON2",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3%20SEASON2"
+    "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3%20SEASON2",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -67,7 +79,10 @@
     "originalWorkTitle": "異世界薬局",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E8%96%AC%E5%B1%80"
+    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E8%96%AC%E5%B1%80",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GG44Gh44Gu",
@@ -81,7 +96,10 @@
     "originalWorkTitle": "うちのメイドがウザすぎる！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%86%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%81%8C%E3%82%A6%E3%82%B6%E3%81%99%E3%81%8E%E3%82%8B%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%81%86%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%81%8C%E3%82%A6%E3%82%B6%E3%81%99%E3%81%8E%E3%82%8B%EF%BC%81",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-VFbjgqLjg4vj",
@@ -95,7 +113,10 @@
     "originalWorkTitle": "TVアニメ「ペルソナ４」",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A%EF%BC%94%E3%80%8D"
+    "url": "https://abema.tv/search?q=TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A%EF%BC%94%E3%80%8D",
+    "episodeInfo": "第1話〜第25話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aSP55uu5Y+L",
@@ -109,7 +130,10 @@
     "originalWorkTitle": "夏目友人帳 陸",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A4%8F%E7%9B%AE%E5%8F%8B%E4%BA%BA%E5%B8%B3%20%E9%99%B8"
+    "url": "https://abema.tv/search?q=%E5%A4%8F%E7%9B%AE%E5%8F%8B%E4%BA%BA%E5%B8%B3%20%E9%99%B8",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kq44O844OQ",
@@ -123,7 +147,10 @@
     "originalWorkTitle": "オーバーロードⅢ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%E2%85%A2"
+    "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%E2%85%A2",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GG44Gh44Gu",
@@ -137,7 +164,10 @@
     "originalWorkTitle": "うちの娘の為ならば、俺はもしかしたら魔王も倒せるかもしれない。",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82"
+    "url": "https://abema.tv/search?q=%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aer5qeY4oCc",
@@ -151,7 +181,10 @@
     "originalWorkTitle": "姫様“拷問”の時間です",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A7%AB%E6%A7%98%E2%80%9C%E6%8B%B7%E5%95%8F%E2%80%9D%E3%81%AE%E6%99%82%E9%96%93%E3%81%A7%E3%81%99"
+    "url": "https://abema.tv/search?q=%E5%A7%AB%E6%A7%98%E2%80%9C%E6%8B%B7%E5%95%8F%E2%80%9D%E3%81%AE%E6%99%82%E9%96%93%E3%81%A7%E3%81%99",
+    "episodeInfo": "第1話〜第24話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OQ44Kr44Go",
@@ -165,7 +198,10 @@
     "originalWorkTitle": "バカとテストと召喚獣にっ！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%90%E3%82%AB%E3%81%A8%E3%83%86%E3%82%B9%E3%83%88%E3%81%A8%E5%8F%AC%E5%96%9A%E7%8D%A3%E3%81%AB%E3%81%A3%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%83%90%E3%82%AB%E3%81%A8%E3%83%86%E3%82%B9%E3%83%88%E3%81%A8%E5%8F%AC%E5%96%9A%E7%8D%A3%E3%81%AB%E3%81%A3%EF%BC%81",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6IGW5Ymj5L2/",
@@ -179,7 +215,10 @@
     "originalWorkTitle": "聖剣使いの禁呪詠唱",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%81%96%E5%89%A3%E4%BD%BF%E3%81%84%E3%81%AE%E7%A6%81%E5%91%AA%E8%A9%A0%E5%94%B1"
+    "url": "https://abema.tv/search?q=%E8%81%96%E5%89%A3%E4%BD%BF%E3%81%84%E3%81%AE%E7%A6%81%E5%91%AA%E8%A9%A0%E5%94%B1",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OH44K544Oe",
@@ -193,7 +232,10 @@
     "originalWorkTitle": "デスマーチからはじまる異世界狂想曲",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%87%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%81%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%8B%82%E6%83%B3%E6%9B%B2"
+    "url": "https://abema.tv/search?q=%E3%83%87%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%81%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%8B%82%E6%83%B3%E6%9B%B2",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OW44Or44O8",
@@ -207,7 +249,10 @@
     "originalWorkTitle": "ブルーロック VS. U-20 JAPAN",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%20VS.%20U-20%20JAPAN"
+    "url": "https://abema.tv/search?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%20VS.%20U-20%20JAPAN",
+    "episodeInfo": "第25話〜第38話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GT44Gu57Sg",
@@ -221,7 +266,10 @@
     "originalWorkTitle": "この素晴らしい世界に祝福を！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OY44Or44Oi",
@@ -235,7 +283,10 @@
     "originalWorkTitle": "ヘルモード",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%98%E3%83%AB%E3%83%A2%E3%83%BC%E3%83%89"
+    "url": "https://abema.tv/search?q=%E3%83%98%E3%83%AB%E3%83%A2%E3%83%BC%E3%83%89",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -249,7 +300,10 @@
     "originalWorkTitle": "異世界魔王と召喚少女の奴隷魔術",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E9%AD%94%E7%8E%8B%E3%81%A8%E5%8F%AC%E5%96%9A%E5%B0%91%E5%A5%B3%E3%81%AE%E5%A5%B4%E9%9A%B7%E9%AD%94%E8%A1%93"
+    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E9%AD%94%E7%8E%8B%E3%81%A8%E5%8F%AC%E5%96%9A%E5%B0%91%E5%A5%B3%E3%81%AE%E5%A5%B4%E9%9A%B7%E9%AD%94%E8%A1%93",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GR44GE44GK",
@@ -263,7 +317,10 @@
     "originalWorkTitle": "けいおん!",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%91%E3%81%84%E3%81%8A%E3%82%93!"
+    "url": "https://abema.tv/search?q=%E3%81%91%E3%81%84%E3%81%8A%E3%82%93!",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-56eB44Gr5aSp",
@@ -277,7 +334,10 @@
     "originalWorkTitle": "私に天使が舞い降りた！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%A7%81%E3%81%AB%E5%A4%A9%E4%BD%BF%E3%81%8C%E8%88%9E%E3%81%84%E9%99%8D%E3%82%8A%E3%81%9F%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E7%A7%81%E3%81%AB%E5%A4%A9%E4%BD%BF%E3%81%8C%E8%88%9E%E3%81%84%E9%99%8D%E3%82%8A%E3%81%9F%EF%BC%81",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GU5rOo5paH",
@@ -291,7 +351,10 @@
     "originalWorkTitle": "ご注文はうさぎですか？",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F"
+    "url": "https://abema.tv/search?q=%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5pyq56K66KqN",
@@ -305,7 +368,10 @@
     "originalWorkTitle": "未確認で進行形",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9C%AA%E7%A2%BA%E8%AA%8D%E3%81%A7%E9%80%B2%E8%A1%8C%E5%BD%A2"
+    "url": "https://abema.tv/search?q=%E6%9C%AA%E7%A2%BA%E8%AA%8D%E3%81%A7%E9%80%B2%E8%A1%8C%E5%BD%A2",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GT44Gu57Sg",
@@ -319,7 +385,10 @@
     "originalWorkTitle": "この素晴らしい世界に祝福を！３",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%EF%BC%93"
+    "url": "https://abema.tv/search?q=%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%EF%BC%93",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Oh44Kk44OJ",
@@ -333,7 +402,10 @@
     "originalWorkTitle": "メイドインアビス",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9"
+    "url": "https://abema.tv/search?q=%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6a2U6YO957K+",
@@ -347,7 +419,10 @@
     "originalWorkTitle": "魔都精兵のスレイブ2",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E9%83%BD%E7%B2%BE%E5%85%B5%E3%81%AE%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%962"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E9%83%BD%E7%B2%BE%E5%85%B5%E3%81%AE%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%962",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6YqA6a2CJw",
@@ -361,7 +436,10 @@
     "originalWorkTitle": "銀魂'",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%8A%80%E9%AD%82'"
+    "url": "https://abema.tv/search?q=%E9%8A%80%E9%AD%82'",
+    "episodeInfo": "第212話〜第215話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44K144Op44Oq",
@@ -375,7 +453,10 @@
     "originalWorkTitle": "サラリーマンが異世界に行ったら四天王になった話",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B5%E3%83%A9%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%B3%E3%81%8C%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%9F%E3%82%89%E5%9B%9B%E5%A4%A9%E7%8E%8B%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E8%A9%B1"
+    "url": "https://abema.tv/search?q=%E3%82%B5%E3%83%A9%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%B3%E3%81%8C%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%9F%E3%82%89%E5%9B%9B%E5%A4%A9%E7%8E%8B%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E8%A9%B1",
+    "episodeInfo": "第1話〜第8話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OB44Kn44Oz",
@@ -389,7 +470,10 @@
     "originalWorkTitle": "チェンソーマン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%81%E3%82%A7%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%9E%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E3%83%81%E3%82%A7%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%9E%E3%83%B3",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6JC956ys6LOi",
@@ -403,7 +487,10 @@
     "originalWorkTitle": "落第賢者",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%90%BD%E7%AC%AC%E8%B3%A2%E8%80%85"
+    "url": "https://abema.tv/search?q=%E8%90%BD%E7%AC%AC%E8%B3%A2%E8%80%85",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5p2x5Lqs5Zaw",
@@ -417,7 +504,10 @@
     "originalWorkTitle": "東京喰種トーキョーグール",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9D%B1%E4%BA%AC%E5%96%B0%E7%A8%AE%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC%E3%82%B0%E3%83%BC%E3%83%AB"
+    "url": "https://abema.tv/search?q=%E6%9D%B1%E4%BA%AC%E5%96%B0%E7%A8%AE%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC%E3%82%B0%E3%83%BC%E3%83%AB",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -431,7 +521,10 @@
     "originalWorkTitle": "転生したらスライムだった件 コリウスの夢",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6%20%E3%82%B3%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E5%A4%A2"
+    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6%20%E3%82%B3%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E5%A4%A2",
+    "episodeInfo": "第1話〜第3話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6a2U5rOV56eR",
@@ -445,7 +538,10 @@
     "originalWorkTitle": "魔法科高校の劣等生 追憶編",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F%20%E8%BF%BD%E6%86%B6%E7%B7%A8"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F%20%E8%BF%BD%E6%86%B6%E7%B7%A8",
+    "episodeInfo": "第1話〜第3話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5q275Lqh6YGK",
@@ -459,7 +555,10 @@
     "originalWorkTitle": "青井：細分不可能な現象《28:GHOST HOUSE》／7/10より2週間限定上映『#死亡遊戯で飯を食う。44:CLOUDY BEACH』",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%AD%BB%E4%BA%A1%E9%81%8A%E6%88%AF%E3%81%A7%E9%A3%AF%E3%82%92%E9%A3%9F%E3%81%86%E3%80%82"
+    "url": "https://abema.tv/search?q=%E6%AD%BB%E4%BA%A1%E9%81%8A%E6%88%AF%E3%81%A7%E9%A3%AF%E3%82%92%E9%A3%9F%E3%81%86%E3%80%82",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -473,7 +572,10 @@
     "originalWorkTitle": "転生したらスライムだった件 OAD",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6%20OAD"
+    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6%20OAD",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aSJ5oWL546L",
@@ -487,7 +589,10 @@
     "originalWorkTitle": "変態王子と笑わない猫。",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A4%89%E6%85%8B%E7%8E%8B%E5%AD%90%E3%81%A8%E7%AC%91%E3%82%8F%E3%81%AA%E3%81%84%E7%8C%AB%E3%80%82"
+    "url": "https://abema.tv/search?q=%E5%A4%89%E6%85%8B%E7%8E%8B%E5%AD%90%E3%81%A8%E7%AC%91%E3%82%8F%E3%81%AA%E3%81%84%E7%8C%AB%E3%80%82",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6a2U5rOV56eR",
@@ -501,7 +606,10 @@
     "originalWorkTitle": "魔法科高校の劣等生 第3シーズン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F%20%E7%AC%AC3%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F%20%E7%AC%AC3%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5bmy54mp5aa5",
@@ -515,7 +623,10 @@
     "originalWorkTitle": "干物妹！うまるちゃんR",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%B9%B2%E7%89%A9%E5%A6%B9%EF%BC%81%E3%81%86%E3%81%BE%E3%82%8B%E3%81%A1%E3%82%83%E3%82%93R"
+    "url": "https://abema.tv/search?q=%E5%B9%B2%E7%89%A9%E5%A6%B9%EF%BC%81%E3%81%86%E3%81%BE%E3%82%8B%E3%81%A1%E3%82%83%E3%82%93R",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Gy44GS44KS",
@@ -529,7 +640,10 @@
     "originalWorkTitle": "ひげを剃る。そして女子高生を拾う。",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%B2%E3%81%92%E3%82%92%E5%89%83%E3%82%8B%E3%80%82%E3%81%9D%E3%81%97%E3%81%A6%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%82%92%E6%8B%BE%E3%81%86%E3%80%82"
+    "url": "https://abema.tv/search?q=%E3%81%B2%E3%81%92%E3%82%92%E5%89%83%E3%82%8B%E3%80%82%E3%81%9D%E3%81%97%E3%81%A6%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%82%92%E6%8B%BE%E3%81%86%E3%80%82",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Yu844Gu6Yys",
@@ -543,7 +657,10 @@
     "originalWorkTitle": "鋼の錬金術師 嘆きの丘の聖なる星",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB%20%E5%98%86%E3%81%8D%E3%81%AE%E4%B8%98%E3%81%AE%E8%81%96%E3%81%AA%E3%82%8B%E6%98%9F"
+    "url": "https://abema.tv/search?q=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB%20%E5%98%86%E3%81%8D%E3%81%AE%E4%B8%98%E3%81%AE%E8%81%96%E3%81%AA%E3%82%8B%E6%98%9F",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6a2U5rOV56eR",
@@ -557,7 +674,10 @@
     "originalWorkTitle": "魔法科高校の劣等生 来訪者編",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F%20%E6%9D%A5%E8%A8%AA%E8%80%85%E7%B7%A8"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F%20%E6%9D%A5%E8%A8%AA%E8%80%85%E7%B7%A8",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5YWs5aWz5q6/",
@@ -571,7 +691,10 @@
     "originalWorkTitle": "公女殿下の家庭教師",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%85%AC%E5%A5%B3%E6%AE%BF%E4%B8%8B%E3%81%AE%E5%AE%B6%E5%BA%AD%E6%95%99%E5%B8%AB"
+    "url": "https://abema.tv/search?q=%E5%85%AC%E5%A5%B3%E6%AE%BF%E4%B8%8B%E3%81%AE%E5%AE%B6%E5%BA%AD%E6%95%99%E5%B8%AB",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5bmy54mp5aa5",
@@ -585,7 +708,10 @@
     "originalWorkTitle": "干物妹！うまるちゃん",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%B9%B2%E7%89%A9%E5%A6%B9%EF%BC%81%E3%81%86%E3%81%BE%E3%82%8B%E3%81%A1%E3%82%83%E3%82%93"
+    "url": "https://abema.tv/search?q=%E5%B9%B2%E7%89%A9%E5%A6%B9%EF%BC%81%E3%81%86%E3%81%BE%E3%82%8B%E3%81%A1%E3%82%83%E3%82%93",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Gh44Gz44K0",
@@ -599,7 +725,10 @@
     "originalWorkTitle": "ちびゴジラの逆襲",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%A1%E3%81%B3%E3%82%B4%E3%82%B8%E3%83%A9%E3%81%AE%E9%80%86%E8%A5%B2"
+    "url": "https://abema.tv/search?q=%E3%81%A1%E3%81%B3%E3%82%B4%E3%82%B8%E3%83%A9%E3%81%AE%E9%80%86%E8%A5%B2",
+    "episodeInfo": "第111話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6LWk6auq44Gu",
@@ -613,7 +742,10 @@
     "originalWorkTitle": "赤髪の白雪姫OVA『なんでもない宝物、この頁』",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%B5%A4%E9%AB%AA%E3%81%AE%E7%99%BD%E9%9B%AA%E5%A7%ABOVA%E3%80%8E%E3%81%AA%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%AE%9D%E7%89%A9%E3%80%81%E3%81%93%E3%81%AE%E9%A0%81%E3%80%8F"
+    "url": "https://abema.tv/search?q=%E8%B5%A4%E9%AB%AA%E3%81%AE%E7%99%BD%E9%9B%AA%E5%A7%ABOVA%E3%80%8E%E3%81%AA%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%AE%9D%E7%89%A9%E3%80%81%E3%81%93%E3%81%AE%E9%A0%81%E3%80%8F",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5YaS6Zm66ICF",
@@ -627,7 +759,10 @@
     "originalWorkTitle": "冒険者になりたいと都に出て行った娘がＳランクになってた",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%86%92%E9%99%BA%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84%E3%81%A8%E9%83%BD%E3%81%AB%E5%87%BA%E3%81%A6%E8%A1%8C%E3%81%A3%E3%81%9F%E5%A8%98%E3%81%8C%EF%BC%B3%E3%83%A9%E3%83%B3%E3%82%AF%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F"
+    "url": "https://abema.tv/search?q=%E5%86%92%E9%99%BA%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84%E3%81%A8%E9%83%BD%E3%81%AB%E5%87%BA%E3%81%A6%E8%A1%8C%E3%81%A3%E3%81%9F%E5%A8%98%E3%81%8C%EF%BC%B3%E3%83%A9%E3%83%B3%E3%82%AF%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kq44O844Or",
@@ -641,7 +776,10 @@
     "originalWorkTitle": "オールワークスメイド",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%A1%E3%82%A4%E3%83%89"
+    "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%A1%E3%82%A4%E3%83%89",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5pS/5a6X44GP",
@@ -655,7 +793,10 @@
     "originalWorkTitle": "政宗くんのリベンジR",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%94%BF%E5%AE%97%E3%81%8F%E3%82%93%E3%81%AE%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8R"
+    "url": "https://abema.tv/search?q=%E6%94%BF%E5%AE%97%E3%81%8F%E3%82%93%E3%81%AE%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8R",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6LWk6auq44Gu",
@@ -669,7 +810,10 @@
     "originalWorkTitle": "赤髪の白雪姫 2ndシーズン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%B5%A4%E9%AB%AA%E3%81%AE%E7%99%BD%E9%9B%AA%E5%A7%AB%202nd%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E8%B5%A4%E9%AB%AA%E3%81%AE%E7%99%BD%E9%9B%AA%E5%A7%AB%202nd%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3",
+    "episodeInfo": "第13話〜第24話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-Tm8gcHJvZ3Jh",
@@ -683,7 +827,10 @@
     "originalWorkTitle": "No programme",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=No%20programme"
+    "url": "https://abema.tv/search?q=No%20programme",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6LWk6auq44Gu",
@@ -697,7 +844,10 @@
     "originalWorkTitle": "赤髪の白雪姫",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%B5%A4%E9%AB%AA%E3%81%AE%E7%99%BD%E9%9B%AA%E5%A7%AB"
+    "url": "https://abema.tv/search?q=%E8%B5%A4%E9%AB%AA%E3%81%AE%E7%99%BD%E9%9B%AA%E5%A7%AB",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5ra85a6u44OP",
@@ -711,7 +861,10 @@
     "originalWorkTitle": "TVアニメ『涼宮ハルヒの憂鬱』",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%B6%BC%E5%AE%AE%E3%83%8F%E3%83%AB%E3%83%92%E3%81%AE%E6%86%82%E9%AC%B1"
+    "url": "https://abema.tv/search?q=%E6%B6%BC%E5%AE%AE%E3%83%8F%E3%83%AB%E3%83%92%E3%81%AE%E6%86%82%E9%AC%B1",
+    "episodeInfo": "第15話〜第28話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5pyA5byx54Sh",
@@ -725,7 +878,10 @@
     "originalWorkTitle": "最弱無敗の神装機竜《バハムート》",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9C%80%E5%BC%B1%E7%84%A1%E6%95%97%E3%81%AE%E7%A5%9E%E8%A3%85%E6%A9%9F%E7%AB%9C%E3%80%8A%E3%83%90%E3%83%8F%E3%83%A0%E3%83%BC%E3%83%88%E3%80%8B"
+    "url": "https://abema.tv/search?q=%E6%9C%80%E5%BC%B1%E7%84%A1%E6%95%97%E3%81%AE%E7%A5%9E%E8%A3%85%E6%A9%9F%E7%AB%9C%E3%80%8A%E3%83%90%E3%83%8F%E3%83%A0%E3%83%BC%E3%83%88%E3%80%8B",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44KI44GG44GT",
@@ -739,7 +895,10 @@
     "originalWorkTitle": "ようこそ実力至上主義の教室へ 3rd Season",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8%203rd%20Season"
+    "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8%203rd%20Season",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44K044Oq44Op",
@@ -753,7 +912,10 @@
     "originalWorkTitle": "ゴリラの加護令嬢",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B4%E3%83%AA%E3%83%A9%E3%81%AE%E5%8A%A0%E8%AD%B7%E4%BB%A4%E5%AC%A2"
+    "url": "https://abema.tv/search?q=%E3%82%B4%E3%83%AA%E3%83%A9%E3%81%AE%E5%8A%A0%E8%AD%B7%E4%BB%A4%E5%AC%A2",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5b+N6ICF44Go",
@@ -767,7 +929,10 @@
     "originalWorkTitle": "忍者と殺し屋のふたりぐらし",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%BF%8D%E8%80%85%E3%81%A8%E6%AE%BA%E3%81%97%E5%B1%8B%E3%81%AE%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%90%E3%82%89%E3%81%97"
+    "url": "https://abema.tv/search?q=%E5%BF%8D%E8%80%85%E3%81%A8%E6%AE%BA%E3%81%97%E5%B1%8B%E3%81%AE%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%90%E3%82%89%E3%81%97",
+    "episodeInfo": "第1話〜第8話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Z2S44GE6Iqx",
@@ -781,7 +946,10 @@
     "originalWorkTitle": "青い花",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%9D%92%E3%81%84%E8%8A%B1"
+    "url": "https://abema.tv/search?q=%E9%9D%92%E3%81%84%E8%8A%B1",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OB44CCIOKA",
@@ -795,7 +963,10 @@
     "originalWorkTitle": "チ。 ―地球の運動について―",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%81%E3%80%82%20%E2%80%95%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E2%80%95"
+    "url": "https://abema.tv/search?q=%E3%83%81%E3%80%82%20%E2%80%95%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E2%80%95",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5pyI44GM5bCO",
@@ -809,7 +980,10 @@
     "originalWorkTitle": "月が導く異世界道中 第二幕",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9C%88%E3%81%8C%E5%B0%8E%E3%81%8F%E7%95%B0%E4%B8%96%E7%95%8C%E9%81%93%E4%B8%AD%20%E7%AC%AC%E4%BA%8C%E5%B9%95"
+    "url": "https://abema.tv/search?q=%E6%9C%88%E3%81%8C%E5%B0%8E%E3%81%8F%E7%95%B0%E4%B8%96%E7%95%8C%E9%81%93%E4%B8%AD%20%E7%AC%AC%E4%BA%8C%E5%B9%95",
+    "episodeInfo": "第1話〜第25話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44KI44GG44GT",
@@ -823,7 +997,10 @@
     "originalWorkTitle": "ようこそ実力至上主義の教室へ2nd Season",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B82nd%20Season"
+    "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B82nd%20Season",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5Zyw57ib5bCR",
@@ -837,7 +1014,10 @@
     "originalWorkTitle": "地縛少年花子くん",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E3%81%8F%E3%82%93"
+    "url": "https://abema.tv/search?q=%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E3%81%8F%E3%82%93",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6buS44Gu5Y+s",
@@ -851,7 +1031,10 @@
     "originalWorkTitle": "黒の召喚士",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%BB%92%E3%81%AE%E5%8F%AC%E5%96%9A%E5%A3%AB"
+    "url": "https://abema.tv/search?q=%E9%BB%92%E3%81%AE%E5%8F%AC%E5%96%9A%E5%A3%AB",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5bm86aa05p+T",
@@ -865,7 +1048,10 @@
     "originalWorkTitle": "幼馴染とはラブコメにならない",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%B9%BC%E9%A6%B4%E6%9F%93%E3%81%A8%E3%81%AF%E3%83%A9%E3%83%96%E3%82%B3%E3%83%A1%E3%81%AB%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84"
+    "url": "https://abema.tv/search?q=%E5%B9%BC%E9%A6%B4%E6%9F%93%E3%81%A8%E3%81%AF%E3%83%A9%E3%83%96%E3%82%B3%E3%83%A1%E3%81%AB%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44KG44KL44Kt",
@@ -879,7 +1065,10 @@
     "originalWorkTitle": "ゆるキャン△",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3"
+    "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44KI44GG44GT",
@@ -893,7 +1082,10 @@
     "originalWorkTitle": "ようこそ実力至上主義の教室へ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8"
+    "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-U1BZw5dGQU1J",
@@ -907,7 +1099,10 @@
     "originalWorkTitle": "SPY×FAMILY Season 2",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=SPY%C3%97FAMILY%20Season%202"
+    "url": "https://abema.tv/search?q=SPY%C3%97FAMILY%20Season%202",
+    "episodeInfo": "第26話〜第37話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kr44Ok44Gh",
@@ -921,7 +1116,10 @@
     "originalWorkTitle": "カヤちゃんはコワくない",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%82%B3%E3%83%AF%E3%81%8F%E3%81%AA%E3%81%84"
+    "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%82%B3%E3%83%AF%E3%81%8F%E3%81%AA%E3%81%84",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5Zue5b6p6KGT",
@@ -935,7 +1133,10 @@
     "originalWorkTitle": "回復術士のやり直し",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%9B%9E%E5%BE%A9%E8%A1%93%E5%A3%AB%E3%81%AE%E3%82%84%E3%82%8A%E7%9B%B4%E3%81%97"
+    "url": "https://abema.tv/search?q=%E5%9B%9E%E5%BE%A9%E8%A1%93%E5%A3%AB%E3%81%AE%E3%82%84%E3%82%8A%E7%9B%B4%E3%81%97",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-Q0xBTk5BRCBB",
@@ -949,7 +1150,10 @@
     "originalWorkTitle": "CLANNAD AFTER STORY",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=CLANNAD%20AFTER%20STORY"
+    "url": "https://abema.tv/search?q=CLANNAD%20AFTER%20STORY",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Od44O844K3",
@@ -963,7 +1167,10 @@
     "originalWorkTitle": "ポーション、わが身を助ける",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%81%E3%82%8F%E3%81%8C%E8%BA%AB%E3%82%92%E5%8A%A9%E3%81%91%E3%82%8B"
+    "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%81%E3%82%8F%E3%81%8C%E8%BA%AB%E3%82%92%E5%8A%A9%E3%81%91%E3%82%8B",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-54++5a6f5Li7",
@@ -977,7 +1184,10 @@
     "originalWorkTitle": "「現実主義勇者の王国再建記」#MoreAnimeonYouTube",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%8F%BE%E5%AE%9F%E4%B8%BB%E7%BE%A9%E5%8B%87%E8%80%85%E3%81%AE%E7%8E%8B%E5%9B%BD%E5%86%8D%E5%BB%BA%E8%A8%98"
+    "url": "https://abema.tv/search?q=%E7%8F%BE%E5%AE%9F%E4%B8%BB%E7%BE%A9%E5%8B%87%E8%80%85%E3%81%AE%E7%8E%8B%E5%9B%BD%E5%86%8D%E5%BB%BA%E8%A8%98",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-54Sh6IG344Gu",
@@ -991,7 +1201,10 @@
     "originalWorkTitle": "無職の英雄",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%84%A1%E8%81%B7%E3%81%AE%E8%8B%B1%E9%9B%84"
+    "url": "https://abema.tv/search?q=%E7%84%A1%E8%81%B7%E3%81%AE%E8%8B%B1%E9%9B%84",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Od44O844K3",
@@ -1005,7 +1218,10 @@
     "originalWorkTitle": "ポーション頼みで生き延びます！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%A0%BC%E3%81%BF%E3%81%A7%E7%94%9F%E3%81%8D%E5%BB%B6%E3%81%B3%E3%81%BE%E3%81%99%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%A0%BC%E3%81%BF%E3%81%A7%E7%94%9F%E3%81%8D%E5%BB%B6%E3%81%B3%E3%81%BE%E3%81%99%EF%BC%81",
+    "episodeInfo": "第1話〜第10話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Ieq5YuV6LKp",
@@ -1019,7 +1235,10 @@
     "originalWorkTitle": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%87%AA%E5%8B%95%E8%B2%A9%E5%A3%B2%E6%A9%9F%E3%81%AB%E7%94%9F%E3%81%BE%E3%82%8C%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E4%BF%BA%E3%81%AF%E8%BF%B7%E5%AE%AE%E3%82%92%E5%BD%B7%E5%BE%A8%E3%81%86%203rd"
+    "url": "https://abema.tv/search?q=%E8%87%AA%E5%8B%95%E8%B2%A9%E5%A3%B2%E6%A9%9F%E3%81%AB%E7%94%9F%E3%81%BE%E3%82%8C%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E4%BF%BA%E3%81%AF%E8%BF%B7%E5%AE%AE%E3%82%92%E5%BD%B7%E5%BE%A8%E3%81%86%203rd",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-R09BTE9VUzUg",
@@ -1033,7 +1252,10 @@
     "originalWorkTitle": "GOALOUS5 声福生放送 2026",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=GOALOUS5%20%E5%A3%B0%E7%A6%8F%E7%94%9F%E6%94%BE%E9%80%81%202026"
+    "url": "https://abema.tv/search?q=GOALOUS5%20%E5%A3%B0%E7%A6%8F%E7%94%9F%E6%94%BE%E9%80%81%202026",
+    "episodeInfo": "第5話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5ZCb44Gr5bGK",
@@ -1047,7 +1269,10 @@
     "originalWorkTitle": "君に届け 2ND SEASON",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%90%9B%E3%81%AB%E5%B1%8A%E3%81%91%202ND%20SEASON"
+    "url": "https://abema.tv/search?q=%E5%90%9B%E3%81%AB%E5%B1%8A%E3%81%91%202ND%20SEASON",
+    "episodeInfo": "第0話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GK5YWE44Gh",
@@ -1061,7 +1286,10 @@
     "originalWorkTitle": "お兄ちゃんはおしまい！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%8A%E5%85%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%81%8A%E3%81%97%E3%81%BE%E3%81%84%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%81%8A%E5%85%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%81%8A%E3%81%97%E3%81%BE%E3%81%84%EF%BC%81",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OH44OD44OJ",
@@ -1075,7 +1303,10 @@
     "originalWorkTitle": "デッドアカウント",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88"
+    "url": "https://abema.tv/search?q=%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-54mH55Sw6IiO",
@@ -1089,7 +1320,10 @@
     "originalWorkTitle": "片田舎のおっさん、剣聖になる",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%89%87%E7%94%B0%E8%88%8E%E3%81%AE%E3%81%8A%E3%81%A3%E3%81%95%E3%82%93%E3%80%81%E5%89%A3%E8%81%96%E3%81%AB%E3%81%AA%E3%82%8B"
+    "url": "https://abema.tv/search?q=%E7%89%87%E7%94%B0%E8%88%8E%E3%81%AE%E3%81%8A%E3%81%A3%E3%81%95%E3%82%93%E3%80%81%E5%89%A3%E8%81%96%E3%81%AB%E3%81%AA%E3%82%8B",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OA44Oz44K4",
@@ -1103,7 +1337,10 @@
     "originalWorkTitle": "ダンジョンに出会いを求めるのは間違っているだろうか 外伝 ソード・オラトリア",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AB%E5%87%BA%E4%BC%9A%E3%81%84%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E3%81%AE%E3%81%AF%E9%96%93%E9%81%95%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B%20%E5%A4%96%E4%BC%9D%20%E3%82%BD%E3%83%BC%E3%83%89%E3%83%BB%E3%82%AA%E3%83%A9%E3%83%88%E3%83%AA%E3%82%A2"
+    "url": "https://abema.tv/search?q=%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AB%E5%87%BA%E4%BC%9A%E3%81%84%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E3%81%AE%E3%81%AF%E9%96%93%E9%81%95%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B%20%E5%A4%96%E4%BC%9D%20%E3%82%BD%E3%83%BC%E3%83%89%E3%83%BB%E3%82%AA%E3%83%A9%E3%83%88%E3%83%AA%E3%82%A2",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44K544OG44Gk",
@@ -1117,7 +1354,10 @@
     "originalWorkTitle": "ステつよ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B9%E3%83%86%E3%81%A4%E3%82%88"
+    "url": "https://abema.tv/search?q=%E3%82%B9%E3%83%86%E3%81%A4%E3%82%88",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OH44OW44Go",
@@ -1131,7 +1371,10 @@
     "originalWorkTitle": "デブとラブと過ちと！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%87%E3%83%96%E3%81%A8%E3%83%A9%E3%83%96%E3%81%A8%E9%81%8E%E3%81%A1%E3%81%A8%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%83%87%E3%83%96%E3%81%A8%E3%83%A9%E3%83%96%E3%81%A8%E9%81%8E%E3%81%A1%E3%81%A8%EF%BC%81",
+    "episodeInfo": "第1話〜第9話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-56We57Wx6KiY",
@@ -1145,7 +1388,10 @@
     "originalWorkTitle": "神統記（テオゴニア）",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%A5%9E%E7%B5%B1%E8%A8%98%EF%BC%88%E3%83%86%E3%82%AA%E3%82%B4%E3%83%8B%E3%82%A2%EF%BC%89"
+    "url": "https://abema.tv/search?q=%E7%A5%9E%E7%B5%B1%E8%A8%98%EF%BC%88%E3%83%86%E3%82%AA%E3%82%B4%E3%83%8B%E3%82%A2%EF%BC%89",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Ky44O844K7",
@@ -1159,7 +1405,10 @@
     "originalWorkTitle": "ゲーセン少女と異文化交流",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B2%E3%83%BC%E3%82%BB%E3%83%B3%E5%B0%91%E5%A5%B3%E3%81%A8%E7%95%B0%E6%96%87%E5%8C%96%E4%BA%A4%E6%B5%81"
+    "url": "https://abema.tv/search?q=%E3%82%B2%E3%83%BC%E3%82%BB%E3%83%B3%E5%B0%91%E5%A5%B3%E3%81%A8%E7%95%B0%E6%96%87%E5%8C%96%E4%BA%A4%E6%B5%81",
+    "episodeInfo": "第1話〜第9話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44K344Oj44Oz",
@@ -1173,7 +1422,10 @@
     "originalWorkTitle": "シャンピニオンの魔女",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%94%E3%83%8B%E3%82%AA%E3%83%B3%E3%81%AE%E9%AD%94%E5%A5%B3"
+    "url": "https://abema.tv/search?q=%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%94%E3%83%8B%E3%82%AA%E3%83%B3%E3%81%AE%E9%AD%94%E5%A5%B3",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GX44KN44Gy",
@@ -1187,7 +1439,10 @@
     "originalWorkTitle": "しろひよ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%97%E3%82%8D%E3%81%B2%E3%82%88"
+    "url": "https://abema.tv/search?q=%E3%81%97%E3%82%8D%E3%81%B2%E3%82%88",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55u+44Gu5YuH",
@@ -1201,7 +1456,10 @@
     "originalWorkTitle": "盾の勇者の成り上がり Season 3",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%9B%BE%E3%81%AE%E5%8B%87%E8%80%85%E3%81%AE%E6%88%90%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8A%20Season%203"
+    "url": "https://abema.tv/search?q=%E7%9B%BE%E3%81%AE%E5%8B%87%E8%80%85%E3%81%AE%E6%88%90%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8A%20Season%203",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5ZiG44GN44Gu",
@@ -1215,7 +1473,10 @@
     "originalWorkTitle": "嘆きの亡霊は引退したい",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%98%86%E3%81%8D%E3%81%AE%E4%BA%A1%E9%9C%8A%E3%81%AF%E5%BC%95%E9%80%80%E3%81%97%E3%81%9F%E3%81%84"
+    "url": "https://abema.tv/search?q=%E5%98%86%E3%81%8D%E3%81%AE%E4%BA%A1%E9%9C%8A%E3%81%AF%E5%BC%95%E9%80%80%E3%81%97%E3%81%9F%E3%81%84",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OQ44Kr44Go",
@@ -1229,7 +1490,10 @@
     "originalWorkTitle": "バカとテストと召喚獣",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%90%E3%82%AB%E3%81%A8%E3%83%86%E3%82%B9%E3%83%88%E3%81%A8%E5%8F%AC%E5%96%9A%E7%8D%A3"
+    "url": "https://abema.tv/search?q=%E3%83%90%E3%82%AB%E3%81%A8%E3%83%86%E3%82%B9%E3%83%88%E3%81%A8%E5%8F%AC%E5%96%9A%E7%8D%A3",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5a6H5a6Z44KI",
@@ -1243,7 +1507,10 @@
     "originalWorkTitle": "宇宙よりも遠い場所",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%AE%87%E5%AE%99%E3%82%88%E3%82%8A%E3%82%82%E9%81%A0%E3%81%84%E5%A0%B4%E6%89%80"
+    "url": "https://abema.tv/search?q=%E5%AE%87%E5%AE%99%E3%82%88%E3%82%8A%E3%82%82%E9%81%A0%E3%81%84%E5%A0%B4%E6%89%80",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OJ44Oh44K5",
@@ -1257,7 +1524,10 @@
     "originalWorkTitle": "ドメスティックな彼女",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%89%E3%83%A1%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%81%AA%E5%BD%BC%E5%A5%B3"
+    "url": "https://abema.tv/search?q=%E3%83%89%E3%83%A1%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%81%AA%E5%BD%BC%E5%A5%B3",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -1271,7 +1541,10 @@
     "originalWorkTitle": "Re:ゼロから始める異世界生活 4th",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%204th"
+    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%204th",
+    "episodeInfo": "第67話〜第77話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6LK05peP6Lui",
@@ -1285,7 +1558,10 @@
     "originalWorkTitle": "貴族転生",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%B2%B4%E6%97%8F%E8%BB%A2%E7%94%9F"
+    "url": "https://abema.tv/search?q=%E8%B2%B4%E6%97%8F%E8%BB%A2%E7%94%9F",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44K344Ol44K/",
@@ -1299,7 +1575,10 @@
     "originalWorkTitle": "シュタインズ・ゲート ゼロ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3%E3%82%BA%E3%83%BB%E3%82%B2%E3%83%BC%E3%83%88%20%E3%82%BC%E3%83%AD"
+    "url": "https://abema.tv/search?q=%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3%E3%82%BA%E3%83%BB%E3%82%B2%E3%83%BC%E3%83%88%20%E3%82%BC%E3%83%AD",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Ks44O044Oq",
@@ -1313,7 +1592,10 @@
     "originalWorkTitle": "ガヴリールドロップアウト",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AC%E3%83%B4%E3%83%AA%E3%83%BC%E3%83%AB%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%A2%E3%82%A6%E3%83%88"
+    "url": "https://abema.tv/search?q=%E3%82%AC%E3%83%B4%E3%83%AA%E3%83%BC%E3%83%AB%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%A2%E3%82%A6%E3%83%88",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5LqU562J5YiG",
@@ -1327,7 +1609,10 @@
     "originalWorkTitle": "五等分の花嫁",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81"
+    "url": "https://abema.tv/search?q=%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5Y2D5q2z44GP",
@@ -1341,7 +1626,10 @@
     "originalWorkTitle": "千歳くんはラムネ瓶のなか",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%8D%83%E6%AD%B3%E3%81%8F%E3%82%93%E3%81%AF%E3%83%A9%E3%83%A0%E3%83%8D%E7%93%B6%E3%81%AE%E3%81%AA%E3%81%8B"
+    "url": "https://abema.tv/search?q=%E5%8D%83%E6%AD%B3%E3%81%8F%E3%82%93%E3%81%AF%E3%83%A9%E3%83%A0%E3%83%8D%E7%93%B6%E3%81%AE%E3%81%AA%E3%81%8B",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-26-75",
@@ -1349,13 +1637,16 @@
     "channelId": "abema",
     "channelName": "ABEMA",
     "category": "アニメ",
-    "publishedAt": "2026-06-20T11:41:20.128Z",
+    "publishedAt": "2026-06-20T11:45:08.753Z",
     "description": "テレビアニメ「鬼滅の刃」 - 竈門炭治郎 立志編等、今期アニメ(最新作)の見逃し配信から懐かしの名作まで充実したアニメのラインナップを好きな時に何度でも楽しめます。また、ABEMAでは多彩な作品を無料で24時間どこでも視聴できます。",
     "thumbnailUrl": "https://image.p-c2-x.abema-tv.com/image/series/26-75/thumb.png?height=720&quality=75&version=1765182681&width=1280",
     "originalWorkTitle": "鬼滅の刃",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/video/title/26-75"
+    "url": "https://abema.tv/video/title/26-75",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-19-171",
@@ -1363,13 +1654,16 @@
     "channelId": "abema",
     "channelName": "ABEMA",
     "category": "アニメ",
-    "publishedAt": "2026-06-20T11:41:18.861Z",
+    "publishedAt": "2026-06-20T11:45:07.476Z",
     "description": "葬送のフリーレン - 葬送のフリーレン等、今期アニメ(最新作)の見逃し配信から懐かしの名作まで充実したアニメのラインナップを好きな時に何度でも楽しめます。また、ABEMAでは多彩な作品を無料で24時間どこでも視聴できます。",
     "thumbnailUrl": "https://image.p-c2-x.abema-tv.com/image/series/19-171/thumb.png?height=720&quality=75&version=1774674561&width=1280",
     "originalWorkTitle": "葬送のフリーレン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/video/title/19-171"
+    "url": "https://abema.tv/video/title/19-171",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "YT_jSHCWxPE",
@@ -1382,7 +1676,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/YT_jSHCWxPE/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -1396,7 +1693,10 @@
     "originalWorkTitle": "異世界居酒屋～古都アイテーリアの居酒屋のぶ～",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E5%B1%85%E9%85%92%E5%B1%8B%EF%BD%9E%E5%8F%A4%E9%83%BD%E3%82%A2%E3%82%A4%E3%83%86%E3%83%BC%E3%83%AA%E3%82%A2%E3%81%AE%E5%B1%85%E9%85%92%E5%B1%8B%E3%81%AE%E3%81%B6%EF%BD%9E"
+    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E5%B1%85%E9%85%92%E5%B1%8B%EF%BD%9E%E5%8F%A4%E9%83%BD%E3%82%A2%E3%82%A4%E3%83%86%E3%83%BC%E3%83%AA%E3%82%A2%E3%81%AE%E5%B1%85%E9%85%92%E5%B1%8B%E3%81%AE%E3%81%B6%EF%BD%9E",
+    "episodeInfo": "第1話〜第24話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44ON44OI5YWF",
@@ -1410,7 +1710,10 @@
     "originalWorkTitle": "ネト充のススメ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%8D%E3%83%88%E5%85%85%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1"
+    "url": "https://abema.tv/search?q=%E3%83%8D%E3%83%88%E5%85%85%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1",
+    "episodeInfo": "第1話〜第10話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5rGf5oi45YmN",
@@ -1424,7 +1727,10 @@
     "originalWorkTitle": "江戸前エルフ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%B1%9F%E6%88%B8%E5%89%8D%E3%82%A8%E3%83%AB%E3%83%95"
+    "url": "https://abema.tv/search?q=%E6%B1%9F%E6%88%B8%E5%89%8D%E3%82%A8%E3%83%AB%E3%83%95",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kz44O844OJ",
@@ -1438,7 +1744,10 @@
     "originalWorkTitle": "コードギアス 反逆のルルーシュ R2",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9%20%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5%20R2"
+    "url": "https://abema.tv/search?q=%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9%20%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5%20R2",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -1452,7 +1761,10 @@
     "originalWorkTitle": "異世界でチート能力を手にした俺は、現実世界をも無双する",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%A7%E3%83%81%E3%83%BC%E3%83%88%E8%83%BD%E5%8A%9B%E3%82%92%E6%89%8B%E3%81%AB%E3%81%97%E3%81%9F%E4%BF%BA%E3%81%AF%E3%80%81%E7%8F%BE%E5%AE%9F%E4%B8%96%E7%95%8C%E3%82%92%E3%82%82%E7%84%A1%E5%8F%8C%E3%81%99%E3%82%8B"
+    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%A7%E3%83%81%E3%83%BC%E3%83%88%E8%83%BD%E5%8A%9B%E3%82%92%E6%89%8B%E3%81%AB%E3%81%97%E3%81%9F%E4%BF%BA%E3%81%AF%E3%80%81%E7%8F%BE%E5%AE%9F%E4%B8%96%E7%95%8C%E3%82%92%E3%82%82%E7%84%A1%E5%8F%8C%E3%81%99%E3%82%8B",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "mL1_IZZHo2Q",
@@ -1465,7 +1777,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/mL1_IZZHo2Q/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "8If56hzNW3I",
@@ -1478,7 +1793,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/8If56hzNW3I/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第19話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "ugjIeJM6_O0",
@@ -1491,7 +1809,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/ugjIeJM6_O0/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "1p7rYsjmepM",
@@ -1504,7 +1825,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/1p7rYsjmepM/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "_1XlN0A3svg",
@@ -1517,7 +1841,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/_1XlN0A3svg/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "y4kbtspBmCs",
@@ -1530,7 +1857,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/y4kbtspBmCs/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "GJ_2FsAdWWQ",
@@ -1543,7 +1873,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/GJ_2FsAdWWQ/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "Lnhjn5_ym7E",
@@ -1556,7 +1889,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/Lnhjn5_ym7E/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Oe44Kt44KZ",
@@ -1570,7 +1906,10 @@
     "originalWorkTitle": "マギ シンドバッドの冒険",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%9E%E3%82%AD%E3%82%99%20%E3%82%B7%E3%83%B3%E3%83%88%E3%82%99%E3%83%8F%E3%82%99%E3%83%83%E3%83%88%E3%82%99%E3%81%AE%E5%86%92%E9%99%BA"
+    "url": "https://abema.tv/search?q=%E3%83%9E%E3%82%AD%E3%82%99%20%E3%82%B7%E3%83%B3%E3%83%88%E3%82%99%E3%83%8F%E3%82%99%E3%83%83%E3%83%88%E3%82%99%E3%81%AE%E5%86%92%E9%99%BA",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "Ui93XOy15lQ",
@@ -1583,7 +1922,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/Ui93XOy15lQ/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第113話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Od44Oz44Kz",
@@ -1597,7 +1939,10 @@
     "originalWorkTitle": "ポンコツクエスト～魔王と派遣の魔物たち～",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%B3%E3%82%B3%E3%83%84%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%EF%BD%9E%E9%AD%94%E7%8E%8B%E3%81%A8%E6%B4%BE%E9%81%A3%E3%81%AE%E9%AD%94%E7%89%A9%E3%81%9F%E3%81%A1%EF%BD%9E"
+    "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%B3%E3%82%B3%E3%83%84%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%EF%BD%9E%E9%AD%94%E7%8E%8B%E3%81%A8%E6%B4%BE%E9%81%A3%E3%81%AE%E9%AD%94%E7%89%A9%E3%81%9F%E3%81%A1%EF%BD%9E",
+    "episodeInfo": "第1話〜第3話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "LK_sHw3bEUc",
@@ -1610,7 +1955,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/LK_sHw3bEUc/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "Z9oSP8EocUA",
@@ -1623,7 +1971,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/Z9oSP8EocUA/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-RmF0ZS9zdGF5",
@@ -1637,7 +1988,10 @@
     "originalWorkTitle": "Fate/stay night",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Fate%2Fstay%20night"
+    "url": "https://abema.tv/search?q=Fate%2Fstay%20night",
+    "episodeInfo": "第0話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5pyA5by344K/",
@@ -1651,7 +2005,10 @@
     "originalWorkTitle": "最強タンクの迷宮攻略",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9C%80%E5%BC%B7%E3%82%BF%E3%83%B3%E3%82%AF%E3%81%AE%E8%BF%B7%E5%AE%AE%E6%94%BB%E7%95%A5"
+    "url": "https://abema.tv/search?q=%E6%9C%80%E5%BC%B7%E3%82%BF%E3%83%B3%E3%82%AF%E3%81%AE%E8%BF%B7%E5%AE%AE%E6%94%BB%E7%95%A5",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OR44O844OG",
@@ -1665,7 +2022,10 @@
     "originalWorkTitle": "パーティーから追放されたその治癒師、実は最強につき",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%81%8B%E3%82%89%E8%BF%BD%E6%94%BE%E3%81%95%E3%82%8C%E3%81%9F%E3%81%9D%E3%81%AE%E6%B2%BB%E7%99%92%E5%B8%AB%E3%80%81%E5%AE%9F%E3%81%AF%E6%9C%80%E5%BC%B7%E3%81%AB%E3%81%A4%E3%81%8D"
+    "url": "https://abema.tv/search?q=%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%81%8B%E3%82%89%E8%BF%BD%E6%94%BE%E3%81%95%E3%82%8C%E3%81%9F%E3%81%9D%E3%81%AE%E6%B2%BB%E7%99%92%E5%B8%AB%E3%80%81%E5%AE%9F%E3%81%AF%E6%9C%80%E5%BC%B7%E3%81%AB%E3%81%A4%E3%81%8D",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aSi6KaL44KL",
@@ -1679,7 +2039,10 @@
     "originalWorkTitle": "夢見る男子は現実主義者",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A4%A2%E8%A6%8B%E3%82%8B%E7%94%B7%E5%AD%90%E3%81%AF%E7%8F%BE%E5%AE%9F%E4%B8%BB%E7%BE%A9%E8%80%85"
+    "url": "https://abema.tv/search?q=%E5%A4%A2%E8%A6%8B%E3%82%8B%E7%94%B7%E5%AD%90%E3%81%AF%E7%8F%BE%E5%AE%9F%E4%B8%BB%E7%BE%A9%E8%80%85",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Gu44KT44Gu",
@@ -1693,7 +2056,10 @@
     "originalWorkTitle": "のんのんびより のんすとっぷ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%AE%E3%82%93%E3%81%AE%E3%82%93%E3%81%B3%E3%82%88%E3%82%8A%20%E3%81%AE%E3%82%93%E3%81%99%E3%81%A8%E3%81%A3%E3%81%B7"
+    "url": "https://abema.tv/search?q=%E3%81%AE%E3%82%93%E3%81%AE%E3%82%93%E3%81%B3%E3%82%88%E3%82%8A%20%E3%81%AE%E3%82%93%E3%81%99%E3%81%A8%E3%81%A3%E3%81%B7",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-Q0xBTk5BRA",
@@ -1707,7 +2073,10 @@
     "originalWorkTitle": "CLANNAD",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=CLANNAD"
+    "url": "https://abema.tv/search?q=CLANNAD",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5a6f44Gv5L+6",
@@ -1721,7 +2090,10 @@
     "originalWorkTitle": "実は俺、最強でした？",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%AE%9F%E3%81%AF%E4%BF%BA%E3%80%81%E6%9C%80%E5%BC%B7%E3%81%A7%E3%81%97%E3%81%9F%EF%BC%9F"
+    "url": "https://abema.tv/search?q=%E5%AE%9F%E3%81%AF%E4%BF%BA%E3%80%81%E6%9C%80%E5%BC%B7%E3%81%A7%E3%81%97%E3%81%9F%EF%BC%9F",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OA44Kk44Ok",
@@ -1735,7 +2107,10 @@
     "originalWorkTitle": "ダイヤのA actⅡ -Second Season-",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA%20act%E2%85%A1%20-Second%20Season-"
+    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA%20act%E2%85%A1%20-Second%20Season-",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5LiK5LyK6YKj",
@@ -1749,7 +2124,10 @@
     "originalWorkTitle": "上伊那ぼたん、酒の肴になる話　乾杯",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E4%B8%8A%E4%BC%8A%E9%82%A3%E3%81%BC%E3%81%9F%E3%82%93%E3%80%81%E9%85%92%E3%81%AE%E8%82%B4%E3%81%AB%E3%81%AA%E3%82%8B%E8%A9%B1%E3%80%80%E4%B9%BE%E6%9D%AF"
+    "url": "https://abema.tv/search?q=%E4%B8%8A%E4%BC%8A%E9%82%A3%E3%81%BC%E3%81%9F%E3%82%93%E3%80%81%E9%85%92%E3%81%AE%E8%82%B4%E3%81%AB%E3%81%AA%E3%82%8B%E8%A9%B1%E3%80%80%E4%B9%BE%E6%9D%AF",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OA44Kk44Kt",
@@ -1763,7 +2141,10 @@
     "originalWorkTitle": "ダイキン空気予報 6/19",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F19"
+    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F19",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "v2eLPurl-FM",
@@ -1776,7 +2157,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/v2eLPurl-FM/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第4話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "1gIjnLnS9xQ",
@@ -1789,7 +2173,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/1gIjnLnS9xQ/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第30話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "bVfYxvxRj6o",
@@ -1802,7 +2189,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/bVfYxvxRj6o/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第5話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-U0hJQlVZQSBB",
@@ -1816,7 +2206,10 @@
     "originalWorkTitle": "SHIBUYA ANIME BASE",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=SHIBUYA%20ANIME%20BASE"
+    "url": "https://abema.tv/search?q=SHIBUYA%20ANIME%20BASE",
+    "episodeInfo": "第89話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "CwMmrVyaPoE",
@@ -1829,7 +2222,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/CwMmrVyaPoE/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "-IgP2SpFPos",
@@ -1842,7 +2238,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/-IgP2SpFPos/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "0UB5dbWYTOY",
@@ -1855,7 +2254,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/0UB5dbWYTOY/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "W3-i92yK8Q4",
@@ -1868,7 +2270,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/W3-i92yK8Q4/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "kypb6-6hD6Y",
@@ -1881,7 +2286,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/kypb6-6hD6Y/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GK5rCX5qW9",
@@ -1895,7 +2303,10 @@
     "originalWorkTitle": "お気楽領主の楽しい領地防衛",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%8A%E6%B0%97%E6%A5%BD%E9%A0%98%E4%B8%BB%E3%81%AE%E6%A5%BD%E3%81%97%E3%81%84%E9%A0%98%E5%9C%B0%E9%98%B2%E8%A1%9B"
+    "url": "https://abema.tv/search?q=%E3%81%8A%E6%B0%97%E6%A5%BD%E9%A0%98%E4%B8%BB%E3%81%AE%E6%A5%BD%E3%81%97%E3%81%84%E9%A0%98%E5%9C%B0%E9%98%B2%E8%A1%9B",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kq44O844OQ",
@@ -1909,7 +2320,10 @@
     "originalWorkTitle": "オーバーロードⅡ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%E2%85%A1"
+    "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%E2%85%A1",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kr44OD44Kz",
@@ -1923,7 +2337,10 @@
     "originalWorkTitle": "カッコウの許嫁Season2",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%83%E3%82%B3%E3%82%A6%E3%81%AE%E8%A8%B1%E5%AB%81Season2"
+    "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%83%E3%82%B3%E3%82%A6%E3%81%AE%E8%A8%B1%E5%AB%81Season2",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GU5rOo5paH",
@@ -1937,7 +2354,10 @@
     "originalWorkTitle": "ご注文はうさぎですか？ BLOOM",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%20BLOOM"
+    "url": "https://abema.tv/search?q=%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%20BLOOM",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Go44GC44KL",
@@ -1951,7 +2371,10 @@
     "originalWorkTitle": "とある科学の超電磁砲S",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2S"
+    "url": "https://abema.tv/search?q=%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2S",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "szQf0THYvy0",
@@ -1964,7 +2387,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/szQf0THYvy0/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "cXqvu_OWKBw",
@@ -1977,7 +2403,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/cXqvu_OWKBw/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "vB7Q5pGSsF8",
@@ -1990,7 +2419,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/vB7Q5pGSsF8/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "6cpXOrvialg",
@@ -2003,7 +2435,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/6cpXOrvialg/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "8-x90weQtD4",
@@ -2016,7 +2451,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/8-x90weQtD4/hqdefault.jpg",
     "originalWorkTitle": "妖怪ウォッチ",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第37話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "WfaZcc-eexY",
@@ -2029,7 +2467,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/WfaZcc-eexY/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第4話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "rEOJUvyEfSY",
@@ -2042,7 +2483,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/rEOJUvyEfSY/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "lpR0KRZKZ9E",
@@ -2055,7 +2499,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/lpR0KRZKZ9E/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第301話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "546JkvzSLcA",
@@ -2068,7 +2515,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/546JkvzSLcA/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -2082,7 +2532,10 @@
     "originalWorkTitle": "転生したらドラゴンの卵だった～最強以外目指さねぇ～",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%AE%E5%8D%B5%E3%81%A0%E3%81%A3%E3%81%9F%EF%BD%9E%E6%9C%80%E5%BC%B7%E4%BB%A5%E5%A4%96%E7%9B%AE%E6%8C%87%E3%81%95%E3%81%AD%E3%81%87%EF%BD%9E"
+    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%AE%E5%8D%B5%E3%81%A0%E3%81%A3%E3%81%9F%EF%BD%9E%E6%9C%80%E5%BC%B7%E4%BB%A5%E5%A4%96%E7%9B%AE%E6%8C%87%E3%81%95%E3%81%AD%E3%81%87%EF%BD%9E",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44G144Gf44KK",
@@ -2096,7 +2549,10 @@
     "originalWorkTitle": "ふたりソロキャンプ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%B5%E3%81%9F%E3%82%8A%E3%82%BD%E3%83%AD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97"
+    "url": "https://abema.tv/search?q=%E3%81%B5%E3%81%9F%E3%82%8A%E3%82%BD%E3%83%AD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "iSMlbESVp0s",
@@ -2109,7 +2565,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/iSMlbESVp0s/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第32話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44ON44Ks44Od",
@@ -2123,7 +2582,10 @@
     "originalWorkTitle": "ネガポジアングラー",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%8D%E3%82%AC%E3%83%9D%E3%82%B8%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%A9%E3%83%BC"
+    "url": "https://abema.tv/search?q=%E3%83%8D%E3%82%AC%E3%83%9D%E3%82%B8%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%A9%E3%83%BC",
+    "episodeInfo": "第1話〜第10話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6ZeH44OS44O8",
@@ -2137,7 +2599,10 @@
     "originalWorkTitle": "闇ヒーラー",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%97%87%E3%83%92%E3%83%BC%E3%83%A9%E3%83%BC"
+    "url": "https://abema.tv/search?q=%E9%97%87%E3%83%92%E3%83%BC%E3%83%A9%E3%83%BC",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Gu44KT44Gu",
@@ -2151,7 +2616,10 @@
     "originalWorkTitle": "のんのんびより りぴーと",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%AE%E3%82%93%E3%81%AE%E3%82%93%E3%81%B3%E3%82%88%E3%82%8A%20%E3%82%8A%E3%81%B4%E3%83%BC%E3%81%A8"
+    "url": "https://abema.tv/search?q=%E3%81%AE%E3%82%93%E3%81%AE%E3%82%93%E3%81%B3%E3%82%88%E3%82%8A%20%E3%82%8A%E3%81%B4%E3%83%BC%E3%81%A8",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OA44Kk44Ok",
@@ -2165,7 +2633,10 @@
     "originalWorkTitle": "ダイヤのA",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA"
+    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA",
+    "episodeInfo": "第1話〜第8話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GK44Gt44GM",
@@ -2179,7 +2650,10 @@
     "originalWorkTitle": "おねがいアイプリ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%8A%E3%81%AD%E3%81%8C%E3%81%84%E3%82%A2%E3%82%A4%E3%83%97%E3%83%AA"
+    "url": "https://abema.tv/search?q=%E3%81%8A%E3%81%AD%E3%81%8C%E3%81%84%E3%82%A2%E3%82%A4%E3%83%97%E3%83%AA",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5YuH6ICF44Gu",
@@ -2193,7 +2667,10 @@
     "originalWorkTitle": "勇者のクズ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%8B%87%E8%80%85%E3%81%AE%E3%82%AF%E3%82%BA"
+    "url": "https://abema.tv/search?q=%E5%8B%87%E8%80%85%E3%81%AE%E3%82%AF%E3%82%BA",
+    "episodeInfo": "第22話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44GT44KB44GL",
@@ -2207,7 +2684,10 @@
     "originalWorkTitle": "こめかみっ！Girls",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%93%E3%82%81%E3%81%8B%E3%81%BF%E3%81%A3%EF%BC%81Girls"
+    "url": "https://abema.tv/search?q=%E3%81%93%E3%82%81%E3%81%8B%E3%81%BF%E3%81%A3%EF%BC%81Girls",
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5YWD56WW77yB",
@@ -2221,7 +2701,10 @@
     "originalWorkTitle": "元祖！バンドリちゃん",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%85%83%E7%A5%96%EF%BC%81%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA%E3%81%A1%E3%82%83%E3%82%93"
+    "url": "https://abema.tv/search?q=%E5%85%83%E7%A5%96%EF%BC%81%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA%E3%81%A1%E3%82%83%E3%82%93",
+    "episodeInfo": "第37話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6LOi6ICF44Gu",
@@ -2235,7 +2718,10 @@
     "originalWorkTitle": "賢者の孫",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%B3%A2%E8%80%85%E3%81%AE%E5%AD%AB"
+    "url": "https://abema.tv/search?q=%E8%B3%A2%E8%80%85%E3%81%AE%E5%AD%AB",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Zyn5bC+44OV",
@@ -2249,7 +2735,10 @@
     "originalWorkTitle": "霧尾ファンクラブ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%9C%A7%E5%B0%BE%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%96"
+    "url": "https://abema.tv/search?q=%E9%9C%A7%E5%B0%BE%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%96",
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6buS54yr44Go",
@@ -2263,7 +2752,10 @@
     "originalWorkTitle": "黒猫と魔女の教室",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%BB%92%E7%8C%AB%E3%81%A8%E9%AD%94%E5%A5%B3%E3%81%AE%E6%95%99%E5%AE%A4"
+    "url": "https://abema.tv/search?q=%E9%BB%92%E7%8C%AB%E3%81%A8%E9%AD%94%E5%A5%B3%E3%81%AE%E6%95%99%E5%AE%A4",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "UxwfaQgAQos",
@@ -2276,7 +2768,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/UxwfaQgAQos/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-TUFP",
@@ -2290,7 +2785,10 @@
     "originalWorkTitle": "MAO",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=MAO"
+    "url": "https://abema.tv/search?q=MAO",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6Jas5bGL44Gu",
@@ -2304,7 +2802,10 @@
     "originalWorkTitle": "薬屋のひとりごと",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8"
+    "url": "https://abema.tv/search?q=%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8",
+    "episodeInfo": "第1話〜第24話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Gy44GN44GT",
@@ -2318,7 +2819,10 @@
     "originalWorkTitle": "ひきこまり吸血姫の悶々",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%B2%E3%81%8D%E3%81%93%E3%81%BE%E3%82%8A%E5%90%B8%E8%A1%80%E5%A7%AB%E3%81%AE%E6%82%B6%E3%80%85"
+    "url": "https://abema.tv/search?q=%E3%81%B2%E3%81%8D%E3%81%93%E3%81%BE%E3%82%8A%E5%90%B8%E8%A1%80%E5%A7%AB%E3%81%AE%E6%82%B6%E3%80%85",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-RHIuU1RPTkUg",
@@ -2332,7 +2836,10 @@
     "originalWorkTitle": "Dr.STONE SCIENCE FUTURE",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Dr.STONE%20SCIENCE%20FUTURE"
+    "url": "https://abema.tv/search?q=Dr.STONE%20SCIENCE%20FUTURE",
+    "episodeInfo": "第36話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5aer6aiO5aOr",
@@ -2346,7 +2853,10 @@
     "originalWorkTitle": "ハプニングが効きましたねぇ…｜『姫騎士は蛮族の嫁』第十話より ＃バルよめ ＃アニメ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A7%AB%E9%A8%8E%E5%A3%AB%E3%81%AF%E8%9B%AE%E6%97%8F%E3%81%AE%E5%AB%81"
+    "url": "https://abema.tv/search?q=%E5%A7%AB%E9%A8%8E%E5%A3%AB%E3%81%AF%E8%9B%AE%E6%97%8F%E3%81%AE%E5%AB%81",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "DB348iURxXk",
@@ -2359,7 +2869,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/DB348iURxXk/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "CMikjW2RC2Y",
@@ -2372,7 +2885,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/CMikjW2RC2Y/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第14話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "XIP5DenkzXM",
@@ -2385,7 +2901,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/XIP5DenkzXM/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第4話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5paw57Gz44Kq",
@@ -2399,7 +2918,10 @@
     "originalWorkTitle": "新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%96%B0%E7%B1%B3%E3%82%AA%E3%83%83%E3%82%B5%E3%83%B3%E5%86%92%E9%99%BA%E8%80%85%E3%80%81%E6%9C%80%E5%BC%B7%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%81%AB%E6%AD%BB%E3%81%AC%E3%81%BB%E3%81%A9%E9%8D%9B%E3%81%88%E3%82%89%E3%82%8C%E3%81%A6%E7%84%A1%E6%95%B5%E3%81%AB%E3%81%AA%E3%82%8B%E3%80%82"
+    "url": "https://abema.tv/search?q=%E6%96%B0%E7%B1%B3%E3%82%AA%E3%83%83%E3%82%B5%E3%83%B3%E5%86%92%E9%99%BA%E8%80%85%E3%80%81%E6%9C%80%E5%BC%B7%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%81%AB%E6%AD%BB%E3%81%AC%E3%81%BB%E3%81%A9%E9%8D%9B%E3%81%88%E3%82%89%E3%82%8C%E3%81%A6%E7%84%A1%E6%95%B5%E3%81%AB%E3%81%AA%E3%82%8B%E3%80%82",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GT44Gu57Sg",
@@ -2413,7 +2935,10 @@
     "originalWorkTitle": "この素晴らしい世界に祝福を！２",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%EF%BC%92"
+    "url": "https://abema.tv/search?q=%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%EF%BC%92",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OR44Oq44OU",
@@ -2427,7 +2952,10 @@
     "originalWorkTitle": "パリピ孔明",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%91%E3%83%AA%E3%83%94%E5%AD%94%E6%98%8E"
+    "url": "https://abema.tv/search?q=%E3%83%91%E3%83%AA%E3%83%94%E5%AD%94%E6%98%8E",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5qGc6Jit6auY",
@@ -2441,7 +2969,10 @@
     "originalWorkTitle": "桜蘭高校ホスト部",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%A1%9C%E8%98%AD%E9%AB%98%E6%A0%A1%E3%83%9B%E3%82%B9%E3%83%88%E9%83%A8"
+    "url": "https://abema.tv/search?q=%E6%A1%9C%E8%98%AD%E9%AB%98%E6%A0%A1%E3%83%9B%E3%82%B9%E3%83%88%E9%83%A8",
+    "episodeInfo": "第14話〜第26話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -2455,7 +2986,10 @@
     "originalWorkTitle": "Re:ゼロから始める異世界生活 3rd",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%203rd"
+    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%203rd",
+    "episodeInfo": "第51話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "JwZRyOTRA_I",
@@ -2468,7 +3002,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/JwZRyOTRA_I/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "vOGQBh0B7Ao",
@@ -2481,7 +3018,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/vOGQBh0B7Ao/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "UA-Az5COdi8",
@@ -2494,7 +3034,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/UA-Az5COdi8/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "OJE4VsyvJlE",
@@ -2507,7 +3050,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/OJE4VsyvJlE/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "htHBHQyRoYs",
@@ -2520,7 +3066,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/htHBHQyRoYs/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Yu844Gu6Yys",
@@ -2534,7 +3083,10 @@
     "originalWorkTitle": "鋼の錬金術師 FULLMETAL ALCHEMIST",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB%20FULLMETAL%20ALCHEMIST"
+    "url": "https://abema.tv/search?q=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB%20FULLMETAL%20ALCHEMIST",
+    "episodeInfo": "第33話〜第48話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5oKq6aOf5Luk",
@@ -2548,7 +3100,10 @@
     "originalWorkTitle": "悪食令嬢と狂血公爵",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%82%AA%E9%A3%9F%E4%BB%A4%E5%AC%A2%E3%81%A8%E7%8B%82%E8%A1%80%E5%85%AC%E7%88%B5"
+    "url": "https://abema.tv/search?q=%E6%82%AA%E9%A3%9F%E4%BB%A4%E5%AC%A2%E3%81%A8%E7%8B%82%E8%A1%80%E5%85%AC%E7%88%B5",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GG44KL44KP",
@@ -2562,7 +3117,10 @@
     "originalWorkTitle": "うるわしの宵の月",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%86%E3%82%8B%E3%82%8F%E3%81%97%E3%81%AE%E5%AE%B5%E3%81%AE%E6%9C%88"
+    "url": "https://abema.tv/search?q=%E3%81%86%E3%82%8B%E3%82%8F%E3%81%97%E3%81%AE%E5%AE%B5%E3%81%AE%E6%9C%88",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "AuXC0_hx8As",
@@ -2575,7 +3133,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/AuXC0_hx8As/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第6話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "3FfhOWyfjo8",
@@ -2588,7 +3149,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/3FfhOWyfjo8/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "Y1i2x9byDTw",
@@ -2601,7 +3165,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/Y1i2x9byDTw/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第31話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aSx5qC857SL",
@@ -2615,7 +3182,10 @@
     "originalWorkTitle": "失格紋の最強賢者",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A4%B1%E6%A0%BC%E7%B4%8B%E3%81%AE%E6%9C%80%E5%BC%B7%E8%B3%A2%E8%80%85"
+    "url": "https://abema.tv/search?q=%E5%A4%B1%E6%A0%BC%E7%B4%8B%E3%81%AE%E6%9C%80%E5%BC%B7%E8%B3%A2%E8%80%85",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5ZCb44Gv5Yal",
@@ -2629,7 +3199,10 @@
     "originalWorkTitle": "君は冥土様。",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%90%9B%E3%81%AF%E5%86%A5%E5%9C%9F%E6%A7%98%E3%80%82"
+    "url": "https://abema.tv/search?q=%E5%90%9B%E3%81%AF%E5%86%A5%E5%9C%9F%E6%A7%98%E3%80%82",
+    "episodeInfo": "第1話〜第10話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-54u844Go6aaZ",
@@ -2643,7 +3216,10 @@
     "originalWorkTitle": "狼と香辛料 MERCHANT MEETS THE WISE WOLF",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99%20MERCHANT%20MEETS%20THE%20WISE%20WOLF"
+    "url": "https://abema.tv/search?q=%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99%20MERCHANT%20MEETS%20THE%20WISE%20WOLF",
+    "episodeInfo": "第13話〜第22話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6KOc5Yqp6a2U",
@@ -2657,7 +3233,10 @@
     "originalWorkTitle": "補助魔法",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%A3%9C%E5%8A%A9%E9%AD%94%E6%B3%95"
+    "url": "https://abema.tv/search?q=%E8%A3%9C%E5%8A%A9%E9%AD%94%E6%B3%95",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55yf44O76YCy",
@@ -2671,7 +3250,10 @@
     "originalWorkTitle": "真・進化の実～知らないうちに勝ち組人生～",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%9C%9F%E3%83%BB%E9%80%B2%E5%8C%96%E3%81%AE%E5%AE%9F%EF%BD%9E%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%81%86%E3%81%A1%E3%81%AB%E5%8B%9D%E3%81%A1%E7%B5%84%E4%BA%BA%E7%94%9F%EF%BD%9E"
+    "url": "https://abema.tv/search?q=%E7%9C%9F%E3%83%BB%E9%80%B2%E5%8C%96%E3%81%AE%E5%AE%9F%EF%BD%9E%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%81%86%E3%81%A1%E3%81%AB%E5%8B%9D%E3%81%A1%E7%B5%84%E4%BA%BA%E7%94%9F%EF%BD%9E",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44K944O844OJ",
@@ -2685,7 +3267,10 @@
     "originalWorkTitle": "ソードアート・オンライン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%BD%E3%83%BC%E3%83%89%E3%82%A2%E3%83%BC%E3%83%88%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E3%82%BD%E3%83%BC%E3%83%89%E3%82%A2%E3%83%BC%E3%83%88%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6a2U546L44Gu",
@@ -2699,7 +3284,10 @@
     "originalWorkTitle": "魔王の娘は優しすぎる!!",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E7%8E%8B%E3%81%AE%E5%A8%98%E3%81%AF%E5%84%AA%E3%81%97%E3%81%99%E3%81%8E%E3%82%8B!!"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E7%8E%8B%E3%81%AE%E5%A8%98%E3%81%AF%E5%84%AA%E3%81%97%E3%81%99%E3%81%8E%E3%82%8B!!",
+    "episodeInfo": "第1話〜第6話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5pyI44GM5bCO",
@@ -2713,7 +3301,10 @@
     "originalWorkTitle": "月が導く異世界道中",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9C%88%E3%81%8C%E5%B0%8E%E3%81%8F%E7%95%B0%E4%B8%96%E7%95%8C%E9%81%93%E4%B8%AD"
+    "url": "https://abema.tv/search?q=%E6%9C%88%E3%81%8C%E5%B0%8E%E3%81%8F%E7%95%B0%E4%B8%96%E7%95%8C%E9%81%93%E4%B8%AD",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5L+644Gv5pif",
@@ -2727,7 +3318,10 @@
     "originalWorkTitle": "俺は星間国家の悪徳領主！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E4%BF%BA%E3%81%AF%E6%98%9F%E9%96%93%E5%9B%BD%E5%AE%B6%E3%81%AE%E6%82%AA%E5%BE%B3%E9%A0%98%E4%B8%BB%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E4%BF%BA%E3%81%AF%E6%98%9F%E9%96%93%E5%9B%BD%E5%AE%B6%E3%81%AE%E6%82%AA%E5%BE%B3%E9%A0%98%E4%B8%BB%EF%BC%81",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5LiN5q276Lqr",
@@ -2741,7 +3335,10 @@
     "originalWorkTitle": "不死身な僕の日常 シーズン3",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E4%B8%8D%E6%AD%BB%E8%BA%AB%E3%81%AA%E5%83%95%E3%81%AE%E6%97%A5%E5%B8%B8%20%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B33"
+    "url": "https://abema.tv/search?q=%E4%B8%8D%E6%AD%BB%E8%BA%AB%E3%81%AA%E5%83%95%E3%81%AE%E6%97%A5%E5%B8%B8%20%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B33",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-55m+6ay85aSc",
@@ -2755,7 +3352,10 @@
     "originalWorkTitle": "百鬼夜行抄",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E6%8A%84"
+    "url": "https://abema.tv/search?q=%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E6%8A%84",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5aSn6LOi6ICF",
@@ -2769,7 +3369,10 @@
     "originalWorkTitle": "大賢者リドルの時間逆行",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A4%A7%E8%B3%A2%E8%80%85%E3%83%AA%E3%83%89%E3%83%AB%E3%81%AE%E6%99%82%E9%96%93%E9%80%86%E8%A1%8C"
+    "url": "https://abema.tv/search?q=%E5%A4%A7%E8%B3%A2%E8%80%85%E3%83%AA%E3%83%89%E3%83%AB%E3%81%AE%E6%99%82%E9%96%93%E9%80%86%E8%A1%8C",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6a2U54mp5Zaw",
@@ -2783,7 +3386,10 @@
     "originalWorkTitle": "魔物喰らいの冒険者～俺だけ魔物を喰らって強くなる～",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E7%89%A9%E5%96%B0%E3%82%89%E3%81%84%E3%81%AE%E5%86%92%E9%99%BA%E8%80%85%EF%BD%9E%E4%BF%BA%E3%81%A0%E3%81%91%E9%AD%94%E7%89%A9%E3%82%92%E5%96%B0%E3%82%89%E3%81%A3%E3%81%A6%E5%BC%B7%E3%81%8F%E3%81%AA%E3%82%8B%EF%BD%9E"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E7%89%A9%E5%96%B0%E3%82%89%E3%81%84%E3%81%AE%E5%86%92%E9%99%BA%E8%80%85%EF%BD%9E%E4%BF%BA%E3%81%A0%E3%81%91%E9%AD%94%E7%89%A9%E3%82%92%E5%96%B0%E3%82%89%E3%81%A3%E3%81%A6%E5%BC%B7%E3%81%8F%E3%81%AA%E3%82%8B%EF%BD%9E",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5aSn44GN44GE",
@@ -2797,7 +3403,10 @@
     "originalWorkTitle": "大きい女の子は好きですか？",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A4%A7%E3%81%8D%E3%81%84%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%AF%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F"
+    "url": "https://abema.tv/search?q=%E5%A4%A7%E3%81%8D%E3%81%84%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%AF%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44Kk44Oz44K0",
@@ -2811,7 +3420,10 @@
     "originalWorkTitle": "インゴクダンチ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%A4%E3%83%B3%E3%82%B4%E3%82%AF%E3%83%80%E3%83%B3%E3%83%81"
+    "url": "https://abema.tv/search?q=%E3%82%A4%E3%83%B3%E3%82%B4%E3%82%AF%E3%83%80%E3%83%B3%E3%83%81",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5pig55S744GR",
@@ -2825,7 +3437,10 @@
     "originalWorkTitle": "映画けいおん!",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%98%A0%E7%94%BB%E3%81%91%E3%81%84%E3%81%8A%E3%82%93!"
+    "url": "https://abema.tv/search?q=%E6%98%A0%E7%94%BB%E3%81%91%E3%81%84%E3%81%8A%E3%82%93!",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GE44GP44Gg",
@@ -2839,7 +3454,10 @@
     "originalWorkTitle": "いくだもも！そびー",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%84%E3%81%8F%E3%81%A0%E3%82%82%E3%82%82%EF%BC%81%E3%81%9D%E3%81%B3%E3%83%BC"
+    "url": "https://abema.tv/search?q=%E3%81%84%E3%81%8F%E3%81%A0%E3%82%82%E3%82%82%EF%BC%81%E3%81%9D%E3%81%B3%E3%83%BC",
+    "episodeInfo": "第1話〜第6話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-bW9mdXNhbmQg",
@@ -2853,7 +3471,10 @@
     "originalWorkTitle": "mofusand animation",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=mofusand%20animation"
+    "url": "https://abema.tv/search?q=mofusand%20animation",
+    "episodeInfo": "第24話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6YCD44GM44GX",
@@ -2867,7 +3488,10 @@
     "originalWorkTitle": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%80%83%E3%81%8C%E3%81%97%E3%81%9F%E9%AD%9A%E3%81%AF%E5%A4%A7%E3%81%8D%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%8C%E9%87%A3%E3%82%8A%E3%81%82%E3%81%92%E3%81%9F%E9%AD%9A%E3%81%8C%E5%A4%A7%E3%81%8D%E3%81%99%E3%81%8E%E3%81%9F%E4%BB%B6"
+    "url": "https://abema.tv/search?q=%E9%80%83%E3%81%8C%E3%81%97%E3%81%9F%E9%AD%9A%E3%81%AF%E5%A4%A7%E3%81%8D%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%8C%E9%87%A3%E3%82%8A%E3%81%82%E3%81%92%E3%81%9F%E9%AD%9A%E3%81%8C%E5%A4%A7%E3%81%8D%E3%81%99%E3%81%8E%E3%81%9F%E4%BB%B6",
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-56We44Gu6Zur",
@@ -2881,7 +3505,10 @@
     "originalWorkTitle": "神の雫",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%A5%9E%E3%81%AE%E9%9B%AB"
+    "url": "https://abema.tv/search?q=%E7%A5%9E%E3%81%AE%E9%9B%AB",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44Ks44Oz44OQ",
@@ -2895,7 +3522,10 @@
     "originalWorkTitle": "ガンバレ！中村くん！！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AC%E3%83%B3%E3%83%90%E3%83%AC%EF%BC%81%E4%B8%AD%E6%9D%91%E3%81%8F%E3%82%93%EF%BC%81%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%82%AC%E3%83%B3%E3%83%90%E3%83%AC%EF%BC%81%E4%B8%AD%E6%9D%91%E3%81%8F%E3%82%93%EF%BC%81%EF%BC%81",
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5b285aWz44CB",
@@ -2909,7 +3539,10 @@
     "originalWorkTitle": "彼女、お借りします",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%BD%BC%E5%A5%B3%E3%80%81%E3%81%8A%E5%80%9F%E3%82%8A%E3%81%97%E3%81%BE%E3%81%99"
+    "url": "https://abema.tv/search?q=%E5%BD%BC%E5%A5%B3%E3%80%81%E3%81%8A%E5%80%9F%E3%82%8A%E3%81%97%E3%81%BE%E3%81%99",
+    "episodeInfo": "第5話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6Ieq56ew5oKq",
@@ -2923,7 +3556,10 @@
     "originalWorkTitle": "自称悪役令嬢な婚約者の観察記録。",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%87%AA%E7%A7%B0%E6%82%AA%E5%BD%B9%E4%BB%A4%E5%AC%A2%E3%81%AA%E5%A9%9A%E7%B4%84%E8%80%85%E3%81%AE%E8%A6%B3%E5%AF%9F%E8%A8%98%E9%8C%B2%E3%80%82"
+    "url": "https://abema.tv/search?q=%E8%87%AA%E7%A7%B0%E6%82%AA%E5%BD%B9%E4%BB%A4%E5%AC%A2%E3%81%AA%E5%A9%9A%E7%B4%84%E8%80%85%E3%81%AE%E8%A6%B3%E5%AF%9F%E8%A8%98%E9%8C%B2%E3%80%82",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -2937,7 +3573,10 @@
     "originalWorkTitle": "Re:ゼロから始める異世界生活　4th",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%E3%80%804th"
+    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%E3%80%804th",
+    "episodeInfo": "第77話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "DsHR7xiwqg0",
@@ -2950,7 +3589,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/DsHR7xiwqg0/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OA44Kk44Kt",
@@ -2964,7 +3606,10 @@
     "originalWorkTitle": "ダイキン空気予報 6/17",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F17"
+    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F17",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44KI44KP44KI",
@@ -2978,7 +3623,10 @@
     "originalWorkTitle": "よわよわ先生 オンエアver.",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%88%E3%82%8F%E3%82%88%E3%82%8F%E5%85%88%E7%94%9F%20%E3%82%AA%E3%83%B3%E3%82%A8%E3%82%A2ver."
+    "url": "https://abema.tv/search?q=%E3%82%88%E3%82%8F%E3%82%88%E3%82%8F%E5%85%88%E7%94%9F%20%E3%82%AA%E3%83%B3%E3%82%A8%E3%82%A2ver.",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "MCER9lgOUkM",
@@ -2991,7 +3639,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/MCER9lgOUkM/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第47話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "L93bke7mPUw",
@@ -3004,7 +3655,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/L93bke7mPUw/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第3話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5LiA55Wz6ZaT",
@@ -3018,7 +3672,10 @@
     "originalWorkTitle": "一畳間まんきつ暮らし！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E4%B8%80%E7%95%B3%E9%96%93%E3%81%BE%E3%82%93%E3%81%8D%E3%81%A4%E6%9A%AE%E3%82%89%E3%81%97%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E4%B8%80%E7%95%B3%E9%96%93%E3%81%BE%E3%82%93%E3%81%8D%E3%81%A4%E6%9A%AE%E3%82%89%E3%81%97%EF%BC%81",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-UHJvamVjdCBQ",
@@ -3032,7 +3689,10 @@
     "originalWorkTitle": "Project PRISMation",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Project%20PRISMation"
+    "url": "https://abema.tv/search?q=Project%20PRISMation",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "QRcvKeysbiY",
@@ -3045,7 +3705,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/QRcvKeysbiY/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-MjnmrbPni6zo",
@@ -3059,7 +3722,10 @@
     "originalWorkTitle": "29歳独身中堅冒険者の日常",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=29%E6%AD%B3%E7%8B%AC%E8%BA%AB%E4%B8%AD%E5%A0%85%E5%86%92%E9%99%BA%E8%80%85%E3%81%AE%E6%97%A5%E5%B8%B8"
+    "url": "https://abema.tv/search?q=29%E6%AD%B3%E7%8B%AC%E8%BA%AB%E4%B8%AD%E5%A0%85%E5%86%92%E9%99%BA%E8%80%85%E3%81%AE%E6%97%A5%E5%B8%B8",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aSa6IGe44GP",
@@ -3073,7 +3739,10 @@
     "originalWorkTitle": "多聞くん今どっち！？",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A4%9A%E8%81%9E%E3%81%8F%E3%82%93%E4%BB%8A%E3%81%A9%E3%81%A3%E3%81%A1%EF%BC%81%EF%BC%9F"
+    "url": "https://abema.tv/search?q=%E5%A4%9A%E8%81%9E%E3%81%8F%E3%82%93%E4%BB%8A%E3%81%A9%E3%81%A3%E3%81%A1%EF%BC%81%EF%BC%9F",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "5vtFOSI7G4I",
@@ -3086,7 +3755,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/5vtFOSI7G4I/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第26話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "X1os8fN56KY",
@@ -3099,7 +3771,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/X1os8fN56KY/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第23話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "i7TzqZISNrI",
@@ -3112,7 +3787,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/i7TzqZISNrI/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第24話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -3126,7 +3804,10 @@
     "originalWorkTitle": "Re:ゼロから始める異世界生活 2nd season",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%202nd%20season"
+    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%202nd%20season",
+    "episodeInfo": "第26話〜第50話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55u+44Gu5YuH",
@@ -3140,7 +3821,10 @@
     "originalWorkTitle": "盾の勇者の成り上がり Season 2",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%9B%BE%E3%81%AE%E5%8B%87%E8%80%85%E3%81%AE%E6%88%90%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8A%20Season%202"
+    "url": "https://abema.tv/search?q=%E7%9B%BE%E3%81%AE%E5%8B%87%E8%80%85%E3%81%AE%E6%88%90%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8A%20Season%202",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Gu44GG44KK",
@@ -3154,7 +3838,10 @@
     "originalWorkTitle": "のうりん",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%AE%E3%81%86%E3%82%8A%E3%82%93"
+    "url": "https://abema.tv/search?q=%E3%81%AE%E3%81%86%E3%82%8A%E3%82%93",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-U1BZw5dGQU1J",
@@ -3168,7 +3855,10 @@
     "originalWorkTitle": "SPY×FAMILY Season 1",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=SPY%C3%97FAMILY%20Season%201"
+    "url": "https://abema.tv/search?q=SPY%C3%97FAMILY%20Season%201",
+    "episodeInfo": "第1話〜第25話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6IGW6ICF54Sh",
@@ -3182,7 +3872,10 @@
     "originalWorkTitle": "聖者無双",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%81%96%E8%80%85%E7%84%A1%E5%8F%8C"
+    "url": "https://abema.tv/search?q=%E8%81%96%E8%80%85%E7%84%A1%E5%8F%8C",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44KI44GG44GT",
@@ -3196,7 +3889,10 @@
     "originalWorkTitle": "ようこそ実力至上主義の教室へ 4th Season",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8%204th%20Season"
+    "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8%204th%20Season",
+    "episodeInfo": "第1話〜第14話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GR44GE44GK",
@@ -3210,7 +3906,10 @@
     "originalWorkTitle": "けいおん！！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%91%E3%81%84%E3%81%8A%E3%82%93%EF%BC%81%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%81%91%E3%81%84%E3%81%8A%E3%82%93%EF%BC%81%EF%BC%81",
+    "episodeInfo": "第1話〜第24話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "Ccfc_dJabYI",
@@ -3223,7 +3922,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/Ccfc_dJabYI/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第30話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5by344GP44Gm",
@@ -3237,7 +3939,10 @@
     "originalWorkTitle": "強くてニューサーガ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%BC%B7%E3%81%8F%E3%81%A6%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%82%AC"
+    "url": "https://abema.tv/search?q=%E5%BC%B7%E3%81%8F%E3%81%A6%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%82%AC",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5rCX57W25YuH",
@@ -3251,7 +3956,10 @@
     "originalWorkTitle": "気絶勇者と暗殺姫",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%B0%97%E7%B5%B6%E5%8B%87%E8%80%85%E3%81%A8%E6%9A%97%E6%AE%BA%E5%A7%AB"
+    "url": "https://abema.tv/search?q=%E6%B0%97%E7%B5%B6%E5%8B%87%E8%80%85%E3%81%A8%E6%9A%97%E6%AE%BA%E5%A7%AB",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55S35aWz44Gu",
@@ -3265,7 +3973,10 @@
     "originalWorkTitle": "男女の友情は成立する？（いや、しないっ!!）",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%94%B7%E5%A5%B3%E3%81%AE%E5%8F%8B%E6%83%85%E3%81%AF%E6%88%90%E7%AB%8B%E3%81%99%E3%82%8B%EF%BC%9F%EF%BC%88%E3%81%84%E3%82%84%E3%80%81%E3%81%97%E3%81%AA%E3%81%84%E3%81%A3!!%EF%BC%89"
+    "url": "https://abema.tv/search?q=%E7%94%B7%E5%A5%B3%E3%81%AE%E5%8F%8B%E6%83%85%E3%81%AF%E6%88%90%E7%AB%8B%E3%81%99%E3%82%8B%EF%BC%9F%EF%BC%88%E3%81%84%E3%82%84%E3%80%81%E3%81%97%E3%81%AA%E3%81%84%E3%81%A3!!%EF%BC%89",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5Zyw57ib5bCR",
@@ -3279,7 +3990,10 @@
     "originalWorkTitle": "地縛少年花子くん２",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E3%81%8F%E3%82%93%EF%BC%92"
+    "url": "https://abema.tv/search?q=%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E3%81%8F%E3%82%93%EF%BC%92",
+    "episodeInfo": "第13話〜第23話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Oq44Kj44Oz",
@@ -3293,7 +4007,10 @@
     "originalWorkTitle": "リィンカーネーションの花弁",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%AA%E3%82%A3%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E8%8A%B1%E5%BC%81"
+    "url": "https://abema.tv/search?q=%E3%83%AA%E3%82%A3%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E8%8A%B1%E5%BC%81",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5reh5bO255m+",
@@ -3307,7 +4024,10 @@
     "originalWorkTitle": "TVアニメ『淡島百景』",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%B7%A1%E5%B3%B6%E7%99%BE%E6%99%AF"
+    "url": "https://abema.tv/search?q=%E6%B7%A1%E5%B3%B6%E7%99%BE%E6%99%AF",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5p2x5Lqs44Oq",
@@ -3321,7 +4041,10 @@
     "originalWorkTitle": "東京リベンジャーズ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA"
+    "url": "https://abema.tv/search?q=%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA",
+    "episodeInfo": "第1話〜第24話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5YuH6ICF44Gu",
@@ -3335,7 +4058,10 @@
     "originalWorkTitle": "勇者の肋骨",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%8B%87%E8%80%85%E3%81%AE%E8%82%8B%E9%AA%A8"
+    "url": "https://abema.tv/search?q=%E5%8B%87%E8%80%85%E3%81%AE%E8%82%8B%E9%AA%A8",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-RElHSU1PTiBC",
@@ -3349,7 +4075,10 @@
     "originalWorkTitle": "DIGIMON BEATBREAK",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=DIGIMON%20BEATBREAK"
+    "url": "https://abema.tv/search?q=DIGIMON%20BEATBREAK",
+    "episodeInfo": "第35話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44Kr44OK44Oz",
@@ -3363,7 +4092,10 @@
     "originalWorkTitle": "カナン様はあくまでチョロい",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%8A%E3%83%B3%E6%A7%98%E3%81%AF%E3%81%82%E3%81%8F%E3%81%BE%E3%81%A7%E3%83%81%E3%83%A7%E3%83%AD%E3%81%84"
+    "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%8A%E3%83%B3%E6%A7%98%E3%81%AF%E3%81%82%E3%81%8F%E3%81%BE%E3%81%A7%E3%83%81%E3%83%A7%E3%83%AD%E3%81%84",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5pys5aW944GN",
@@ -3377,7 +4109,10 @@
     "originalWorkTitle": "本好きの下剋上 領主の養女",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9C%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E4%B8%8B%E5%89%8B%E4%B8%8A%20%E9%A0%98%E4%B8%BB%E3%81%AE%E9%A4%8A%E5%A5%B3"
+    "url": "https://abema.tv/search?q=%E6%9C%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E4%B8%8B%E5%89%8B%E4%B8%8A%20%E9%A0%98%E4%B8%BB%E3%81%AE%E9%A4%8A%E5%A5%B3",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44Os44OX44Oq",
@@ -3391,7 +4126,10 @@
     "originalWorkTitle": "レプリカだって、恋をする。",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%AC%E3%83%97%E3%83%AA%E3%82%AB%E3%81%A0%E3%81%A3%E3%81%A6%E3%80%81%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B%E3%80%82"
+    "url": "https://abema.tv/search?q=%E3%83%AC%E3%83%97%E3%83%AA%E3%82%AB%E3%81%A0%E3%81%A3%E3%81%A6%E3%80%81%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B%E3%80%82",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "0Soi_qBL8Bg",
@@ -3404,7 +4142,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/0Soi_qBL8Bg/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -3418,7 +4159,10 @@
     "originalWorkTitle": "転生したらスライムだった件",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6"
+    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6",
+    "episodeInfo": "第4話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44KK44KF44GG",
@@ -3432,7 +4176,10 @@
     "originalWorkTitle": "りゅうおうのおしごと！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%8A%E3%82%85%E3%81%86%E3%81%8A%E3%81%86%E3%81%AE%E3%81%8A%E3%81%97%E3%81%94%E3%81%A8%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%82%8A%E3%82%85%E3%81%86%E3%81%8A%E3%81%86%E3%81%AE%E3%81%8A%E3%81%97%E3%81%94%E3%81%A8%EF%BC%81",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5oSb44GX44Gm",
@@ -3446,7 +4193,10 @@
     "originalWorkTitle": "愛してるゲームを終わらせたい",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%92%E7%B5%82%E3%82%8F%E3%82%89%E3%81%9B%E3%81%9F%E3%81%84"
+    "url": "https://abema.tv/search?q=%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%92%E7%B5%82%E3%82%8F%E3%82%89%E3%81%9B%E3%81%9F%E3%81%84",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "BJeMESxU_kg",
@@ -3459,7 +4209,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/BJeMESxU_kg/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Z2S5pil44OW",
@@ -3473,7 +4226,10 @@
     "originalWorkTitle": "青春ブタ野郎はバニーガール先輩の夢を見ない",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%9D%92%E6%98%A5%E3%83%96%E3%82%BF%E9%87%8E%E9%83%8E%E3%81%AF%E3%83%90%E3%83%8B%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%AB%E5%85%88%E8%BC%A9%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%81%AA%E3%81%84"
+    "url": "https://abema.tv/search?q=%E9%9D%92%E6%98%A5%E3%83%96%E3%82%BF%E9%87%8E%E9%83%8E%E3%81%AF%E3%83%90%E3%83%8B%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%AB%E5%85%88%E8%BC%A9%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%81%AA%E3%81%84",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OA44Kk44Kt",
@@ -3487,7 +4243,10 @@
     "originalWorkTitle": "ダイキン空気予報 6/16",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F16"
+    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F16",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "xJH1nXAiuvc",
@@ -3500,7 +4259,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/xJH1nXAiuvc/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第47話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "ASGjh-b1EDc",
@@ -3513,7 +4275,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/ASGjh-b1EDc/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第2話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "ERGhsGtce9E",
@@ -3526,7 +4291,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/ERGhsGtce9E/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6ICB5b6M44Gr",
@@ -3540,7 +4308,10 @@
     "originalWorkTitle": "老後に備えて異世界で8万枚の金貨を貯めます",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%80%81%E5%BE%8C%E3%81%AB%E5%82%99%E3%81%88%E3%81%A6%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%A78%E4%B8%87%E6%9E%9A%E3%81%AE%E9%87%91%E8%B2%A8%E3%82%92%E8%B2%AF%E3%82%81%E3%81%BE%E3%81%99"
+    "url": "https://abema.tv/search?q=%E8%80%81%E5%BE%8C%E3%81%AB%E5%82%99%E3%81%88%E3%81%A6%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%A78%E4%B8%87%E6%9E%9A%E3%81%AE%E9%87%91%E8%B2%A8%E3%82%92%E8%B2%AF%E3%82%81%E3%81%BE%E3%81%99",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44KG44KL44Kt",
@@ -3554,7 +4325,10 @@
     "originalWorkTitle": "ゆるキャン△ SEASON3",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3%20SEASON3"
+    "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3%20SEASON3",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "9_se_iYoaPY",
@@ -3567,7 +4341,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/9_se_iYoaPY/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aOw5qWtIH7l",
@@ -3581,7 +4358,10 @@
     "originalWorkTitle": "声業 ~命を吹き込む声~",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A3%B0%E6%A5%AD%20~%E5%91%BD%E3%82%92%E5%90%B9%E3%81%8D%E8%BE%BC%E3%82%80%E5%A3%B0~"
+    "url": "https://abema.tv/search?q=%E5%A3%B0%E6%A5%AD%20~%E5%91%BD%E3%82%92%E5%90%B9%E3%81%8D%E8%BE%BC%E3%82%80%E5%A3%B0~",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -3595,7 +4375,10 @@
     "originalWorkTitle": "Re:ゼロから始める異世界生活",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB"
+    "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB",
+    "episodeInfo": "第1話〜第25話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5oim6ZeY5ZOh",
@@ -3609,7 +4392,10 @@
     "originalWorkTitle": "戦闘員、派遣します！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%88%A6%E9%97%98%E5%93%A1%E3%80%81%E6%B4%BE%E9%81%A3%E3%81%97%E3%81%BE%E3%81%99%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E6%88%A6%E9%97%98%E5%93%A1%E3%80%81%E6%B4%BE%E9%81%A3%E3%81%97%E3%81%BE%E3%81%99%EF%BC%81",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6a2U5rOV56eR",
@@ -3623,7 +4409,10 @@
     "originalWorkTitle": "魔法科高校の劣等生",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F",
+    "episodeInfo": "第1話〜第26話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "P7C-q5qD768",
@@ -3636,7 +4425,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/P7C-q5qD768/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第29話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Op44K554K6",
@@ -3650,7 +4442,10 @@
     "originalWorkTitle": "ラス為",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%A9%E3%82%B9%E7%82%BA"
+    "url": "https://abema.tv/search?q=%E3%83%A9%E3%82%B9%E7%82%BA",
+    "episodeInfo": "第1話〜第10話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "Hz3UWLv9wY0",
@@ -3663,7 +4458,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/Hz3UWLv9wY0/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5ou35ZWP44OQ",
@@ -3677,7 +4475,10 @@
     "originalWorkTitle": "拷問バイトくんの日常",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%8B%B7%E5%95%8F%E3%83%90%E3%82%A4%E3%83%88%E3%81%8F%E3%82%93%E3%81%AE%E6%97%A5%E5%B8%B8"
+    "url": "https://abema.tv/search?q=%E6%8B%B7%E5%95%8F%E3%83%90%E3%82%A4%E3%83%88%E3%81%8F%E3%82%93%E3%81%AE%E6%97%A5%E5%B8%B8",
+    "episodeInfo": "第1話〜第8話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6JC956ys6aiO",
@@ -3691,7 +4492,10 @@
     "originalWorkTitle": "落第騎士の英雄譚",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%90%BD%E7%AC%AC%E9%A8%8E%E5%A3%AB%E3%81%AE%E8%8B%B1%E9%9B%84%E8%AD%9A"
+    "url": "https://abema.tv/search?q=%E8%90%BD%E7%AC%AC%E9%A8%8E%E5%A3%AB%E3%81%AE%E8%8B%B1%E9%9B%84%E8%AD%9A",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44K044Oq44Op",
@@ -3705,7 +4509,10 @@
     "originalWorkTitle": "ゴリラの神から加護された令嬢は王立騎士団で可愛がられる",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B4%E3%83%AA%E3%83%A9%E3%81%AE%E7%A5%9E%E3%81%8B%E3%82%89%E5%8A%A0%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E4%BB%A4%E5%AC%A2%E3%81%AF%E7%8E%8B%E7%AB%8B%E9%A8%8E%E5%A3%AB%E5%9B%A3%E3%81%A7%E5%8F%AF%E6%84%9B%E3%81%8C%E3%82%89%E3%82%8C%E3%82%8B"
+    "url": "https://abema.tv/search?q=%E3%82%B4%E3%83%AA%E3%83%A9%E3%81%AE%E7%A5%9E%E3%81%8B%E3%82%89%E5%8A%A0%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E4%BB%A4%E5%AC%A2%E3%81%AF%E7%8E%8B%E7%AB%8B%E9%A8%8E%E5%A3%AB%E5%9B%A3%E3%81%A7%E5%8F%AF%E6%84%9B%E3%81%8C%E3%82%89%E3%82%8C%E3%82%8B",
+    "episodeInfo": "第1話〜第10話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Lui55Sf6LOi",
@@ -3719,7 +4526,10 @@
     "originalWorkTitle": "転生賢者",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E8%B3%A2%E8%80%85"
+    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E8%B3%A2%E8%80%85",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Kqw44K95b28",
@@ -3733,7 +4543,10 @@
     "originalWorkTitle": "誰ソ彼ホテル",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%AA%B0%E3%82%BD%E5%BD%BC%E3%83%9B%E3%83%86%E3%83%AB"
+    "url": "https://abema.tv/search?q=%E8%AA%B0%E3%82%BD%E5%BD%BC%E3%83%9B%E3%83%86%E3%83%AB",
+    "episodeInfo": "第1話〜第5話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-U0FPIOOCquOD",
@@ -3747,7 +4560,10 @@
     "originalWorkTitle": "SAO オルタナティブ ガンゲイル・オンラインⅡ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=SAO%20%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%20%E3%82%AC%E3%83%B3%E3%82%B2%E3%82%A4%E3%83%AB%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E2%85%A1"
+    "url": "https://abema.tv/search?q=SAO%20%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%20%E3%82%AC%E3%83%B3%E3%82%B2%E3%82%A4%E3%83%AB%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E2%85%A1",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kt44Oj44OX",
@@ -3761,7 +4577,10 @@
     "originalWorkTitle": "キャプテン翼シーズン２ ジュニアユース編",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E7%BF%BC%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3%EF%BC%92%20%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%A6%E3%83%BC%E3%82%B9%E7%B7%A8"
+    "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E7%BF%BC%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3%EF%BC%92%20%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%A6%E3%83%BC%E3%82%B9%E7%B7%A8",
+    "episodeInfo": "第1話〜第14話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6L+95pS+55m9",
@@ -3775,7 +4594,10 @@
     "originalWorkTitle": "追放白魔導師",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%BF%BD%E6%94%BE%E7%99%BD%E9%AD%94%E5%B0%8E%E5%B8%AB"
+    "url": "https://abema.tv/search?q=%E8%BF%BD%E6%94%BE%E7%99%BD%E9%AD%94%E5%B0%8E%E5%B8%AB",
+    "episodeInfo": "第1話〜第7話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5Y+L6YGU44Gu",
@@ -3789,7 +4611,10 @@
     "originalWorkTitle": "友達の妹が俺にだけウザい",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%8F%8B%E9%81%94%E3%81%AE%E5%A6%B9%E3%81%8C%E4%BF%BA%E3%81%AB%E3%81%A0%E3%81%91%E3%82%A6%E3%82%B6%E3%81%84"
+    "url": "https://abema.tv/search?q=%E5%8F%8B%E9%81%94%E3%81%AE%E5%A6%B9%E3%81%8C%E4%BF%BA%E3%81%AB%E3%81%A0%E3%81%91%E3%82%A6%E3%82%B6%E3%81%84",
+    "episodeInfo": "第1話〜第9話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kv44K444Oe",
@@ -3803,7 +4628,10 @@
     "originalWorkTitle": "クジマ歌えば家ほろろ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AF%E3%82%B8%E3%83%9E%E6%AD%8C%E3%81%88%E3%81%B0%E5%AE%B6%E3%81%BB%E3%82%8D%E3%82%8D"
+    "url": "https://abema.tv/search?q=%E3%82%AF%E3%82%B8%E3%83%9E%E6%AD%8C%E3%81%88%E3%81%B0%E5%AE%B6%E3%81%BB%E3%82%8D%E3%82%8D",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-TElBUiBHQU1F",
@@ -3817,7 +4645,10 @@
     "originalWorkTitle": "LIAR GAME",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=LIAR%20GAME"
+    "url": "https://abema.tv/search?q=LIAR%20GAME",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44G+44Gf5q66",
@@ -3831,7 +4662,10 @@
     "originalWorkTitle": "また殺されてしまったのですね、探偵様",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%BE%E3%81%9F%E6%AE%BA%E3%81%95%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%99%E3%81%AD%E3%80%81%E6%8E%A2%E5%81%B5%E6%A7%98"
+    "url": "https://abema.tv/search?q=%E3%81%BE%E3%81%9F%E6%AE%BA%E3%81%95%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%99%E3%81%AD%E3%80%81%E6%8E%A2%E5%81%B5%E6%A7%98",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "aZskeNRvHxI",
@@ -3844,7 +4678,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/aZskeNRvHxI/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OA44Kk44Kt",
@@ -3858,7 +4695,10 @@
     "originalWorkTitle": "ダイキン空気予報 6/15",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F15"
+    "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F15",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6a2U5YWl44KK",
@@ -3872,7 +4712,10 @@
     "originalWorkTitle": "魔入りました！入間くん 第４シリーズ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E5%85%A5%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81%E5%85%A5%E9%96%93%E3%81%8F%E3%82%93%20%E7%AC%AC%EF%BC%94%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E5%85%A5%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81%E5%85%A5%E9%96%93%E3%81%8F%E3%82%93%20%E7%AC%AC%EF%BC%94%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "1BIQVAMbaP8",
@@ -3885,7 +4728,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/1BIQVAMbaP8/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5Lq65aSW5pWZ",
@@ -3899,7 +4745,10 @@
     "originalWorkTitle": "人外教室の人間嫌い教師",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E4%BA%BA%E5%A4%96%E6%95%99%E5%AE%A4%E3%81%AE%E4%BA%BA%E9%96%93%E5%AB%8C%E3%81%84%E6%95%99%E5%B8%AB"
+    "url": "https://abema.tv/search?q=%E4%BA%BA%E5%A4%96%E6%95%99%E5%AE%A4%E3%81%AE%E4%BA%BA%E9%96%93%E5%AB%8C%E3%81%84%E6%95%99%E5%B8%AB",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5ZCb44Gr5bGK",
@@ -3913,7 +4762,10 @@
     "originalWorkTitle": "君に届け",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%90%9B%E3%81%AB%E5%B1%8A%E3%81%91"
+    "url": "https://abema.tv/search?q=%E5%90%9B%E3%81%AB%E5%B1%8A%E3%81%91",
+    "episodeInfo": "第13話〜第25話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5bCP5p6X44GV",
@@ -3927,7 +4779,10 @@
     "originalWorkTitle": "小林さんちのメイドラゴン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3",
+    "episodeInfo": "第1話〜第14話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-77yY77yW4oCV",
@@ -3941,7 +4796,10 @@
     "originalWorkTitle": "８６―エイティシックス―",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%EF%BC%98%EF%BC%96%E2%80%95%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E2%80%95"
+    "url": "https://abema.tv/search?q=%EF%BC%98%EF%BC%96%E2%80%95%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E2%80%95",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6YCG5aKD54Sh",
@@ -3955,7 +4813,10 @@
     "originalWorkTitle": "逆境無頼 カイジ 破戒録篇",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%80%86%E5%A2%83%E7%84%A1%E9%A0%BC%20%E3%82%AB%E3%82%A4%E3%82%B8%20%E7%A0%B4%E6%88%92%E9%8C%B2%E7%AF%87"
+    "url": "https://abema.tv/search?q=%E9%80%86%E5%A2%83%E7%84%A1%E9%A0%BC%20%E3%82%AB%E3%82%A4%E3%82%B8%20%E7%A0%B4%E6%88%92%E9%8C%B2%E7%AF%87",
+    "episodeInfo": "第1話〜第26話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OA44Oz44K4",
@@ -3969,7 +4830,10 @@
     "originalWorkTitle": "ダンジョンに出会いを求めるのは間違っているだろうか",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AB%E5%87%BA%E4%BC%9A%E3%81%84%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E3%81%AE%E3%81%AF%E9%96%93%E9%81%95%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B"
+    "url": "https://abema.tv/search?q=%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AB%E5%87%BA%E4%BC%9A%E3%81%84%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E3%81%AE%E3%81%AF%E9%96%93%E9%81%95%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B",
+    "episodeInfo": "第1話〜第15話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "hoGUcMPq4MA",
@@ -3982,7 +4846,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/hoGUcMPq4MA/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "5NMOVNdmLNA",
@@ -3995,7 +4862,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/5NMOVNdmLNA/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aSq6Zm944KI",
@@ -4009,7 +4879,10 @@
     "originalWorkTitle": "太陽よりも眩しい星",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A4%AA%E9%99%BD%E3%82%88%E3%82%8A%E3%82%82%E7%9C%A9%E3%81%97%E3%81%84%E6%98%9F"
+    "url": "https://abema.tv/search?q=%E5%A4%AA%E9%99%BD%E3%82%88%E3%82%8A%E3%82%82%E7%9C%A9%E3%81%97%E3%81%84%E6%98%9F",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5YuH6ICF44OR",
@@ -4023,7 +4896,10 @@
     "originalWorkTitle": "勇者パーティーにかわいい子がいたので、告白してみた。",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%8B%87%E8%80%85%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%81%AB%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E5%AD%90%E3%81%8C%E3%81%84%E3%81%9F%E3%81%AE%E3%81%A7%E3%80%81%E5%91%8A%E7%99%BD%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F%E3%80%82"
+    "url": "https://abema.tv/search?q=%E5%8B%87%E8%80%85%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%81%AB%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E5%AD%90%E3%81%8C%E3%81%84%E3%81%9F%E3%81%AE%E3%81%A7%E3%80%81%E5%91%8A%E7%99%BD%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F%E3%80%82",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5bCP5biC5rCR",
@@ -4037,7 +4913,10 @@
     "originalWorkTitle": "小市民シリーズ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%B0%8F%E5%B8%82%E6%B0%91%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA"
+    "url": "https://abema.tv/search?q=%E5%B0%8F%E5%B8%82%E6%B0%91%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44KG44KL44KG",
@@ -4051,7 +4930,10 @@
     "originalWorkTitle": "ゆるゆり",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%86%E3%82%8A"
+    "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%86%E3%82%8A",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GY44GE44GV",
@@ -4065,7 +4947,10 @@
     "originalWorkTitle": "じいさんばあさん若返る",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%98%E3%81%84%E3%81%95%E3%82%93%E3%81%B0%E3%81%82%E3%81%95%E3%82%93%E8%8B%A5%E8%BF%94%E3%82%8B"
+    "url": "https://abema.tv/search?q=%E3%81%98%E3%81%84%E3%81%95%E3%82%93%E3%81%B0%E3%81%82%E3%81%95%E3%82%93%E8%8B%A5%E8%BF%94%E3%82%8B",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Ki44Od44Kr",
@@ -4079,7 +4964,10 @@
     "originalWorkTitle": "アポカリプスホテル",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%A2%E3%83%9D%E3%82%AB%E3%83%AA%E3%83%97%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB"
+    "url": "https://abema.tv/search?q=%E3%82%A2%E3%83%9D%E3%82%AB%E3%83%AA%E3%83%97%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB",
+    "episodeInfo": "第1話〜第6話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Zmw44Gu5a6f",
@@ -4093,7 +4981,10 @@
     "originalWorkTitle": "陰の実力者になりたくて！2nd season",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%99%B0%E3%81%AE%E5%AE%9F%E5%8A%9B%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%A6%EF%BC%812nd%20season"
+    "url": "https://abema.tv/search?q=%E9%99%B0%E3%81%AE%E5%AE%9F%E5%8A%9B%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%A6%EF%BC%812nd%20season",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6JGs6YCB44Gu",
@@ -4107,7 +4998,10 @@
     "originalWorkTitle": "葬送のフリーレン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%91%AC%E9%80%81%E3%81%AE%E3%83%95%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E8%91%AC%E9%80%81%E3%81%AE%E3%83%95%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%B3",
+    "episodeInfo": "第1話〜第28話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OL44Ov44OI",
@@ -4121,7 +5015,10 @@
     "originalWorkTitle": "ニワトリ・ファイター",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%8B%E3%83%AF%E3%83%88%E3%83%AA%E3%83%BB%E3%83%95%E3%82%A1%E3%82%A4%E3%82%BF%E3%83%BC"
+    "url": "https://abema.tv/search?q=%E3%83%8B%E3%83%AF%E3%83%88%E3%83%AA%E3%83%BB%E3%83%95%E3%82%A1%E3%82%A4%E3%82%BF%E3%83%BC",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-54Gw5Y6f44GP",
@@ -4135,7 +5032,10 @@
     "originalWorkTitle": "灰原くんの強くて青春ニューゲーム",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%81%B0%E5%8E%9F%E3%81%8F%E3%82%93%E3%81%AE%E5%BC%B7%E3%81%8F%E3%81%A6%E9%9D%92%E6%98%A5%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0"
+    "url": "https://abema.tv/search?q=%E7%81%B0%E5%8E%9F%E3%81%8F%E3%82%93%E3%81%AE%E5%BC%B7%E3%81%8F%E3%81%A6%E9%9D%92%E6%98%A5%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44K044O844K5",
@@ -4149,7 +5049,10 @@
     "originalWorkTitle": "『ゴーストコンサート : missing Radio』第4回｜TVアニメ『ゴーストコンサート : missing Songs』好評放送中！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%88%20%3A%20missing%20Songs"
+    "url": "https://abema.tv/search?q=%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%88%20%3A%20missing%20Songs",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5bem44GN44GN",
@@ -4163,7 +5066,10 @@
     "originalWorkTitle": "左ききのエレン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%B7%A6%E3%81%8D%E3%81%8D%E3%81%AE%E3%82%A8%E3%83%AC%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E5%B7%A6%E3%81%8D%E3%81%8D%E3%81%AE%E3%82%A8%E3%83%AC%E3%83%B3",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44Od44Oz44Kz",
@@ -4177,7 +5083,10 @@
     "originalWorkTitle": "ポンコツ風紀委員とスカート丈が不適切なＪＫの話",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%B3%E3%82%B3%E3%83%84%E9%A2%A8%E7%B4%80%E5%A7%94%E5%93%A1%E3%81%A8%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%88%E4%B8%88%E3%81%8C%E4%B8%8D%E9%81%A9%E5%88%87%E3%81%AA%EF%BC%AA%EF%BC%AB%E3%81%AE%E8%A9%B1"
+    "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%B3%E3%82%B3%E3%83%84%E9%A2%A8%E7%B4%80%E5%A7%94%E5%93%A1%E3%81%A8%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%88%E4%B8%88%E3%81%8C%E4%B8%8D%E9%81%A9%E5%88%87%E3%81%AA%EF%BC%AA%EF%BC%AB%E3%81%AE%E8%A9%B1",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6a2U5rOV44Gu",
@@ -4191,7 +5100,10 @@
     "originalWorkTitle": "魔法の姉妹ルルットリリィ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5pyA5by344Gu",
@@ -4205,7 +5117,10 @@
     "originalWorkTitle": "最強の王様、二度目の人生は何をする？",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9C%80%E5%BC%B7%E3%81%AE%E7%8E%8B%E6%A7%98%E3%80%81%E4%BA%8C%E5%BA%A6%E7%9B%AE%E3%81%AE%E4%BA%BA%E7%94%9F%E3%81%AF%E4%BD%95%E3%82%92%E3%81%99%E3%82%8B%EF%BC%9F"
+    "url": "https://abema.tv/search?q=%E6%9C%80%E5%BC%B7%E3%81%AE%E7%8E%8B%E6%A7%98%E3%80%81%E4%BA%8C%E5%BA%A6%E7%9B%AE%E3%81%AE%E4%BA%BA%E7%94%9F%E3%81%AF%E4%BD%95%E3%82%92%E3%81%99%E3%82%8B%EF%BC%9F",
+    "episodeInfo": "第23話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-U1RFSU5TO0dB",
@@ -4219,7 +5134,10 @@
     "originalWorkTitle": "STEINS;GATE",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=STEINS%3BGATE"
+    "url": "https://abema.tv/search?q=STEINS%3BGATE",
+    "episodeInfo": "第13話〜第24話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Zmw44Gu5a6f",
@@ -4233,7 +5151,10 @@
     "originalWorkTitle": "陰の実力者になりたくて！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%99%B0%E3%81%AE%E5%AE%9F%E5%8A%9B%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%A6%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E9%99%B0%E3%81%AE%E5%AE%9F%E5%8A%9B%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%A6%EF%BC%81",
+    "episodeInfo": "第1話〜第20話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5pys5aW944GN",
@@ -4247,7 +5168,10 @@
     "originalWorkTitle": "本好きの下剋上",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9C%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E4%B8%8B%E5%89%8B%E4%B8%8A"
+    "url": "https://abema.tv/search?q=%E6%9C%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E4%B8%8B%E5%89%8B%E4%B8%8A",
+    "episodeInfo": "第13話〜第25話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-SnVzdCBCZWNh",
@@ -4261,7 +5185,10 @@
     "originalWorkTitle": "Just Because!",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Just%20Because!"
+    "url": "https://abema.tv/search?q=Just%20Because!",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5rC36I+T",
@@ -4275,7 +5202,10 @@
     "originalWorkTitle": "氷菓",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%B0%B7%E8%8F%93"
+    "url": "https://abema.tv/search?q=%E6%B0%B7%E8%8F%93",
+    "episodeInfo": "第1話〜第22話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6YqA5rKz6YmE",
@@ -4289,7 +5219,10 @@
     "originalWorkTitle": "銀河鉄道999",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%8A%80%E6%B2%B3%E9%89%84%E9%81%93999"
+    "url": "https://abema.tv/search?q=%E9%8A%80%E6%B2%B3%E9%89%84%E9%81%93999",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6a2U5aWz44Gu",
@@ -4303,7 +5236,10 @@
     "originalWorkTitle": "魔女の旅々",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E5%A5%B3%E3%81%AE%E6%97%85%E3%80%85"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E5%A5%B3%E3%81%AE%E6%97%85%E3%80%85",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -4317,7 +5253,10 @@
     "originalWorkTitle": "異世界おじさん",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%8A%E3%81%98%E3%81%95%E3%82%93"
+    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%8A%E3%81%98%E3%81%95%E3%82%93",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-56eB44CB6IO9",
@@ -4331,7 +5270,10 @@
     "originalWorkTitle": "私、能力は平均値でって言ったよね！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%A7%81%E3%80%81%E8%83%BD%E5%8A%9B%E3%81%AF%E5%B9%B3%E5%9D%87%E5%80%A4%E3%81%A7%E3%81%A3%E3%81%A6%E8%A8%80%E3%81%A3%E3%81%9F%E3%82%88%E3%81%AD%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E7%A7%81%E3%80%81%E8%83%BD%E5%8A%9B%E3%81%AF%E5%B9%B3%E5%9D%87%E5%80%A4%E3%81%A7%E3%81%A3%E3%81%A6%E8%A8%80%E3%81%A3%E3%81%9F%E3%82%88%E3%81%AD%EF%BC%81",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6buS5a2Q44Gu",
@@ -4345,7 +5287,10 @@
     "originalWorkTitle": "黒子のバスケ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%BB%92%E5%AD%90%E3%81%AE%E3%83%90%E3%82%B9%E3%82%B1"
+    "url": "https://abema.tv/search?q=%E9%BB%92%E5%AD%90%E3%81%AE%E3%83%90%E3%82%B9%E3%82%B1",
+    "episodeInfo": "第1話〜第25話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kt44Oz6IKJ",
@@ -4359,7 +5304,10 @@
     "originalWorkTitle": "キン肉マン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5ZGq6KGT5bu7",
@@ -4373,7 +5321,10 @@
     "originalWorkTitle": "呪術廻戦",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6"
+    "url": "https://abema.tv/search?q=%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6",
+    "episodeInfo": "第48話〜第59話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5ZCN5o6i5YG1",
@@ -4387,7 +5338,10 @@
     "originalWorkTitle": "名探偵プリキュア！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%EF%BC%81",
+    "episodeInfo": "第19話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44GX44GL44Gu",
@@ -4401,7 +5355,10 @@
     "originalWorkTitle": "しかのこのこのここしたんたん",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%97%E3%81%8B%E3%81%AE%E3%81%93%E3%81%AE%E3%81%93%E3%81%AE%E3%81%93%E3%81%93%E3%81%97%E3%81%9F%E3%82%93%E3%81%9F%E3%82%93"
+    "url": "https://abema.tv/search?q=%E3%81%97%E3%81%8B%E3%81%AE%E3%81%93%E3%81%AE%E3%81%93%E3%81%AE%E3%81%93%E3%81%93%E3%81%97%E3%81%9F%E3%82%93%E3%81%9F%E3%82%93",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kt44Oj44Oz",
@@ -4415,7 +5372,10 @@
     "originalWorkTitle": "キャンディーカリエス",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%82%AB%E3%83%AA%E3%82%A8%E3%82%B9"
+    "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%82%AB%E3%83%AA%E3%82%A8%E3%82%B9",
+    "episodeInfo": "第9話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-VFbjgqLjg4vj",
@@ -4429,7 +5389,10 @@
     "originalWorkTitle": "TVアニメ『コウペンちゃん』",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%82%B3%E3%82%A6%E3%83%9A%E3%83%B3%E3%81%A1%E3%82%83%E3%82%93%E3%80%8F"
+    "url": "https://abema.tv/search?q=TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%82%B3%E3%82%A6%E3%83%9A%E3%83%B3%E3%81%A1%E3%82%83%E3%82%93%E3%80%8F",
+    "episodeInfo": "第63話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44OR44Oa44OD",
@@ -4443,7 +5406,10 @@
     "originalWorkTitle": "パペットスンスン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%91%E3%83%9A%E3%83%83%E3%83%88%E3%82%B9%E3%83%B3%E3%82%B9%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E3%83%91%E3%83%9A%E3%83%83%E3%83%88%E3%82%B9%E3%83%B3%E3%82%B9%E3%83%B3",
+    "episodeInfo": "第48話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44Ki44OL44Oh",
@@ -4457,7 +5423,10 @@
     "originalWorkTitle": "アニメ「リラックマ」",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%AA%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9E%E3%80%8D%EF%BC%88Rilakkuma%EF%BC%89"
+    "url": "https://abema.tv/search?q=%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%AA%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9E%E3%80%8D%EF%BC%88Rilakkuma%EF%BC%89",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5L+644Gg44GR",
@@ -4471,7 +5440,10 @@
     "originalWorkTitle": "俺だけ入れる隠しダンジョン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E4%BF%BA%E3%81%A0%E3%81%91%E5%85%A5%E3%82%8C%E3%82%8B%E9%9A%A0%E3%81%97%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E4%BF%BA%E3%81%A0%E3%81%91%E5%85%A5%E3%82%8C%E3%82%8B%E9%9A%A0%E3%81%97%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6a2U546L44Gu",
@@ -4485,7 +5457,10 @@
     "originalWorkTitle": "魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？ 1〜12",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E7%8E%8B%E3%81%AE%E4%BF%BA%E3%81%8C%E5%A5%B4%E9%9A%B7%E3%82%A8%E3%83%AB%E3%83%95%E3%82%92%E5%AB%81%E3%81%AB%E3%81%97%E3%81%9F%E3%82%93%E3%81%A0%E3%81%8C%E3%80%81%E3%81%A9%E3%81%86%E6%84%9B%E3%81%A7%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84%EF%BC%9F%201%E3%80%9C12"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E7%8E%8B%E3%81%AE%E4%BF%BA%E3%81%8C%E5%A5%B4%E9%9A%B7%E3%82%A8%E3%83%AB%E3%83%95%E3%82%92%E5%AB%81%E3%81%AB%E3%81%97%E3%81%9F%E3%82%93%E3%81%A0%E3%81%8C%E3%80%81%E3%81%A9%E3%81%86%E6%84%9B%E3%81%A7%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84%EF%BC%9F%201%E3%80%9C12",
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Ok44Oz44Kt",
@@ -4499,7 +5474,10 @@
     "originalWorkTitle": "ヤンキーハムスター シーズン1",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%8F%E3%83%A0%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B31"
+    "url": "https://abema.tv/search?q=%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%8F%E3%83%A0%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B31",
+    "episodeInfo": "第1話〜第26話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Oh44Kk44OJ",
@@ -4513,7 +5491,10 @@
     "originalWorkTitle": "メイドさんは食べるだけ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%A1%E3%82%A4%E3%83%89%E3%81%95%E3%82%93%E3%81%AF%E9%A3%9F%E3%81%B9%E3%82%8B%E3%81%A0%E3%81%91"
+    "url": "https://abema.tv/search?q=%E3%83%A1%E3%82%A4%E3%83%89%E3%81%95%E3%82%93%E3%81%AF%E9%A3%9F%E3%81%B9%E3%82%8B%E3%81%A0%E3%81%91",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Gf44Gg44GE",
@@ -4527,7 +5508,10 @@
     "originalWorkTitle": "ただいま、おじゃまされます！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%9F%E3%81%A0%E3%81%84%E3%81%BE%E3%80%81%E3%81%8A%E3%81%98%E3%82%83%E3%81%BE%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E3%81%9F%E3%81%A0%E3%81%84%E3%81%BE%E3%80%81%E3%81%8A%E3%81%98%E3%82%83%E3%81%BE%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99%EF%BC%81",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -4541,7 +5525,10 @@
     "originalWorkTitle": "異世界失格",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E5%A4%B1%E6%A0%BC"
+    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E5%A4%B1%E6%A0%BC",
+    "episodeInfo": "第1話〜第9話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kv44Op44K5",
@@ -4555,7 +5542,10 @@
     "originalWorkTitle": "クラスで2番目に可愛い女の子と友だちになった",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%A72%E7%95%AA%E7%9B%AE%E3%81%AB%E5%8F%AF%E6%84%9B%E3%81%84%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%A8%E5%8F%8B%E3%81%A0%E3%81%A1%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F"
+    "url": "https://abema.tv/search?q=%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%A72%E7%95%AA%E7%9B%AE%E3%81%AB%E5%8F%AF%E6%84%9B%E3%81%84%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%A8%E5%8F%8B%E3%81%A0%E3%81%A1%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44K544Kt44OD",
@@ -4569,7 +5559,10 @@
     "originalWorkTitle": "スキップとローファー",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%95%E3%82%A1%E3%83%BC"
+    "url": "https://abema.tv/search?q=%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%95%E3%82%A1%E3%83%BC",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5pil5aSP56eL",
@@ -4583,7 +5576,10 @@
     "originalWorkTitle": "春夏秋冬代行者 春の舞",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%98%A5%E5%A4%8F%E7%A7%8B%E5%86%AC%E4%BB%A3%E8%A1%8C%E8%80%85%20%E6%98%A5%E3%81%AE%E8%88%9E"
+    "url": "https://abema.tv/search?q=%E6%98%A5%E5%A4%8F%E7%A7%8B%E5%86%AC%E4%BB%A3%E8%A1%8C%E8%80%85%20%E6%98%A5%E3%81%AE%E8%88%9E",
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-TkVFRFkgR0lS",
@@ -4597,7 +5593,10 @@
     "originalWorkTitle": "TVアニメ『NEEDY GIRL OVERDOSE』ニディガラジオ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=NEEDY%20GIRL%20OVERDOSE"
+    "url": "https://abema.tv/search?q=NEEDY%20GIRL%20OVERDOSE",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GC44GL44Gt",
@@ -4611,7 +5610,10 @@
     "originalWorkTitle": "あかね噺",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%82%E3%81%8B%E3%81%AD%E5%99%BA"
+    "url": "https://abema.tv/search?q=%E3%81%82%E3%81%8B%E3%81%AD%E5%99%BA",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kt44Or44Ki",
@@ -4625,7 +5627,10 @@
     "originalWorkTitle": "キルアオ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%AB%E3%82%A2%E3%82%AA"
+    "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%AB%E3%82%A2%E3%82%AA",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44Ok44Oz44Kt",
@@ -4639,7 +5644,10 @@
     "originalWorkTitle": "ヤンキーハムスター シーズン4",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%8F%E3%83%A0%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B34"
+    "url": "https://abema.tv/search?q=%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%8F%E3%83%A0%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B34",
+    "episodeInfo": "第39話〜第50話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Ki44OL44Oh",
@@ -4653,7 +5661,10 @@
     "originalWorkTitle": "アニメ鑑定士仮",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%A2%E3%83%8B%E3%83%A1%E9%91%91%E5%AE%9A%E5%A3%AB%E4%BB%AE"
+    "url": "https://abema.tv/search?q=%E3%82%A2%E3%83%8B%E3%83%A1%E9%91%91%E5%AE%9A%E5%A3%AB%E4%BB%AE",
+    "episodeInfo": "第12話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kq44K/44Kv",
@@ -4667,7 +5678,10 @@
     "originalWorkTitle": "オタクに優しいギャルはいない!?",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AA%E3%82%BF%E3%82%AF%E3%81%AB%E5%84%AA%E3%81%97%E3%81%84%E3%82%AE%E3%83%A3%E3%83%AB%E3%81%AF%E3%81%84%E3%81%AA%E3%81%84!%3F"
+    "url": "https://abema.tv/search?q=%E3%82%AA%E3%82%BF%E3%82%AF%E3%81%AB%E5%84%AA%E3%81%97%E3%81%84%E3%82%AE%E3%83%A3%E3%83%AB%E3%81%AF%E3%81%84%E3%81%AA%E3%81%84!%3F",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44Gh44GE44GL",
@@ -4681,7 +5695,10 @@
     "originalWorkTitle": "ちいかわ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F"
+    "url": "https://abema.tv/search?q=%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F",
+    "episodeInfo": "第166話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44K544O844OR",
@@ -4695,7 +5712,10 @@
     "originalWorkTitle": "スーパーの裏でヤニ吸うふたり",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%81%AE%E8%A3%8F%E3%81%A7%E3%83%A4%E3%83%8B%E5%90%B8%E3%81%86%E3%81%B5%E3%81%9F%E3%82%8A"
+    "url": "https://abema.tv/search?q=%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%81%AE%E8%A3%8F%E3%81%A7%E3%83%A4%E3%83%8B%E5%90%B8%E3%81%86%E3%81%B5%E3%81%9F%E3%82%8A",
+    "episodeInfo": "第1話〜第6話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5oWO6YeN5YuH",
@@ -4709,7 +5729,10 @@
     "originalWorkTitle": "慎重勇者",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%85%8E%E9%87%8D%E5%8B%87%E8%80%85"
+    "url": "https://abema.tv/search?q=%E6%85%8E%E9%87%8D%E5%8B%87%E8%80%85",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Ko44Ot44Oe",
@@ -4723,7 +5746,10 @@
     "originalWorkTitle": "エロマンガ先生",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%A8%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%AC%E5%85%88%E7%94%9F"
+    "url": "https://abema.tv/search?q=%E3%82%A8%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%AC%E5%85%88%E7%94%9F",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OH44Kt44KL",
@@ -4737,7 +5763,10 @@
     "originalWorkTitle": "デキる猫は今日も憂鬱",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%87%E3%82%AD%E3%82%8B%E7%8C%AB%E3%81%AF%E4%BB%8A%E6%97%A5%E3%82%82%E6%86%82%E9%AC%B1"
+    "url": "https://abema.tv/search?q=%E3%83%87%E3%82%AD%E3%82%8B%E7%8C%AB%E3%81%AF%E4%BB%8A%E6%97%A5%E3%82%82%E6%86%82%E9%AC%B1",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kz44O844OJ",
@@ -4751,7 +5780,10 @@
     "originalWorkTitle": "コードギアス 反逆のルルーシュ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9%20%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5"
+    "url": "https://abema.tv/search?q=%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9%20%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5",
+    "episodeInfo": "第13話〜第25話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6IGW5aWz44Gu",
@@ -4765,7 +5797,10 @@
     "originalWorkTitle": "聖女の魔力は万能です Season2",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%81%96%E5%A5%B3%E3%81%AE%E9%AD%94%E5%8A%9B%E3%81%AF%E4%B8%87%E8%83%BD%E3%81%A7%E3%81%99%20Season2"
+    "url": "https://abema.tv/search?q=%E8%81%96%E5%A5%B3%E3%81%AE%E9%AD%94%E5%8A%9B%E3%81%AF%E4%B8%87%E8%83%BD%E3%81%A7%E3%81%99%20Season2",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6buE5rOJ44Gu",
@@ -4779,7 +5814,10 @@
     "originalWorkTitle": "…ユルさんのご両親も早く見つかるといいですね…｜TVアニメ「黄泉のツガイ」",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%BB%84%E6%B3%89%E3%81%AE%E3%83%84%E3%82%AC%E3%82%A4"
+    "url": "https://abema.tv/search?q=%E9%BB%84%E6%B3%89%E3%81%AE%E3%83%84%E3%82%AC%E3%82%A4",
+    "episodeInfo": "第1話〜第10話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kq44O844OQ",
@@ -4793,7 +5831,10 @@
     "originalWorkTitle": "オーバーロード",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89"
+    "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89",
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Oe44Ku",
@@ -4807,7 +5848,10 @@
     "originalWorkTitle": "マギ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%9E%E3%82%AE"
+    "url": "https://abema.tv/search?q=%E3%83%9E%E3%82%AE",
+    "episodeInfo": "第1話〜第25話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-56We44Gu5bqt",
@@ -4821,7 +5865,10 @@
     "originalWorkTitle": "神の庭付き楠木邸",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%A5%9E%E3%81%AE%E5%BA%AD%E4%BB%98%E3%81%8D%E6%A5%A0%E6%9C%A8%E9%82%B8"
+    "url": "https://abema.tv/search?q=%E7%A5%9E%E3%81%AE%E5%BA%AD%E4%BB%98%E3%81%8D%E6%A5%A0%E6%9C%A8%E9%82%B8",
+    "episodeInfo": "第1話〜第10話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6IGW5aWz44Gu",
@@ -4835,7 +5882,10 @@
     "originalWorkTitle": "聖女の魔力は万能です",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%81%96%E5%A5%B3%E3%81%AE%E9%AD%94%E5%8A%9B%E3%81%AF%E4%B8%87%E8%83%BD%E3%81%A7%E3%81%99"
+    "url": "https://abema.tv/search?q=%E8%81%96%E5%A5%B3%E3%81%AE%E9%AD%94%E5%8A%9B%E3%81%AF%E4%B8%87%E8%83%BD%E3%81%A7%E3%81%99",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Od44Kx44OD",
@@ -4849,7 +5899,10 @@
     "originalWorkTitle": "ポケットモンスター 新シリーズ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%20%E6%96%B0%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA"
+    "url": "https://abema.tv/search?q=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%20%E6%96%B0%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+    "episodeInfo": "第140話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-RmF0ZS9aZXJv",
@@ -4863,7 +5916,10 @@
     "originalWorkTitle": "Fate/Zero",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=Fate%2FZero"
+    "url": "https://abema.tv/search?q=Fate%2FZero",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5YuY6YGV44GE",
@@ -4877,7 +5933,10 @@
     "originalWorkTitle": "勘違いの工房主",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%8B%98%E9%81%95%E3%81%84%E3%81%AE%E5%B7%A5%E6%88%BF%E4%B8%BB"
+    "url": "https://abema.tv/search?q=%E5%8B%98%E9%81%95%E3%81%84%E3%81%AE%E5%B7%A5%E6%88%BF%E4%B8%BB",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6LaF5Lq66auY",
@@ -4891,7 +5950,10 @@
     "originalWorkTitle": "超人高校生たちは異世界でも余裕で生き抜くようです！",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%B6%85%E4%BA%BA%E9%AB%98%E6%A0%A1%E7%94%9F%E3%81%9F%E3%81%A1%E3%81%AF%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%A7%E3%82%82%E4%BD%99%E8%A3%95%E3%81%A7%E7%94%9F%E3%81%8D%E6%8A%9C%E3%81%8F%E3%82%88%E3%81%86%E3%81%A7%E3%81%99%EF%BC%81"
+    "url": "https://abema.tv/search?q=%E8%B6%85%E4%BA%BA%E9%AB%98%E6%A0%A1%E7%94%9F%E3%81%9F%E3%81%A1%E3%81%AF%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%A7%E3%82%82%E4%BD%99%E8%A3%95%E3%81%A7%E7%94%9F%E3%81%8D%E6%8A%9C%E3%81%8F%E3%82%88%E3%81%86%E3%81%A7%E3%81%99%EF%BC%81",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Go44KT44GM",
@@ -4905,7 +5967,10 @@
     "originalWorkTitle": "とんがり帽子のアトリエ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8"
+    "url": "https://abema.tv/search?q=%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8",
+    "episodeInfo": "第1話〜第11話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Gs44GE44K5",
@@ -4919,7 +5984,10 @@
     "originalWorkTitle": "ぬいストーリー2",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%AC%E3%81%84%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC2"
+    "url": "https://abema.tv/search?q=%E3%81%AC%E3%81%84%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC2",
+    "episodeInfo": "第86話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-44Gh44Gv44KE",
@@ -4933,7 +6001,10 @@
     "originalWorkTitle": "ちはやふる",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%A1%E3%81%AF%E3%82%84%E3%81%B5%E3%82%8B"
+    "url": "https://abema.tv/search?q=%E3%81%A1%E3%81%AF%E3%82%84%E3%81%B5%E3%82%8B",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GK6Zqj44Gu",
@@ -4947,7 +6018,10 @@
     "originalWorkTitle": "お隣の天使様",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%8A%E9%9A%A3%E3%81%AE%E5%A4%A9%E4%BD%BF%E6%A7%98"
+    "url": "https://abema.tv/search?q=%E3%81%8A%E9%9A%A3%E3%81%AE%E5%A4%A9%E4%BD%BF%E6%A7%98",
+    "episodeInfo": "第2話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5p2W44Go5Ymj",
@@ -4961,7 +6035,10 @@
     "originalWorkTitle": "杖と剣のウィストリア Season2",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%9D%96%E3%81%A8%E5%89%A3%E3%81%AE%E3%82%A6%E3%82%A3%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2%20Season2"
+    "url": "https://abema.tv/search?q=%E6%9D%96%E3%81%A8%E5%89%A3%E3%81%AE%E3%82%A6%E3%82%A3%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2%20Season2",
+    "episodeInfo": "第21話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55eb44GE44Gu",
@@ -4975,7 +6052,10 @@
     "originalWorkTitle": "痛いのは嫌なので防御力に極振りしたいと思います。",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%97%9B%E3%81%84%E3%81%AE%E3%81%AF%E5%AB%8C%E3%81%AA%E3%81%AE%E3%81%A7%E9%98%B2%E5%BE%A1%E5%8A%9B%E3%81%AB%E6%A5%B5%E6%8C%AF%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E6%80%9D%E3%81%84%E3%81%BE%E3%81%99%E3%80%82"
+    "url": "https://abema.tv/search?q=%E7%97%9B%E3%81%84%E3%81%AE%E3%81%AF%E5%AB%8C%E3%81%AA%E3%81%AE%E3%81%A7%E9%98%B2%E5%BE%A1%E5%8A%9B%E3%81%AB%E6%A5%B5%E6%8C%AF%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E6%80%9D%E3%81%84%E3%81%BE%E3%81%99%E3%80%82",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44G+44GK44KG",
@@ -4989,7 +6069,10 @@
     "originalWorkTitle": "まおゆう魔王勇者",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%BE%E3%81%8A%E3%82%86%E3%81%86%E9%AD%94%E7%8E%8B%E5%8B%87%E8%80%85"
+    "url": "https://abema.tv/search?q=%E3%81%BE%E3%81%8A%E3%82%86%E3%81%86%E9%AD%94%E7%8E%8B%E5%8B%87%E8%80%85",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Gu44KT44Gu",
@@ -5003,7 +6086,10 @@
     "originalWorkTitle": "のんのんびより",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%AE%E3%82%93%E3%81%AE%E3%82%93%E3%81%B3%E3%82%88%E3%82%8A"
+    "url": "https://abema.tv/search?q=%E3%81%AE%E3%82%93%E3%81%AE%E3%82%93%E3%81%B3%E3%82%88%E3%82%8A",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5aSc5qGc44GV",
@@ -5017,7 +6103,10 @@
     "originalWorkTitle": "夜桜さんちの大作戦",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%A4%9C%E6%A1%9C%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E5%A4%A7%E4%BD%9C%E6%88%A6"
+    "url": "https://abema.tv/search?q=%E5%A4%9C%E6%A1%9C%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E5%A4%A7%E4%BD%9C%E6%88%A6",
+    "episodeInfo": "第2話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6a2U6KGT5bir",
@@ -5031,7 +6120,10 @@
     "originalWorkTitle": "魔術師クノンは見えている",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%AD%94%E8%A1%93%E5%B8%AB%E3%82%AF%E3%83%8E%E3%83%B3%E3%81%AF%E8%A6%8B%E3%81%88%E3%81%A6%E3%81%84%E3%82%8B"
+    "url": "https://abema.tv/search?q=%E9%AD%94%E8%A1%93%E5%B8%AB%E3%82%AF%E3%83%8E%E3%83%B3%E3%81%AF%E8%A6%8B%E3%81%88%E3%81%A6%E3%81%84%E3%82%8B",
+    "episodeInfo": "第1話〜第13話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5bCP5p6X5Y2D",
@@ -5045,7 +6137,10 @@
     "originalWorkTitle": "小林千晃のPARTY×PARTY",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E5%B0%8F%E6%9E%97%E5%8D%83%E6%99%83%E3%81%AEPARTY%C3%97PARTY"
+    "url": "https://abema.tv/search?q=%E5%B0%8F%E6%9E%97%E5%8D%83%E6%99%83%E3%81%AEPARTY%C3%97PARTY",
+    "episodeInfo": "第62話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Oe44Oq44OD",
@@ -5059,7 +6154,10 @@
     "originalWorkTitle": "マリッジトキシン",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%9E%E3%83%AA%E3%83%83%E3%82%B8%E3%83%88%E3%82%AD%E3%82%B7%E3%83%B3"
+    "url": "https://abema.tv/search?q=%E3%83%9E%E3%83%AA%E3%83%83%E3%82%B8%E3%83%88%E3%82%AD%E3%82%B7%E3%83%B3",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -5073,7 +6171,10 @@
     "originalWorkTitle": "転生したらスライムだった件 転スラ日記",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6%20%E8%BB%A2%E3%82%B9%E3%83%A9%E6%97%A5%E8%A8%98"
+    "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6%20%E8%BB%A2%E3%82%B9%E3%83%A9%E6%97%A5%E8%A8%98",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-6Yi05p2R5YGl",
@@ -5087,7 +6188,10 @@
     "originalWorkTitle": "鈴村健一のラジベース",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E9%88%B4%E6%9D%91%E5%81%A5%E4%B8%80%E3%81%AE%E3%83%A9%E3%82%B8%E3%83%99%E3%83%BC%E3%82%B9"
+    "url": "https://abema.tv/search?q=%E9%88%B4%E6%9D%91%E5%81%A5%E4%B8%80%E3%81%AE%E3%83%A9%E3%82%B8%E3%83%99%E3%83%BC%E3%82%B9",
+    "episodeInfo": "第220話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44K544OO44Km",
@@ -5101,7 +6205,10 @@
     "originalWorkTitle": "スノウボールアース",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%B9%E3%83%8E%E3%82%A6%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%B9"
+    "url": "https://abema.tv/search?q=%E3%82%B9%E3%83%8E%E3%82%A6%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%B9",
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": true
   },
   {
     "id": "abema-auto-5LiK5LyK6YKj",
@@ -5115,7 +6222,10 @@
     "originalWorkTitle": "上伊那ぼたん、酒の肴になる話　おかわり",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E4%B8%8A%E4%BC%8A%E9%82%A3%E3%81%BC%E3%81%9F%E3%82%93%E3%80%81%E9%85%92%E3%81%AE%E8%82%B4%E3%81%AB%E3%81%AA%E3%82%8B%E8%A9%B1%E3%80%80%E3%81%8A%E3%81%8B%E3%82%8F%E3%82%8A"
+    "url": "https://abema.tv/search?q=%E4%B8%8A%E4%BC%8A%E9%82%A3%E3%81%BC%E3%81%9F%E3%82%93%E3%80%81%E9%85%92%E3%81%AE%E8%82%B4%E3%81%AB%E3%81%AA%E3%82%8B%E8%A9%B1%E3%80%80%E3%81%8A%E3%81%8B%E3%82%8F%E3%82%8A",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5paJ6Jek5aOu",
@@ -5129,7 +6239,10 @@
     "originalWorkTitle": "斉藤壮馬 Strange dayS",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E6%96%89%E8%97%A4%E5%A3%AE%E9%A6%AC%20Strange%20dayS"
+    "url": "https://abema.tv/search?q=%E6%96%89%E8%97%A4%E5%A3%AE%E9%A6%AC%20Strange%20dayS",
+    "episodeInfo": "第285話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-5LiK5LyK6YKj",
@@ -5143,7 +6256,10 @@
     "originalWorkTitle": "つきあえよ、ねーちゃん｜TVアニメ『上伊那ぼたん、酔へる姿は百合の花』",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E4%B8%8A%E4%BC%8A%E9%82%A3%E3%81%BC%E3%81%9F%E3%82%93%E3%80%81%E9%85%94%E3%81%B8%E3%82%8B%E5%A7%BF%E3%81%AF%E7%99%BE%E5%90%88%E3%81%AE%E8%8A%B1"
+    "url": "https://abema.tv/search?q=%E4%B8%8A%E4%BC%8A%E9%82%A3%E3%81%BC%E3%81%9F%E3%82%93%E3%80%81%E9%85%94%E3%81%B8%E3%82%8B%E5%A7%BF%E3%81%AF%E7%99%BE%E5%90%88%E3%81%AE%E8%8A%B1",
+    "episodeInfo": "第10話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44OW44Or44O8",
@@ -5157,7 +6273,10 @@
     "originalWorkTitle": "ブルーロック",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF"
+    "url": "https://abema.tv/search?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "fCuCHEPKHEQ",
@@ -5170,7 +6289,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/fCuCHEPKHEQ/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第29話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GV44GP44KJ",
@@ -5184,7 +6306,10 @@
     "originalWorkTitle": "さくらももこ劇場 コジコジ",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%95%E3%81%8F%E3%82%89%E3%82%82%E3%82%82%E3%81%93%E5%8A%87%E5%A0%B4%20%E3%82%B3%E3%82%B8%E3%82%B3%E3%82%B8"
+    "url": "https://abema.tv/search?q=%E3%81%95%E3%81%8F%E3%82%89%E3%82%82%E3%82%82%E3%81%93%E5%8A%87%E5%A0%B4%20%E3%82%B3%E3%82%B8%E3%82%B3%E3%82%B8",
+    "episodeInfo": "第86話〜第100話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55eb44GE44Gu",
@@ -5198,7 +6323,10 @@
     "originalWorkTitle": "痛いのは嫌なので防御力に極振りしたいと思います。２",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%97%9B%E3%81%84%E3%81%AE%E3%81%AF%E5%AB%8C%E3%81%AA%E3%81%AE%E3%81%A7%E9%98%B2%E5%BE%A1%E5%8A%9B%E3%81%AB%E6%A5%B5%E6%8C%AF%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E6%80%9D%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%EF%BC%92"
+    "url": "https://abema.tv/search?q=%E7%97%9B%E3%81%84%E3%81%AE%E3%81%AF%E5%AB%8C%E3%81%AA%E3%81%AE%E3%81%A7%E9%98%B2%E5%BE%A1%E5%8A%9B%E3%81%AB%E6%A5%B5%E6%8C%AF%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E6%80%9D%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%EF%BC%92",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -5212,7 +6340,10 @@
     "originalWorkTitle": "異世界の沙汰は社畜次第",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AE%E6%B2%99%E6%B1%B0%E3%81%AF%E7%A4%BE%E7%95%9C%E6%AC%A1%E7%AC%AC"
+    "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AE%E6%B2%99%E6%B1%B0%E3%81%AF%E7%A4%BE%E7%95%9C%E6%AC%A1%E7%AC%AC",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Kr44OD44Kz",
@@ -5226,7 +6357,10 @@
     "originalWorkTitle": "カッコウの許嫁",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%83%E3%82%B3%E3%82%A6%E3%81%AE%E8%A8%B1%E5%AB%81"
+    "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%83%E3%82%B3%E3%82%A6%E3%81%AE%E8%A8%B1%E5%AB%81",
+    "episodeInfo": "第1話〜第24話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44GU5rOo5paH",
@@ -5240,7 +6374,10 @@
     "originalWorkTitle": "ご注文はうさぎですか？？",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%EF%BC%9F"
+    "url": "https://abema.tv/search?q=%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%EF%BC%9F",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "abema-auto-44Go44GC44KL",
@@ -5254,7 +6391,10 @@
     "originalWorkTitle": "とある科学の超電磁砲",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2"
+    "url": "https://abema.tv/search?q=%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2",
+    "episodeInfo": "第13話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "abema-auto-57Sg5p2Q5o6h",
@@ -5268,7 +6408,10 @@
     "originalWorkTitle": "素材採取家の異世界旅行記",
     "endDate": null,
     "isManual": true,
-    "url": "https://abema.tv/search?q=%E7%B4%A0%E6%9D%90%E6%8E%A1%E5%8F%96%E5%AE%B6%E3%81%AE%E7%95%B0%E4%B8%96%E7%95%8C%E6%97%85%E8%A1%8C%E8%A8%98"
+    "url": "https://abema.tv/search?q=%E7%B4%A0%E6%9D%90%E6%8E%A1%E5%8F%96%E5%AE%B6%E3%81%AE%E7%95%B0%E4%B8%96%E7%95%8C%E6%97%85%E8%A1%8C%E8%A8%98",
+    "episodeInfo": "第1話〜第12話",
+    "isBulk": true,
+    "isLatest": false
   },
   {
     "id": "oEfSdh920sQ",
@@ -5281,7 +6424,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/oEfSdh920sQ/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "SfY08aHf2-A",
@@ -5294,7 +6440,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/SfY08aHf2-A/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "Wiajo1OAyw0",
@@ -5307,7 +6456,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/Wiajo1OAyw0/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第48話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "LCdXxbOsuIk",
@@ -5320,7 +6472,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/LCdXxbOsuIk/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "No-tu-sa1zc",
@@ -5333,7 +6488,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/No-tu-sa1zc/hqdefault.jpg",
     "originalWorkTitle": "機動戦士ガンダム",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第48話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "sMnqkzzhinI",
@@ -5346,7 +6504,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/sMnqkzzhinI/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "gAIpqcIWrew",
@@ -5359,7 +6520,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/gAIpqcIWrew/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "_EmFgyQmlnM",
@@ -5372,7 +6536,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/_EmFgyQmlnM/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "vFwS6MJszUU",
@@ -5385,7 +6552,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/vFwS6MJszUU/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "plUaKDg3938",
@@ -5398,7 +6568,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/plUaKDg3938/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "trDqfdtr3O8",
@@ -5411,7 +6584,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/trDqfdtr3O8/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "Ft_GOnQVrCY",
@@ -5424,7 +6600,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/Ft_GOnQVrCY/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "ldF9SKWA2W4",
@@ -5437,7 +6616,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/ldF9SKWA2W4/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "-KvsGYj22Xs",
@@ -5450,7 +6632,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/-KvsGYj22Xs/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "Ti11E_NVctQ",
@@ -5463,7 +6648,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/Ti11E_NVctQ/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "IhqafcigRps",
@@ -5476,7 +6664,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/IhqafcigRps/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "vjchELMlrYI",
@@ -5489,7 +6680,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/vjchELMlrYI/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "orzw_5GqbK8",
@@ -5502,7 +6696,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/orzw_5GqbK8/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "Y5vLEp9fC08",
@@ -5515,7 +6712,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/Y5vLEp9fC08/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "JxK5JpWlkeQ",
@@ -5528,7 +6728,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/JxK5JpWlkeQ/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "SxA3pY5yuiM",
@@ -5541,7 +6744,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/SxA3pY5yuiM/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "6giUk3Xs0To",
@@ -5554,7 +6760,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/6giUk3Xs0To/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "vfp4ch8yf_8",
@@ -5567,7 +6776,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/vfp4ch8yf_8/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "fV454_C3mD8",
@@ -5580,7 +6792,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/fV454_C3mD8/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第1155話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "WeLUYj9jccI",
@@ -5593,7 +6808,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/WeLUYj9jccI/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "SDWChEQkHFk",
@@ -5606,7 +6824,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/SDWChEQkHFk/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "aUcSjA-EYgw",
@@ -5619,7 +6840,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/aUcSjA-EYgw/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "fifw2OX12yg",
@@ -5632,7 +6856,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/fifw2OX12yg/hqdefault.jpg",
     "originalWorkTitle": "ONE PIECE",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "yjVHaxkmLcY",
@@ -5645,7 +6872,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/yjVHaxkmLcY/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第9話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "-TfmKw3VisU",
@@ -5658,7 +6888,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/-TfmKw3VisU/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第8話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "KUl6q26RtXY",
@@ -5671,7 +6904,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/KUl6q26RtXY/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第7話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "3v37QZpbQ8Q",
@@ -5684,7 +6920,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/3v37QZpbQ8Q/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第6話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "VCBANBeLoxU",
@@ -5697,7 +6936,10 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/VCBANBeLoxU/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第5話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "89lctUYNGLg",
@@ -5710,7 +6952,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/89lctUYNGLg/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第4話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "EqmuRqB5EXs",
@@ -5723,7 +6968,10 @@
     "thumbnailUrl": "https://i2.ytimg.com/vi/EqmuRqB5EXs/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第3話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "KBLMtJtFn-M",
@@ -5736,7 +6984,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/KBLMtJtFn-M/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第2話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "PtpKFwMQ5fQ",
@@ -5749,7 +7000,10 @@
     "thumbnailUrl": "https://i1.ytimg.com/vi/PtpKFwMQ5fQ/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第2話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "k_OuSlWJWZo",
@@ -5762,7 +7016,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/k_OuSlWJWZo/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "第1話",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "W5GAI1FIzms",
@@ -5775,7 +7032,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/W5GAI1FIzms/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "CHA-50qF7wg",
@@ -5788,7 +7048,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/CHA-50qF7wg/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "WYLgWb-A7ks",
@@ -5801,7 +7064,10 @@
     "thumbnailUrl": "https://i4.ytimg.com/vi/WYLgWb-A7ks/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   },
   {
     "id": "2qF_TBY5Kk4",
@@ -5814,6 +7080,9 @@
     "thumbnailUrl": "https://i3.ytimg.com/vi/2qF_TBY5Kk4/hqdefault.jpg",
     "originalWorkTitle": "",
     "endDate": null,
-    "isManual": false
+    "isManual": false,
+    "episodeInfo": "",
+    "isBulk": false,
+    "isLatest": false
   }
 ]

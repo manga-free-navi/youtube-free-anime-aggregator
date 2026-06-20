@@ -17,6 +17,9 @@ export interface Video {
   endDate?: string | null;
   playlistId?: string; // 再生リスト一挙対応用のプロパティ
   url?: string;
+  episodeInfo?: string;
+  isBulk?: boolean;
+  isLatest?: boolean;
 }
 
 interface VideoCardProps {
@@ -216,6 +219,9 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
         {/* バッジ表示 */}
         <div className="card-badges">
           {isUpcoming && <span className="badge-item badge-upcoming" style={{ background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)' }}>公開前</span>}
+          {video.isLatest && <span className="badge-item badge-latest" style={{ background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)' }}>最新話</span>}
+          {video.isBulk && <span className="badge-item badge-bulk" style={{ background: 'linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)' }}>一挙公開</span>}
+          {video.episodeInfo && <span className="badge-item badge-episode" style={{ background: 'rgba(255, 255, 255, 0.15)', border: '1px solid rgba(255, 255, 255, 0.25)', textShadow: '0 1px 2px rgba(0,0,0,0.5)' }}>{video.episodeInfo}</span>}
           {video.url && <span className="badge-item badge-manual" style={{ background: 'linear-gradient(135deg, #ff1744 0%, #ec4899 100%)' }}>外部配信</span>}
           {video.playlistId && <span className="badge-item badge-manual" style={{ background: 'linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)' }}>全話一挙</span>}
           {video.isManual && !video.playlistId && <span className="badge-item badge-manual">注目作</span>}
@@ -255,6 +261,39 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
         >
           {video.title}
         </h3>
+
+        {/* 公開形態の補足説明テキスト */}
+        {(video.episodeInfo || video.isLatest || video.isBulk) && (
+          <div className="release-format-info" style={{ 
+            fontSize: '0.775rem', 
+            margin: '0.5rem 0 0.75rem 0', 
+            padding: '0.4rem 0.6rem', 
+            borderRadius: '6px',
+            background: video.isBulk ? 'rgba(6, 182, 212, 0.08)' : 'rgba(255, 255, 255, 0.03)',
+            border: video.isBulk ? '1px solid rgba(6, 182, 212, 0.15)' : '1px solid rgba(255, 255, 255, 0.05)',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.4rem',
+            fontWeight: 600
+          }}>
+            {video.isBulk ? (
+              <>
+                <span style={{ color: '#06b6d4' }}>📚 一挙無料公開</span>
+                <span style={{ color: 'var(--text-sub)', fontSize: '0.7rem' }}>({video.episodeInfo}を一気見可能！)</span>
+              </>
+            ) : video.isLatest ? (
+              <>
+                <span style={{ color: '#10b981' }}>🔥 最新話無料公開</span>
+                {video.episodeInfo && <span style={{ color: 'var(--text-sub)', fontSize: '0.7rem' }}>({video.episodeInfo}が公開中)</span>}
+              </>
+            ) : (
+              <>
+                <span style={{ color: 'var(--text-muted)' }}>📺 無料配信中</span>
+                {video.episodeInfo && <span style={{ color: 'var(--text-sub)', fontSize: '0.7rem' }}>({video.episodeInfo}を公開中)</span>}
+              </>
+            )}
+          </div>
+        )}
 
         {/* あらすじ */}
         <div className="synopsis-container">

@@ -55,6 +55,35 @@ function guessOriginalWorkTitle(title) {
 }
 
 /**
+ * 動画タイトルから話数情報・公開形態（一挙・最新話）を自動抽出する
+ */
+function extractEpisodeMeta(title) {
+  let episodeInfo = "";
+  let isBulk = false;
+  let isLatest = title.includes("最新話");
+
+  // 1. 複数話一挙の検出 (例: #1〜11, 第1〜12話, #1-6, #1~5)
+  const rangeMatch = title.match(/(?:#|第)\s*(\d+)\s*(?:〜|~|-)\s*(\d+)\s*[話期]?/);
+  if (rangeMatch) {
+    episodeInfo = `第${rangeMatch[1]}話〜第${rangeMatch[2]}話`;
+    isBulk = true;
+  } else {
+    // 2. 単一話数の検出 (例: #10, 第10話, # 140)
+    const singleMatch = title.match(/(?:#|第|#\s*)(\d+)\s*話?/);
+    if (singleMatch) {
+      episodeInfo = `第${singleMatch[1]}話`;
+    }
+  }
+
+  // タイトルに「一挙」や「全話」が含まれる場合も一挙と見なす
+  if (title.includes("一挙") || title.includes("全話")) {
+    isBulk = true;
+  }
+
+  return { episodeInfo, isBulk, isLatest };
+}
+
+/**
  * 動画の説明文（あらすじ等）から配信終了日を正規表現で自動抽出する
  */
 function extractEndDate(description) {
@@ -118,6 +147,7 @@ async function fetchChannelRss(channel) {
       const thumbnailUrl = entry.find('media\\:thumbnail').attr('url') || `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
       
       if (id && title) {
+        const epMeta = extractEpisodeMeta(title);
         videos.push({
           id,
           title,
@@ -129,7 +159,8 @@ async function fetchChannelRss(channel) {
           thumbnailUrl,
           originalWorkTitle: guessOriginalWorkTitle(title),
           endDate: extractEndDate(description),
-          isManual: false
+          isManual: false,
+          ...epMeta
         });
       }
     });
@@ -250,6 +281,8 @@ async function fetchAbemaMetadata(item) {
     const titleId = idMatch ? idMatch[1] : Math.random().toString(36).substring(7);
     const videoId = `abema-${titleId}`;
 
+    const epMeta = extractEpisodeMeta(finalTitle);
+
     return {
       id: videoId,
       title: finalTitle,
@@ -262,15 +295,19 @@ async function fetchAbemaMetadata(item) {
       originalWorkTitle: item.originalWorkTitle,
       endDate: null,
       isManual: true,
-      url: item.url
+      url: item.url,
+      ...epMeta
     };
   } catch (error) {
     console.error(`Error fetching ABEMA metadata for ${item.url}:`, error.message);
     const idMatch = item.url.match(/title\/(.+)$/);
     const titleId = idMatch ? idMatch[1] : Math.random().toString(36).substring(7);
+    const fallbackTitle = `${item.originalWorkTitle} (毎週無料枠)`;
+    const epMeta = extractEpisodeMeta(fallbackTitle);
+    
     return {
       id: `abema-${titleId}`,
-      title: `${item.originalWorkTitle} (毎週無料枠)`,
+      title: fallbackTitle,
       channelId: "abema",
       channelName: "ABEMA",
       category: item.category || "アニメ",
@@ -280,7 +317,8 @@ async function fetchAbemaMetadata(item) {
       originalWorkTitle: item.originalWorkTitle,
       endDate: null,
       isManual: true,
-      url: item.url
+      url: item.url,
+      ...epMeta
     };
   }
 }
@@ -394,6 +432,8 @@ async function fetchAbemaFromEPG(youtubeVideos) {
         const startIso = parseEPGTime(start);
         const safeId = Buffer.from(cleanTitle).toString('base64').replace(/=/g, '').substring(0, 12);
         
+        const epMeta = extractEpisodeMeta(rawTitle);
+
         uniquePrograms.set(cleanTitle, {
           id: `abema-auto-${safeId}`,
           title: `${cleanTitle} (ABEMA無料配信中)`,
@@ -406,7 +446,8 @@ async function fetchAbemaFromEPG(youtubeVideos) {
           originalWorkTitle: originalWork || cleanTitle,
           endDate: null,
           isManual: true,
-          url: searchUrl
+          url: searchUrl,
+          ...epMeta
         });
       }
     });
