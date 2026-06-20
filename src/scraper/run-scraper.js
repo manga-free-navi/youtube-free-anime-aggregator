@@ -301,7 +301,7 @@ async function fetchAbemaMetadata(item) {
   } catch (error) {
     console.error(`Error fetching ABEMA metadata for ${item.url}:`, error.message);
     const idMatch = item.url.match(/title\/(.+)$/);
-    const titleId = idMatch ? idMatch[1] : Math.random().toString(36).substring(7);
+    const titleId = idMatch ? idMatch[1] : Buffer.from(item.originalWorkTitle).toString('hex');
     const fallbackTitle = `${item.originalWorkTitle} (毎週無料枠)`;
     const epMeta = extractEpisodeMeta(fallbackTitle);
     
@@ -430,7 +430,7 @@ async function fetchAbemaFromEPG(youtubeVideos) {
 
         const searchUrl = `https://abema.tv/search?q=${encodeURIComponent(cleanTitle)}`;
         const startIso = parseEPGTime(start);
-        const safeId = Buffer.from(cleanTitle).toString('base64').replace(/=/g, '').substring(0, 12);
+        const safeId = Buffer.from(cleanTitle).toString('hex');
         
         const epMeta = extractEpisodeMeta(rawTitle);
 
@@ -602,7 +602,13 @@ async function main() {
         saleInfo = mangaSalesMap.get(video.originalWorkTitle);
       } else if (video.title) {
         for (const [key, info] of mangaSalesMap.entries()) {
-          if (video.title.includes(key) || key.includes(video.title)) {
+          // キーが短すぎる（3文字未満）の場合は部分一致を避け、完全一致を求める
+          if (key.length >= 3) {
+            if (video.title.includes(key)) {
+              saleInfo = info;
+              break;
+            }
+          } else if (video.title === key) {
             saleInfo = info;
             break;
           }
