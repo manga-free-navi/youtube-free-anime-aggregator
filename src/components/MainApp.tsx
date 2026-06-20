@@ -23,6 +23,8 @@ interface Video {
   isManual?: boolean;
   duration?: string;
   endDate?: string | null;
+  playlistId?: string;
+  url?: string;
 }
 
 export default function MainApp() {
@@ -73,7 +75,7 @@ export default function MainApp() {
   // 1. 自動収集と手動登録動画データをマージ
   const allVideos = useMemo(() => {
     // 重複排除（手動データと自動データの動画IDが被っている場合、手動データを優先）
-    const manualIds = new Set(manualVideosData.map(v => v.id));
+    const manualIds = new Set((manualVideosData as Video[]).map(v => v.id));
     const filteredAutoVideos = (videosData as Video[]).filter(v => !manualIds.has(v.id));
     
     return [...(manualVideosData as Video[]), ...filteredAutoVideos];

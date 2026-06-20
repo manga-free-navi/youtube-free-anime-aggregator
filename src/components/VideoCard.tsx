@@ -16,6 +16,7 @@ export interface Video {
   duration?: string;
   endDate?: string | null;
   playlistId?: string; // 再生リスト一挙対応用のプロパティ
+  url?: string;
 }
 
 interface VideoCardProps {
@@ -94,7 +95,7 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
 
   // コピー処理
   const handleCopyUrl = () => {
-    const url = `https://www.youtube.com/watch?v=${video.id}`;
+    const url = video.url || `https://www.youtube.com/watch?v=${video.id}`;
     navigator.clipboard.writeText(url).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
@@ -105,8 +106,10 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
 
   // Xシェア
   const handleShareX = () => {
-    const url = `https://www.youtube.com/watch?v=${video.id}`;
-    const text = `【公式無料アニメ】『${video.title}』がYouTubeで期間限定公開中！\n終了期限：${remainingDaysText || 'お早めに'}\nいますぐ視聴：`;
+    const url = video.url || `https://www.youtube.com/watch?v=${video.id}`;
+    const text = video.url
+      ? `【公式無料アニメ】『${video.title}』が期間限定無料配信中！\n終了期限：${remainingDaysText || 'お早めに'}\nいますぐ視聴：`
+      : `【公式無料アニメ】『${video.title}』がYouTubeで期間限定公開中！\n終了期限：${remainingDaysText || 'お早めに'}\nいますぐ視聴：`;
     const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
     window.open(shareUrl, '_blank', 'noopener,noreferrer');
   };
@@ -180,7 +183,7 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
   return (
     <article className="video-card" id={`video-card-${video.id}`}>
       {/* サムネイル */}
-      <div className="thumbnail-container" onClick={() => onPlay(video)}>
+      <div className="thumbnail-container" onClick={() => video.url ? window.open(video.url, '_blank', 'noopener,noreferrer') : onPlay(video)}>
         <img 
           src={video.thumbnailUrl} 
           alt={video.title} 
@@ -197,6 +200,7 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
         
         {/* バッジ表示 */}
         <div className="card-badges">
+          {video.url && <span className="badge-item badge-manual" style={{ background: 'linear-gradient(135deg, #ff1744 0%, #ec4899 100%)' }}>外部配信</span>}
           {video.playlistId && <span className="badge-item badge-manual" style={{ background: 'linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)' }}>全話一挙</span>}
           {video.isManual && !video.playlistId && <span className="badge-item badge-manual">注目作</span>}
           <span className="badge-item badge-channel">{video.channelName}</span>
@@ -226,7 +230,7 @@ export default function VideoCard({ video, onPlay }: VideoCardProps) {
         
         <h3 
           className="video-title" 
-          onClick={() => onPlay(video)}
+          onClick={() => video.url ? window.open(video.url, '_blank', 'noopener,noreferrer') : onPlay(video)}
           title={video.title}
         >
           {video.title}
