@@ -53,6 +53,7 @@ export default function MainApp() {
   // 新規追加：プラットフォーム（配信元）ステート、および漫画お気に入りIDリスト（横断同期用）
   const [selectedPlatform, setSelectedPlatform] = useState('all');
   const [mangaFavorites, setMangaFavorites] = useState<string[]>([]);
+  const [showBulkOnly, setShowBulkOnly] = useState(false);
 
   // マウント時に閲覧設定を復元
   useEffect(() => {
@@ -64,6 +65,7 @@ export default function MainApp() {
       const savedShowFavoritesOnly = localStorage.getItem('anime_show_favorites_only');
       const savedFavorites = localStorage.getItem('anime_favorites');
       const savedPlatform = localStorage.getItem('anime_filter_platform');
+      const savedShowBulkOnly = localStorage.getItem('anime_show_bulk_only');
       
       if (savedChannel) setSelectedChannelId(savedChannel);
       if (savedCategory) setSelectedCategory(savedCategory);
@@ -76,6 +78,7 @@ export default function MainApp() {
         } catch (e) { console.error(e); }
       }
       if (savedPlatform) setSelectedPlatform(savedPlatform);
+      if (savedShowBulkOnly) setShowBulkOnly(savedShowBulkOnly === 'true');
 
       // 同一ドメイン共有領域から、漫画ナビ側のお気に入り「manga_favorites」を読み取る！
       const savedMangaFavs = localStorage.getItem('manga_favorites');
@@ -134,6 +137,14 @@ export default function MainApp() {
     } catch (e) { console.error(e); }
   };
 
+  const handleToggleShowBulkOnly = () => {
+    const newVal = !showBulkOnly;
+    setShowBulkOnly(newVal);
+    try {
+      localStorage.setItem('anime_show_bulk_only', String(newVal));
+    } catch (e) { console.error(e); }
+  };
+
   const handleToggleFavorite = (videoId: string) => {
     setFavorites((prev) => {
       const isFav = prev.includes(videoId);
@@ -181,14 +192,17 @@ export default function MainApp() {
       // お気に入りのみ表示
       const matchesFavorites = !showFavoritesOnly || favorites.includes(video.id);
 
+      // 一挙公開のみ表示
+      const matchesBulk = !showBulkOnly || video.isBulk === true;
+
       // プラットフォーム（配信元）絞り込み
       const matchesPlatform = selectedPlatform === 'all' || 
         (selectedPlatform === 'youtube' && !video.url) || 
         (selectedPlatform === 'abema' && video.url && video.url.includes('abema.tv'));
 
-      return matchesSearch && matchesChannel && matchesCategory && matchesUpcoming && matchesFavorites && matchesPlatform;
+      return matchesSearch && matchesChannel && matchesCategory && matchesUpcoming && matchesFavorites && matchesBulk && matchesPlatform;
     });
-  }, [allVideos, searchTerm, selectedChannelId, selectedCategory, hideUpcoming, showFavoritesOnly, favorites, selectedPlatform]);
+  }, [allVideos, searchTerm, selectedChannelId, selectedCategory, hideUpcoming, showFavoritesOnly, favorites, showBulkOnly, selectedPlatform]);
 
   // 3. ソート処理（手動注目動画を常に最上部に優先ピン留め）
   const sortedVideos = useMemo(() => {
@@ -253,6 +267,8 @@ export default function MainApp() {
         onToggleHideUpcoming={handleToggleHideUpcoming}
         showFavoritesOnly={showFavoritesOnly}
         onToggleShowFavoritesOnly={handleToggleShowFavoritesOnly}
+        showBulkOnly={showBulkOnly}
+        onToggleShowBulkOnly={handleToggleShowBulkOnly}
         selectedPlatform={selectedPlatform}
         onSelectPlatform={handlePlatformChange}
       />

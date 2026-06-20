@@ -233,6 +233,7 @@ export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite,
           alt={video.title} 
           className="thumbnail-img" 
           loading="lazy"
+          referrerPolicy="no-referrer"
         />
         {isUpcoming ? (
           <div className="upcoming-overlay">

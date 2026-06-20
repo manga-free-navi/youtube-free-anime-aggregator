@@ -21,6 +21,8 @@ interface FilterBarProps {
   onToggleHideUpcoming: () => void;
   showFavoritesOnly: boolean;
   onToggleShowFavoritesOnly: () => void;
+  showBulkOnly: boolean;
+  onToggleShowBulkOnly: () => void;
   selectedPlatform: string;
   onSelectPlatform: (platform: string) => void;
 }
@@ -39,6 +41,8 @@ export default function FilterBar({
   onToggleHideUpcoming,
   showFavoritesOnly,
   onToggleShowFavoritesOnly,
+  showBulkOnly,
+  onToggleShowBulkOnly,
   selectedPlatform,
   onSelectPlatform,
 }: FilterBarProps) {
@@ -182,6 +186,18 @@ export default function FilterBar({
             id="btn-toggle-favorites-only"
           >
             ♥ お気に入りのみ表示
+          </button>
+          <button
+            className={`filter-btn toggle-btn ${showBulkOnly ? 'active' : ''}`}
+            onClick={onToggleShowBulkOnly}
+            style={{
+              borderColor: showBulkOnly ? '#06b6d4' : 'rgba(255,255,255,0.1)',
+              background: showBulkOnly ? 'rgba(6,182,212,0.15)' : 'none',
+              color: showBulkOnly ? '#06b6d4' : 'var(--text-sub)'
+            }}
+            id="btn-toggle-bulk-only"
+          >
+            📚 一挙公開のみ表示
           </button>
           <button
             className={`filter-btn toggle-btn ${hideUpcoming ? 'active' : ''}`}

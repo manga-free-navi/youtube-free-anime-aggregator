@@ -75,9 +75,13 @@ function extractEpisodeMeta(title) {
     }
   }
 
-  // タイトルに「一挙」や「全話」が含まれる場合も一挙と見なす
-  if (title.includes("一挙") || title.includes("全話")) {
+  // 3. タイトルに「一挙」や「全話」が含まれる場合、一挙フラグを優先
+  if (title.includes("一挙") || title.includes("全話") || title.includes("全話配信")) {
     isBulk = true;
+    // 単一の「第1話」という検出しかできていない、あるいは話数が取れていない場合は「全話一挙公開中」に書き換え
+    if (episodeInfo === "第1話" || !episodeInfo) {
+      episodeInfo = "全話一挙公開中";
+    }
   }
 
   return { episodeInfo, isBulk, isLatest };
@@ -423,10 +427,8 @@ async function fetchAbemaFromEPG(youtubeVideos) {
           }
         }
 
-        // サムネイル画像：EPG公式画像を最優先、なければYouTube名寄せ画像、それもなければプレースホルダー
-        if (!matchedThumbnail) {
-          matchedThumbnail = ytThumbnail || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=60';
-        }
+        // サムネイル画像：外部直リンクが403になるABEMA公式画像を避け、YouTube名寄せ画像を最優先とする
+        matchedThumbnail = ytThumbnail || iconUrl || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=60';
 
         const searchUrl = `https://abema.tv/search?q=${encodeURIComponent(cleanTitle)}`;
         const startIso = parseEPGTime(start);
