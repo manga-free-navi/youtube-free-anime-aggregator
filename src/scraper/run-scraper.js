@@ -88,6 +88,40 @@ function extractEpisodeMeta(title) {
 }
 
 /**
+ * 2つの話数情報をマージして、最小話数〜最大話数の形式にする
+ */
+function mergeEpisodeInfo(info1, info2) {
+  if (!info1) return info2 || "";
+  if (!info2) return info1 || "";
+
+  if (info1.includes("全話") || info2.includes("全話")) {
+    return "全話一挙公開中";
+  }
+
+  const getNumbers = (str) => {
+    const matches = str.match(/\d+/g);
+    if (!matches) return [];
+    return matches.map(Number);
+  };
+
+  const nums1 = getNumbers(info1);
+  const nums2 = getNumbers(info2);
+  const allNums = [...nums1, ...nums2];
+
+  if (allNums.length === 0) {
+    return info1.length > info2.length ? info1 : info2;
+  }
+
+  const min = Math.min(...allNums);
+  const max = Math.max(...allNums);
+
+  if (min === max) {
+    return `第${min}話`;
+  }
+  return `第${min}話〜第${max}話`;
+}
+
+/**
  * 動画の説明文（あらすじ等）から配信終了日を正規表現で自動抽出する
  */
 function extractEndDate(description) {
@@ -407,6 +441,8 @@ async function fetchAbemaFromEPG(youtubeVideos) {
         return;
       }
 
+      const epMeta = extractEpisodeMeta(rawTitle);
+
       // 重複は最初に見つかったものを優先
       if (!uniquePrograms.has(cleanTitle)) {
         let matchedThumbnail = iconUrl;
@@ -433,8 +469,6 @@ async function fetchAbemaFromEPG(youtubeVideos) {
         const searchUrl = `https://abema.tv/search?q=${encodeURIComponent(cleanTitle)}`;
         const startIso = parseEPGTime(start);
         const safeId = Buffer.from(cleanTitle).toString('hex');
-        
-        const epMeta = extractEpisodeMeta(rawTitle);
 
         uniquePrograms.set(cleanTitle, {
           id: `abema-auto-${safeId}`,
@@ -451,6 +485,12 @@ async function fetchAbemaFromEPG(youtubeVideos) {
           url: searchUrl,
           ...epMeta
         });
+      } else {
+        // 重複作品の場合、話数情報をマージ・統合し、フラグを合成する
+        const existing = uniquePrograms.get(cleanTitle);
+        existing.episodeInfo = mergeEpisodeInfo(existing.episodeInfo, epMeta.episodeInfo);
+        if (epMeta.isBulk) existing.isBulk = true;
+        if (epMeta.isLatest) existing.isLatest = true;
       }
     });
 
