@@ -17,6 +17,10 @@ interface FilterBarProps {
   onSearchChange: (term: string) => void;
   sortBy: string;
   onSortChange: (sort: string) => void;
+  hideUpcoming: boolean;
+  onToggleHideUpcoming: () => void;
+  showFavoritesOnly: boolean;
+  onToggleShowFavoritesOnly: () => void;
 }
 
 export default function FilterBar({
@@ -29,6 +33,10 @@ export default function FilterBar({
   onSearchChange,
   sortBy,
   onSortChange,
+  hideUpcoming,
+  onToggleHideUpcoming,
+  showFavoritesOnly,
+  onToggleShowFavoritesOnly,
 }: FilterBarProps) {
   // 重複しないカテゴリリストの作成
   const categories = ['すべて', ...Array.from(new Set(channels.map((c) => c.category)))];
@@ -123,6 +131,37 @@ export default function FilterBar({
               {chan.displayName}
             </button>
           ))}
+        </div>
+      </div>
+
+      {/* オプション絞り込み */}
+      <div className="filter-row" style={{ borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '0.75rem' }}>
+        <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)', fontWeight: 600, minWidth: '70px' }}>オプション:</span>
+        <div className="filter-group">
+          <button
+            className={`filter-btn toggle-btn ${showFavoritesOnly ? 'active' : ''}`}
+            onClick={onToggleShowFavoritesOnly}
+            style={{
+              borderColor: showFavoritesOnly ? '#ec4899' : 'rgba(255,255,255,0.1)',
+              background: showFavoritesOnly ? 'rgba(236,72,153,0.15)' : 'none',
+              color: showFavoritesOnly ? '#f472b6' : 'var(--text-sub)'
+            }}
+            id="btn-toggle-favorites-only"
+          >
+            ♥ お気に入りのみ表示
+          </button>
+          <button
+            className={`filter-btn toggle-btn ${hideUpcoming ? 'active' : ''}`}
+            onClick={onToggleHideUpcoming}
+            style={{
+              borderColor: hideUpcoming ? '#f59e0b' : 'rgba(255,255,255,0.1)',
+              background: hideUpcoming ? 'rgba(245,158,11,0.15)' : 'none',
+              color: hideUpcoming ? '#fbbf24' : 'var(--text-sub)'
+            }}
+            id="btn-toggle-hide-upcoming"
+          >
+            🎬 配信予定を表示しない
+          </button>
         </div>
       </div>
     </div>

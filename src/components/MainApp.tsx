@@ -35,16 +35,31 @@ export default function MainApp() {
   const [sortBy, setSortBy] = useState('newest');
   const [activeVideo, setActiveVideo] = useState<Video | null>(null);
 
+  // ユーザー利便性向上ステート (配信予定非表示、お気に入りのみ表示、お気に入りIDリスト)
+  const [hideUpcoming, setHideUpcoming] = useState(false);
+  const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
+  const [favorites, setFavorites] = useState<string[]>([]);
+
   // マウント時に閲覧設定を復元
   useEffect(() => {
     try {
       const savedChannel = localStorage.getItem('anime_filter_channel');
       const savedCategory = localStorage.getItem('anime_filter_category');
       const savedSort = localStorage.getItem('anime_sort_by');
+      const savedHideUpcoming = localStorage.getItem('anime_hide_upcoming');
+      const savedShowFavoritesOnly = localStorage.getItem('anime_show_favorites_only');
+      const savedFavorites = localStorage.getItem('anime_favorites');
       
       if (savedChannel) setSelectedChannelId(savedChannel);
       if (savedCategory) setSelectedCategory(savedCategory);
       if (savedSort) setSortBy(savedSort);
+      if (savedHideUpcoming) setHideUpcoming(savedHideUpcoming === 'true');
+      if (savedShowFavoritesOnly) setShowFavoritesOnly(savedShowFavoritesOnly === 'true');
+      if (savedFavorites) {
+        try {
+          setFavorites(JSON.parse(savedFavorites));
+        } catch (e) { console.error(e); }
+      }
     } catch (e) {
       console.error('Failed to load anime preferences:', e);
     }
@@ -72,6 +87,35 @@ export default function MainApp() {
     } catch (e) { console.error(e); }
   };
 
+  const handleToggleHideUpcoming = () => {
+    const newVal = !hideUpcoming;
+    setHideUpcoming(newVal);
+    try {
+      localStorage.setItem('anime_hide_upcoming', String(newVal));
+    } catch (e) { console.error(e); }
+  };
+
+  const handleToggleShowFavoritesOnly = () => {
+    const newVal = !showFavoritesOnly;
+    setShowFavoritesOnly(newVal);
+    try {
+      localStorage.setItem('anime_show_favorites_only', String(newVal));
+    } catch (e) { console.error(e); }
+  };
+
+  const handleToggleFavorite = (videoId: string) => {
+    setFavorites((prev) => {
+      const isFav = prev.includes(videoId);
+      const nextFavs = isFav 
+        ? prev.filter((id) => id !== videoId)
+        : [...prev, videoId];
+      try {
+        localStorage.setItem('anime_favorites', JSON.stringify(nextFavs));
+      } catch (e) { console.error(e); }
+      return nextFavs;
+    });
+  };
+
   // 1. 自動収集と手動登録動画データをマージ
   const allVideos = useMemo(() => {
     // 重複排除（手動データと自動データの動画IDが被っている場合、手動データを優先）
@@ -83,6 +127,7 @@ export default function MainApp() {
 
   // 2. 検索・絞り込みの適用
   const filteredVideos = useMemo(() => {
+    const now = new Date();
     return allVideos.filter((video) => {
       // 検索キーワードマッチ（動画タイトル、チャンネル名、原作名、あらすじ）
       const query = searchTerm.toLowerCase().trim();
@@ -98,9 +143,16 @@ export default function MainApp() {
       // カテゴリ絞り込み
       const matchesCategory = selectedCategory === 'すべて' || video.category === selectedCategory;
 
-      return matchesSearch && matchesChannel && matchesCategory;
+      // 配信予定（未来公開）の非表示
+      const isUpcoming = new Date(video.publishedAt) > now;
+      const matchesUpcoming = !hideUpcoming || !isUpcoming;
+
+      // お気に入りのみ表示
+      const matchesFavorites = !showFavoritesOnly || favorites.includes(video.id);
+
+      return matchesSearch && matchesChannel && matchesCategory && matchesUpcoming && matchesFavorites;
     });
-  }, [allVideos, searchTerm, selectedChannelId, selectedCategory]);
+  }, [allVideos, searchTerm, selectedChannelId, selectedCategory, hideUpcoming, showFavoritesOnly, favorites]);
 
   // 3. ソート処理（手動注目動画を常に最上部に優先ピン留め）
   const sortedVideos = useMemo(() => {
@@ -157,6 +209,10 @@ export default function MainApp() {
         onSearchChange={setSearchTerm}
         sortBy={sortBy}
         onSortChange={handleSortChange}
+        hideUpcoming={hideUpcoming}
+        onToggleHideUpcoming={handleToggleHideUpcoming}
+        showFavoritesOnly={showFavoritesOnly}
+        onToggleShowFavoritesOnly={handleToggleShowFavoritesOnly}
       />
 
       {/* 件数表示 */}
@@ -173,6 +229,8 @@ export default function MainApp() {
                 key={video.id} 
                 video={video} 
                 onPlay={handlePlayVideo} 
+                isFavorite={favorites.includes(video.id)}
+                onToggleFavorite={handleToggleFavorite}
               />
             );
 
