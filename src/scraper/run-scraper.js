@@ -461,9 +461,16 @@ async function fetchAbemaFromEPG(youtubeVideos) {
       }
 
       const epMeta = extractEpisodeMeta(rawTitle);
+      const startIso = parseEPGTime(start);
+      
+      // 現在時刻と比較して未来枠（配信予定）かどうかを判定
+      const now = new Date();
+      const isUpcoming = new Date(startIso) > now;
+      const statusSuffix = isUpcoming ? 'upcoming' : 'active';
+      const uniqueKey = `${cleanTitle}_${statusSuffix}`;
 
       // 重複は最初に見つかったものを優先
-      if (!uniquePrograms.has(cleanTitle)) {
+      if (!uniquePrograms.has(uniqueKey)) {
         let matchedThumbnail = iconUrl;
         let originalWork = '';
         
@@ -486,12 +493,12 @@ async function fetchAbemaFromEPG(youtubeVideos) {
         matchedThumbnail = ytThumbnail || iconUrl || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=60';
 
         const searchUrl = `https://abema.tv/search?q=${encodeURIComponent(cleanTitle)}`;
-        const startIso = parseEPGTime(start);
         const safeId = Buffer.from(cleanTitle).toString('hex');
+        const displayTitle = isUpcoming ? `${cleanTitle} (ABEMA無料配信予定)` : `${cleanTitle} (ABEMA無料配信中)`;
 
-        uniquePrograms.set(cleanTitle, {
-          id: `abema-auto-${safeId}`,
-          title: `${cleanTitle} (ABEMA無料配信中)`,
+        uniquePrograms.set(uniqueKey, {
+          id: `abema-auto-${safeId}-${statusSuffix}`,
+          title: displayTitle,
           channelId: 'abema',
           channelName: 'ABEMA',
           category: 'アニメ',
@@ -506,7 +513,7 @@ async function fetchAbemaFromEPG(youtubeVideos) {
         });
       } else {
         // 重複作品の場合、話数情報をマージ・統合し、フラグを合成する
-        const existing = uniquePrograms.get(cleanTitle);
+        const existing = uniquePrograms.get(uniqueKey);
         existing.episodeInfo = mergeEpisodeInfo(existing.episodeInfo, epMeta.episodeInfo);
         if (epMeta.isBulk) existing.isBulk = true;
         if (epMeta.isLatest) existing.isLatest = true;
