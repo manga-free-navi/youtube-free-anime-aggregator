@@ -142,6 +142,66 @@ async function fetchChannelRss(channel) {
   }
 }
 
+// ISO 8601 duration から秒数に変換するヘルパー関数
+function parseISO8601Duration(durationStr) {
+  const match = durationStr.match(/P(?:T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?/);
+  if (!match) return 0;
+  const hours = parseInt(match[1] || 0, 10);
+  const minutes = parseInt(match[2] || 0, 10);
+  const seconds = parseInt(match[3] || 0, 10);
+  return hours * 3600 + minutes * 60 + seconds;
+}
+
+// PVや切り抜きなどの典型的なキーワード判定
+function isPvOrClip(title) {
+  const patterns = [
+    /pv/i, /予告/i, /特報/i, /ティザー/i, /ノンクレジット/i, /ノンクレ/i,
+    /オープニング/i, /エンディング/i, /\bOP\b/i, /\bED\b/i, /【OP】/i, /【ED】/i,
+    /宣伝/i, /\bCM\b/i, /コメント/i, /一問一答/i, /ダイジェスト/i, /切り抜き/i,
+    /\bMV\b/i, /ミュージックビデオ/i, /ボイスコミック/i, /コミック動画/i,
+    /映画公開記念/i, /舞台挨拶/i, /特別映像/i, /紹介映像/i, /番宣/i, /インタビュー/i
+  ];
+  return patterns.some(pattern => pattern.test(title));
+}
+
+// YouTube APIを使用して動画の長さを一括取得し、4分（240秒）以下のものを除外する
+async function filterShortVideosWithApi(videos, apiKey) {
+  const videoIds = videos.map(v => v.id);
+  const durationMap = new Map();
+
+  // 50件ずつバッチ処理
+  const batchSize = 50;
+  for (let i = 0; i < videoIds.length; i += batchSize) {
+    const batchIds = videoIds.slice(i, i + batchSize).join(',');
+    const url = `https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${batchIds}&key=${apiKey}`;
+    
+    try {
+      const response = await axios.get(url);
+      if (response.data && response.data.items) {
+        for (const item of response.data.items) {
+          const durationStr = item.contentDetails?.duration;
+          if (durationStr) {
+            const seconds = parseISO8601Duration(durationStr);
+            durationMap.set(item.id, seconds);
+          }
+        }
+      }
+    } catch (e) {
+      console.error(`Error fetching video details from YouTube API: ${e.message}`);
+    }
+  }
+
+  // 4分（240秒）を超えるもの、または再生時間が取得できなかった（APIエラーなど）ものだけを残す
+  return videos.filter(video => {
+    const seconds = durationMap.get(video.id);
+    if (seconds !== undefined) {
+      return seconds > 240; // 4分（240秒）超
+    }
+    // API情報がない場合は、念のためキーワードフィルタでフォールバック
+    return !isPvOrClip(video.title);
+  });
+}
+
 async function main() {
   let allVideos = [];
   
@@ -152,12 +212,24 @@ async function main() {
     await new Promise(resolve => setTimeout(resolve, 1000));
   }
   
+  const apiKey = process.env.YOUTUBE_API_KEY;
+  let filteredVideos = [];
+  
+  if (apiKey) {
+    console.log("YouTube API key detected. Filtering short videos using API...");
+    filteredVideos = await filterShortVideosWithApi(allVideos, apiKey);
+  } else {
+    console.log("No YouTube API key detected. Filtering using title keywords...");
+    filteredVideos = allVideos.filter(video => !isPvOrClip(video.title));
+  }
+  
   // 日付順（新しい順）にソート
-  allVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  filteredVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   
   // JSONファイルとして書き出し
-  fs.writeFileSync(outputPath, JSON.stringify(allVideos, null, 2), 'utf8');
-  console.log(`Scraper execution complete. Saved ${allVideos.length} videos to ${outputPath}.`);
+  fs.writeFileSync(outputPath, JSON.stringify(filteredVideos, null, 2), 'utf8');
+  console.log(`Scraper execution complete. Saved ${filteredVideos.length} videos to ${outputPath}.`);
 }
 
 main();
+
