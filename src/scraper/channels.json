@@ -60,6 +60,30 @@
     "category": "アニメ"
   },
   {
+    "id": "UChrOH-No_-hkTmF025T6Nrg",
+    "name": "タツノコチャンネル",
+    "displayName": "タツノコプロ",
+    "category": "アニメ"
+  },
+  {
+    "id": "UC0U2GG9WNndvt1wK41l9iqg",
+    "name": "スタジオぴえろ公式チャンネル",
+    "displayName": "スタジオぴえろ",
+    "category": "アニメ"
+  },
+  {
+    "id": "UCMp7rHYw2MTpHYSG_T8uS_w",
+    "name": "シンエイアニメーション公式チャンネル",
+    "displayName": "シンエイ動画",
+    "category": "アニメ"
+  },
+  {
+    "id": "UCzRA6MmLND4-zIZ-GdrrolQ",
+    "name": "手塚プロダクション公式チャンネル",
+    "displayName": "手塚プロダクション",
+    "category": "アニメ"
+  },
+  {
     "id": "abema",
     "name": "ABEMA",
     "displayName": "ABEMA",

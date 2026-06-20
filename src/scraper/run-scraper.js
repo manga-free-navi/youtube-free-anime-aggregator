@@ -39,7 +39,21 @@ const ORIGINAL_WORK_MAP = {
   "ONE PIECE": "ONE PIECE",
   "ドラゴンボール": "ドラゴンボール",
   "ナルト": "NARUTO",
-  "NARUTO": "NARUTO"
+  "NARUTO": "NARUTO",
+  "ガッチャマン": "科学忍者隊ガッチャマン",
+  "幽☆遊☆白書": "幽☆遊☆白書",
+  "幽遊白書": "幽☆遊☆白書",
+  "あたしンち": "あたしンち",
+  "鉄腕アトム": "鉄腕アトム",
+  "アトム": "鉄腕アトム",
+  "ブラック・ジャック": "ブラック・ジャック",
+  "美味しんぼ": "美味しんぼ",
+  "タッチ": "タッチ",
+  "めぞん一刻": "めぞん一刻",
+  "北斗の拳": "北斗の拳",
+  "キャシャーン": "新造人間キャシャーン",
+  "ヤッターマン": "ヤッターマン",
+  "銀魂": "銀魂"
 };
 
 /**
@@ -367,7 +381,12 @@ const ABEMA_TARGET_CHANNELS = new Set([
   'special-plus-7', 'anime-special-2',
   'isekai-anime', 'isekai-anime-2', 'isekai-anime-3',
   'lovecomedy-anime', 'dailylife-anime', 'late-night-anime',
-  'anime-live', 'anime-live2'
+  'anime-live', 'anime-live2',
+  
+  // 新規追加：ファミリー・なつかしアニメ・ポケモン等
+  'pokemon-1', 'pokemon-2',
+  'family-anime-1', 'family-anime-2', 'family-anime-3',
+  '80s-anime-1', '90s-anime-1', '00s-anime-1'
 ]);
 
 // EPGの時刻形式 (20260612150000 +0000) を ISO形式 (2026-06-12T15:00:00.000Z) に変換する
