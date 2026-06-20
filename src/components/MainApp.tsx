@@ -134,10 +134,10 @@ export default function MainApp() {
       {/* ヒーローセクション */}
       <section className="hero-section">
         <h1 className="hero-title">
-          公式無料アニメ・映画 <span>最新まとめ</span>
+          無料 アニメ ＆ 公式配信映画 <span>最新まとめ</span>
         </h1>
         <p className="hero-subtitle">
-          YouTubeのアニメ公式チャンネルで期間限定公開されている無料TVシリーズ・劇場版・一挙配信の動画情報を自動集約。その場で直接再生できます。
+          YouTubeの公式チャンネルで期間限定公開されている「無料 アニメ」（TVシリーズ・劇場版・一挙配信）や公式無料映画の情報を自動集約。その場で直接再生できます。
         </p>
       </section>
 

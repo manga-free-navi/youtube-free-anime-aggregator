@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "YouTube公式無料アニメ・映画まとめ - アニフリー",
-  description: "YouTube公式チャンネルで期間限定公開されている無料アニメ（TVシリーズ・劇場版）や映画の情報をまとめてお届け！動画をその場で再生でき、原作コミックスやDVD情報もすぐ見つかります。",
-  keywords: "無料アニメ, YouTubeアニメ, 期間限定アニメ, アニメ一挙配信, 映画無料公開, アニフリー, 葬送のフリーレン, キャプテン翼",
+  title: "無料 アニメ・映画まとめナビ - アニフリー | YouTube公式無料配信を網羅",
+  description: "【毎日自動更新】「無料 アニメ」や「無料映画」情報をまとめてお届け！YouTube公式チャンネルで期間限定公開されているアニメ（TVシリーズ・劇場版）を網羅。その場で動画再生も可能です。",
+  keywords: "無料 アニメ, 無料 アニメ おすすめ, アニメ 無料動画, YouTube 無料アニメ, アニメ 一挙配信, 無料映画, 期間限定公開, アニフリー",
 };
 
 export default function RootLayout({
@@ -12,6 +12,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const siteUrl = process.env.NEXT_PUBLIC_ANIME_SITE_URL || 'https://manga-free-navi.github.io/youtube-free-anime-aggregator/';
+
   return (
     <html lang="ja" suppressHydrationWarning={true}>
       <head>
@@ -31,7 +33,27 @@ export default function RootLayout({
             `}} />
           </>
         )}
+
+        {/* SEO用構造化データ (JSON-LD) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "無料 アニメ・映画まとめナビ - アニフリー",
+              "url": siteUrl,
+              "description": "YouTube公式配信の期間限定無料アニメや映画の情報をリアルタイムで自動集約。",
+              "inLanguage": "ja",
+              "publisher": {
+                "@type": "Organization",
+                "name": "アニフリー 運営チーム"
+              }
+            })
+          }}
+        />
       </head>
+
 
       <body suppressHydrationWarning={true}>
         <script dangerouslySetInnerHTML={{__html: `
