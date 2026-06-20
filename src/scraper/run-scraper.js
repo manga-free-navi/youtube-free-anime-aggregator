@@ -53,7 +53,8 @@ const ORIGINAL_WORK_MAP = {
   "北斗の拳": "北斗の拳",
   "キャシャーン": "新造人間キャシャーン",
   "ヤッターマン": "ヤッターマン",
-  "銀魂": "銀魂"
+  "銀魂": "銀魂",
+  "ちはやふる": "ちはやふる"
 };
 
 /**
@@ -405,7 +406,7 @@ function cleanProgramTitle(title) {
   clean = clean.replace(/\[.*?\]/g, '');
   clean = clean.replace(/\(.*?\)/g, '');
   clean = clean.replace(/\s*#\s*\d+.*$/, '');
-  clean = clean.replace(/\s*第\s*\d+\s*[話期].*$/, '');
+  clean = clean.replace(/\s*第\s*\d+\s*話.*$/, '');
   clean = clean.replace(/\s*\d+\s*話.*$/, '');
   clean = clean.replace(/^『(.*?)』$/, '$1');
   clean = clean.replace(/^「(.*?)」$/, '$1');
@@ -505,7 +506,7 @@ async function fetchAbemaFromEPG(youtubeVideos) {
           publishedAt: startIso,
           description: desc || `${cleanTitle}のABEMA無料配信情報です。`,
           thumbnailUrl: matchedThumbnail,
-          originalWorkTitle: originalWork || cleanTitle,
+          originalWorkTitle: originalWork || guessOriginalWorkTitle(cleanTitle) || cleanTitle,
           endDate: null,
           isManual: true,
           url: searchUrl,
