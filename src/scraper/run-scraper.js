@@ -202,6 +202,89 @@ async function filterShortVideosWithApi(videos, apiKey) {
   });
 }
 
+// ABEMA本家からのメタデータ抽出処理
+async function fetchAbemaMetadata(item) {
+  console.log(`Fetching ABEMA metadata for: ${item.url}...`);
+  try {
+    const response = await axios.get(item.url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8'
+      },
+      timeout: 10000
+    });
+
+    const $ = cheerio.load(response.data);
+    const ogTitle = $('meta[property="og:title"]').attr('content') || '';
+    const ogImage = $('meta[property="og:image"]').attr('content') || '';
+    const ogDescription = $('meta[property="og:description"]').attr('content') || '';
+
+    // __DEHYDRATED_STATE__ からタイトル抽出を試みる（フォールバック）
+    let dehydratedTitle = null;
+    const htmlContent = response.data;
+    const stateMatch = htmlContent.match(/window\.__DEHYDRATED_STATE__\s*=\s*(\{.*?\});/);
+    if (stateMatch) {
+      const titleMatch = stateMatch[1].match(/'title'\s*:\s*'(.*?)'/);
+      if (titleMatch) {
+        try {
+          dehydratedTitle = titleMatch[1].replace(/\\u([0-9a-fA-F]{4})/g, (match, grp) => {
+            return String.fromCharCode(parseInt(grp, 16));
+          });
+        } catch (e) {
+          console.error("Failed to decode unicode title:", e.message);
+        }
+      }
+    }
+
+    // 最終的なタイトル決定
+    let displayTitle = dehydratedTitle || (ogTitle.includes(' - ') ? ogTitle.split(' - ')[0].trim() : ogTitle);
+    if (!displayTitle) {
+      displayTitle = item.originalWorkTitle;
+    }
+    
+    // 表示上のタイトルに毎週無料の注記を追加
+    const finalTitle = `${displayTitle} (毎週無料枠)`;
+
+    // タイトルIDを抽出して一意のIDを作る
+    const idMatch = item.url.match(/title\/(.+)$/);
+    const titleId = idMatch ? idMatch[1] : Math.random().toString(36).substring(7);
+    const videoId = `abema-${titleId}`;
+
+    return {
+      id: videoId,
+      title: finalTitle,
+      channelId: "abema",
+      channelName: "ABEMA",
+      category: item.category || "アニメ",
+      publishedAt: new Date().toISOString(),
+      description: ogDescription,
+      thumbnailUrl: ogImage,
+      originalWorkTitle: item.originalWorkTitle,
+      endDate: null,
+      isManual: true,
+      url: item.url
+    };
+  } catch (error) {
+    console.error(`Error fetching ABEMA metadata for ${item.url}:`, error.message);
+    const idMatch = item.url.match(/title\/(.+)$/);
+    const titleId = idMatch ? idMatch[1] : Math.random().toString(36).substring(7);
+    return {
+      id: `abema-${titleId}`,
+      title: `${item.originalWorkTitle} (毎週無料枠)`,
+      channelId: "abema",
+      channelName: "ABEMA",
+      category: item.category || "アニメ",
+      publishedAt: new Date().toISOString(),
+      description: `${item.originalWorkTitle}のABEMA無料配信ページです。`,
+      thumbnailUrl: "",
+      originalWorkTitle: item.originalWorkTitle,
+      endDate: null,
+      isManual: true,
+      url: item.url
+    };
+  }
+}
+
 async function main() {
   let allVideos = [];
   
@@ -223,12 +306,35 @@ async function main() {
     filteredVideos = allVideos.filter(video => !isPvOrClip(video.title));
   }
   
+  // ABEMAタイトルのロードとフェッチ
+  const abemaTitlesPath = path.join(__dirname, 'abema_titles.json');
+  let abemaVideos = [];
+  if (fs.existsSync(abemaTitlesPath)) {
+    console.log("Loading ABEMA titles from abema_titles.json...");
+    try {
+      const abemaTitles = JSON.parse(fs.readFileSync(abemaTitlesPath, 'utf8'));
+      for (const item of abemaTitles) {
+        if (item.url) {
+          const video = await fetchAbemaMetadata(item);
+          abemaVideos.push(video);
+          // 負荷軽減スリープ
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+      }
+    } catch (e) {
+      console.error("Error loading or processing ABEMA titles:", e.message);
+    }
+  }
+
+  // YouTube動画とABEMA動画をマージ
+  const mergedVideos = filteredVideos.concat(abemaVideos);
+  
   // 日付順（新しい順）にソート
-  filteredVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  mergedVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   
   // JSONファイルとして書き出し
-  fs.writeFileSync(outputPath, JSON.stringify(filteredVideos, null, 2), 'utf8');
-  console.log(`Scraper execution complete. Saved ${filteredVideos.length} videos to ${outputPath}.`);
+  fs.writeFileSync(outputPath, JSON.stringify(mergedVideos, null, 2), 'utf8');
+  console.log("Scraper execution complete.");
 }
 
 main();
