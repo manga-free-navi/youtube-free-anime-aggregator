@@ -77,15 +77,32 @@ function extractEpisodeMeta(title) {
   let episodeInfo = "";
   let isBulk = false;
   let isLatest = title.includes("最新話");
+  let seasonInfo = "";
+
+  // シーズン・期・シリーズ・クールの抽出 (例: 第3シリーズ, 第2期, SEASON2, 第2クール, 第4Q等)
+  const seasonMatch = title.match(/(?:第\s*\d+\s*(?:期|シリーズ|シーズン|クール|Q)|SEASON\s*\d+)/i);
+  if (seasonMatch) {
+    seasonInfo = seasonMatch[0].trim();
+  }
 
   // 1. 複数話一挙の検出 (例: #1〜11, 第1〜12話, #1-6, #1~5)
-  const rangeMatch = title.match(/(?:#|第)\s*(\d+)\s*(?:〜|～|~|-|－)\s*(\d+)\s*[話期]?/);
+  let rangeMatch = title.match(/(?:#|第)\s*(\d+)\s*(?:〜|～|~|-|－)\s*(\d+)\s*[話期]?/);
+  if (!rangeMatch) {
+    // プレフィックスがない場合のフォールバック (例: 1〜7話、1～7話、1-7話)
+    // 日付表現 (2026-06-20 等) と競合しないよう、波線かつ後ろに「話」がある場合、または明確に日付っぽくない場合に限定
+    rangeMatch = title.match(/(?<!\d|年|月|日)(\d+)\s*(?:〜|～|~)\s*(\d+)\s*話/);
+  }
+
   if (rangeMatch) {
     episodeInfo = `第${rangeMatch[1]}話〜第${rangeMatch[2]}話`;
     isBulk = true;
   } else {
     // 2. 単一話数の検出 (例: #10, 第10話, # 140)
-    const singleMatch = title.match(/(?:#|第|#\s*)(\d+)\s*話?/);
+    let singleMatch = title.match(/(?:#|第|#\s*)(\d+)\s*話?/);
+    if (!singleMatch) {
+      // プレフィックスがない場合のフォールバック (例: 10話)
+      singleMatch = title.match(/(?<!\d|年|月|日)(\d+)\s*話/);
+    }
     if (singleMatch) {
       episodeInfo = `第${singleMatch[1]}話`;
     }
@@ -100,7 +117,7 @@ function extractEpisodeMeta(title) {
     }
   }
 
-  return { episodeInfo, isBulk, isLatest };
+  return { episodeInfo, isBulk, isLatest, seasonInfo };
 }
 
 /**
@@ -177,7 +194,7 @@ function extractEndDate(description) {
 /**
  * 各チャンネルのRSSフィードを取得・パースする
  */
-async function fetchChannelRss(channel) {
+async function fetchChannelRss(channel, existingVideos = []) {
   const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${channel.id}`;
   console.log(`Fetching RSS for ${channel.displayName} (${channel.name})...`);
   try {
@@ -223,6 +240,14 @@ async function fetchChannelRss(channel) {
     return videos;
   } catch (error) {
     console.error(`Error fetching RSS for ${channel.displayName}:`, error.message);
+    // 過去の videos.json からキャッシュとして引き継ぐ (一時的なネットワーク切断対策)
+    if (existingVideos && existingVideos.length > 0) {
+      const cached = existingVideos.filter(v => v.channelId === channel.id);
+      if (cached.length > 0) {
+        console.log(`Using cached ${cached.length} videos for failed channel: ${channel.displayName}`);
+        return cached;
+      }
+    }
     return [];
   }
 }
@@ -472,9 +497,21 @@ async function fetchAbemaFromEPG(youtubeVideos) {
       if (endDateStr) {
         calculatedEndDate = new Date(`${endDateStr}T23:59:59Z`);
       } else {
-        // 2. 抽出できない場合、放送開始日時から7日間（見逃し無料期間1週間）をデフォルトの終了日とする
+        // 2. 抽出できない場合、キーワードに基づく見逃し期間の動的判定
+        const isAlwaysFree = rawTitle.includes("全話無料") || desc.includes("全話無料") || rawTitle.includes("常に無料") || desc.includes("常に無料");
+        const isThreeDays = rawTitle.includes("3日間限定") || desc.includes("3日間限定");
+        
         const startDate = new Date(startIso);
-        calculatedEndDate = new Date(startDate.getTime() + 7 * 24 * 60 * 60 * 1000);
+        if (isAlwaysFree) {
+          // 「全話無料」の場合は長め（30日間）に設定して自動削除を防ぐ
+          calculatedEndDate = new Date(startDate.getTime() + 30 * 24 * 60 * 60 * 1000);
+        } else if (isThreeDays) {
+          // 「3日間限定」
+          calculatedEndDate = new Date(startDate.getTime() + 3 * 24 * 60 * 60 * 1000);
+        } else {
+          // デフォルト7日間
+          calculatedEndDate = new Date(startDate.getTime() + 7 * 24 * 60 * 60 * 1000);
+        }
       }
 
       // 3. 無料配信終了期限が現在時刻を過ぎている場合はスキップ（除外）
@@ -486,6 +523,22 @@ async function fetchAbemaFromEPG(youtubeVideos) {
       const isUpcoming = new Date(startIso) > now;
       const statusSuffix = isUpcoming ? 'upcoming' : 'active';
       const uniqueKey = `${cleanTitle}_${statusSuffix}`;
+
+      // 画像URLからABEMA作品IDを抽出し、直リンクURLを作る
+      let abemaUrl = `https://abema.tv/search?q=${encodeURIComponent(cleanTitle)}`;
+      let abemaTitleId = '';
+      if (iconUrl) {
+        // 例: https://image.p-c2-x.abema-tv.com/image/programs/26-263_s1_p11/thumb001.png から 26-263 を抽出
+        const idMatch = iconUrl.match(/image\/programs\/([a-zA-Z0-9\-]+)/);
+        if (idMatch) {
+          abemaTitleId = idMatch[1];
+          abemaUrl = `https://abema.tv/video/title/${abemaTitleId}`;
+        }
+      }
+
+      // IDの決定：一意性を保証するため、従来どおりクレンジング後のタイトルHEXを使用する
+      const safeId = Buffer.from(cleanTitle).toString('hex');
+      const programId = `abema-auto-${safeId}-${statusSuffix}`;
 
       // 重複は最初に見つかったものを優先
       if (!uniquePrograms.has(uniqueKey)) {
@@ -510,12 +563,11 @@ async function fetchAbemaFromEPG(youtubeVideos) {
         // サムネイル画像：外部直リンクが403になるABEMA公式画像を避け、YouTube名寄せ画像を最優先とする
         matchedThumbnail = ytThumbnail || iconUrl || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=60';
 
-        const searchUrl = `https://abema.tv/search?q=${encodeURIComponent(cleanTitle)}`;
-        const safeId = Buffer.from(cleanTitle).toString('hex');
         const displayTitle = isUpcoming ? `${cleanTitle} (ABEMA無料配信予定)` : `${cleanTitle} (ABEMA無料配信中)`;
+        const formattedEndDate = calculatedEndDate ? calculatedEndDate.toISOString().split('T')[0] : null;
 
         uniquePrograms.set(uniqueKey, {
-          id: `abema-auto-${safeId}-${statusSuffix}`,
+          id: programId,
           title: displayTitle,
           channelId: 'abema',
           channelName: 'ABEMA',
@@ -524,9 +576,9 @@ async function fetchAbemaFromEPG(youtubeVideos) {
           description: desc || `${cleanTitle}のABEMA無料配信情報です。`,
           thumbnailUrl: matchedThumbnail,
           originalWorkTitle: originalWork || guessOriginalWorkTitle(cleanTitle) || cleanTitle,
-          endDate: null,
+          endDate: formattedEndDate,
           isManual: true,
-          url: searchUrl,
+          url: abemaUrl,
           ...epMeta
         });
       } else {
@@ -535,6 +587,14 @@ async function fetchAbemaFromEPG(youtubeVideos) {
         existing.episodeInfo = mergeEpisodeInfo(existing.episodeInfo, epMeta.episodeInfo);
         if (epMeta.isBulk) existing.isBulk = true;
         if (epMeta.isLatest) existing.isLatest = true;
+        
+        // 終了日も遅い方を優先（より長く無料配信されている方を保持）
+        if (calculatedEndDate) {
+          const formattedEndDate = calculatedEndDate.toISOString().split('T')[0];
+          if (!existing.endDate || formattedEndDate > existing.endDate) {
+            existing.endDate = formattedEndDate;
+          }
+        }
       }
     });
 
@@ -603,8 +663,18 @@ async function fetchMangaSales() {
 async function main() {
   let allVideos = [];
   
+  // 既存の videos.json を先頭でロード（RSSフェッチのエラー時キャッシュ復旧用）
+  let existingVideos = [];
+  if (fs.existsSync(outputPath)) {
+    try {
+      existingVideos = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+    } catch (e) {
+      console.error("Failed to load existing videos.json for RSS caching:", e.message);
+    }
+  }
+  
   for (const channel of channels) {
-    const videos = await fetchChannelRss(channel);
+    const videos = await fetchChannelRss(channel, existingVideos);
     allVideos = allVideos.concat(videos);
     // YouTubeサーバー負荷軽減のため、1秒スリープを挟む
     await new Promise(resolve => setTimeout(resolve, 1000));
@@ -641,11 +711,44 @@ async function main() {
     }
   }
 
+  // 既存の videos.json から、無料配信期間がまだ残っている自動収集ABEMA番組を引き継ぐ（EPGから消えた番組の維持）
+  let archivedAbemaVideos = [];
+  if (existingVideos && existingVideos.length > 0) {
+    try {
+      console.log("Filtering active ABEMA programs from pre-loaded videos.json...");
+      const todayStr = new Date().toISOString().split('T')[0];
+      
+      archivedAbemaVideos = existingVideos.filter(v => {
+        // ABEMAの自動収集番組であり、かつ終了日が今日以降のもの
+        return v.id && v.id.startsWith('abema-auto-') && v.endDate && v.endDate >= todayStr;
+      });
+      console.log(`Found ${archivedAbemaVideos.length} active ABEMA programs to potentially archive.`);
+    } catch (e) {
+      console.error("Failed to filter active ABEMA programs for archiving:", e.message);
+    }
+  }
+
   // EPGからの全自動無料アニメ収集
   const abemaEpgVideos = await fetchAbemaFromEPG(filteredVideos);
 
-  // すべての動画をマージ (YouTube + 手動ABEMA + EPG自動ABEMA)
-  const mergedVideos = filteredVideos.concat(abemaVideos).concat(abemaEpgVideos);
+  // EPG自動収集番組のマージ（新規収集したデータを優先し、足りない過去の配信分をアーカイブから補完）
+  const finalAbemaEpgVideosMap = new Map();
+  
+  // 1. アーカイブ（過去分）を先に詰める
+  for (const video of archivedAbemaVideos) {
+    finalAbemaEpgVideosMap.set(video.id, video);
+  }
+  
+  // 2. 新規収集した最新データを上書き（最新スケジュールや話数情報を反映）
+  for (const video of abemaEpgVideos) {
+    finalAbemaEpgVideosMap.set(video.id, video);
+  }
+
+  const finalAbemaEpgVideos = Array.from(finalAbemaEpgVideosMap.values());
+  console.log(`Total EPG ABEMA programs after merging archive: ${finalAbemaEpgVideos.length} (New: ${abemaEpgVideos.length}, Restored from archive: ${finalAbemaEpgVideos.length - abemaEpgVideos.length})`);
+
+  // すべての動画をマージ (YouTube + 手動ABEMA + EPG自動ABEMAマージ後)
+  const mergedVideos = filteredVideos.concat(abemaVideos).concat(finalAbemaEpgVideos);
   
   // 漫画セールの自動連動データのフェッチとマージ
   try {

@@ -25,6 +25,7 @@ interface FilterBarProps {
   onToggleShowBulkOnly: () => void;
   selectedPlatform: string;
   onSelectPlatform: (platform: string) => void;
+  urgentFavoriteCount?: number; // 終了間近のお気に入り件数
 }
 
 export default function FilterBar({
@@ -45,6 +46,7 @@ export default function FilterBar({
   onToggleShowBulkOnly,
   selectedPlatform,
   onSelectPlatform,
+  urgentFavoriteCount = 0,
 }: FilterBarProps) {
   // 重複しないカテゴリリストの作成
   const categories = ['すべて', ...Array.from(new Set(channels.map((c) => c.category)))];
@@ -181,11 +183,29 @@ export default function FilterBar({
             style={{
               borderColor: showFavoritesOnly ? '#ec4899' : 'rgba(255,255,255,0.1)',
               background: showFavoritesOnly ? 'rgba(236,72,153,0.15)' : 'none',
-              color: showFavoritesOnly ? '#f472b6' : 'var(--text-sub)'
+              color: showFavoritesOnly ? '#f472b6' : 'var(--text-sub)',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.4rem'
             }}
             id="btn-toggle-favorites-only"
           >
-            ♥ お気に入りのみ表示
+            <span>♥ お気に入りのみ表示</span>
+            {urgentFavoriteCount > 0 && (
+              <span className="urgent-fav-badge" style={{
+                background: 'linear-gradient(135deg, #ef4444 0%, #b91c1c 100%)',
+                color: '#fff',
+                fontSize: '0.7rem',
+                fontWeight: 800,
+                padding: '0.15rem 0.4rem',
+                borderRadius: '10px',
+                lineHeight: '1',
+                boxShadow: '0 0 8px rgba(239, 68, 68, 0.5)',
+                display: 'inline-block'
+              }}>
+                ⚠️ 終了間近:{urgentFavoriteCount}
+              </span>
+            )}
           </button>
           <button
             className={`filter-btn toggle-btn ${showBulkOnly ? 'active' : ''}`}

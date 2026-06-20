@@ -20,12 +20,21 @@ export interface Video {
   episodeInfo?: string;
   isBulk?: boolean;
   isLatest?: boolean;
+  seasonInfo?: string; // 期・シーズン情報
   mangaSaleInfo?: {
     hasSale: boolean;
     maxDiscount: number;
     minPrice: number;
     id: string;
     mangaUrl: string;
+  } | null;
+  gameSaleInfo?: {
+    hasSale: boolean;
+    id: string;
+    title: string;
+    salePrice: number;
+    discountRate: number;
+    storeUrl: string;
   } | null;
 }
 
@@ -35,14 +44,18 @@ interface VideoCardProps {
   isFavorite: boolean;
   onToggleFavorite: (id: string) => void;
   isMangaFavorite: boolean;
+  isGameFavorite: boolean;
 }
 
-export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite, isMangaFavorite }: VideoCardProps) {
+export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite, isMangaFavorite, isGameFavorite }: VideoCardProps) {
   const textRef = useRef<HTMLParagraphElement>(null);
   const [showReadMore, setShowReadMore] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [imageError, setImageError] = useState(false);
+  const [showSaleTooltip, setShowSaleTooltip] = useState(false);
+  const [showGameTooltip, setShowGameTooltip] = useState(false);
 
   // Googleカレンダー登録URLの生成
   const getGoogleCalendarUrl = (video: Video) => {
@@ -228,13 +241,46 @@ export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite,
     <article className={`video-card ${isUpcoming ? 'upcoming' : ''}`} id={`video-card-${video.id}`}>
       {/* サムネイル */}
       <div className="thumbnail-container" onClick={() => video.url ? window.open(video.url, '_blank', 'noopener,noreferrer') : onPlay(video)}>
-        <img 
-          src={video.thumbnailUrl} 
-          alt={video.title} 
-          className="thumbnail-img" 
-          loading="lazy"
-          referrerPolicy="no-referrer"
-        />
+        {imageError ? (
+          <div className="thumbnail-placeholder" style={{
+            width: '100%',
+            height: '100%',
+            background: 'linear-gradient(135deg, #1e1b4b 0%, #311042 50%, #0f172a 100%)',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: '1rem',
+            textAlign: 'center',
+            color: 'var(--text-main)',
+            boxSizing: 'border-box'
+          }}>
+            <span style={{ fontSize: '1.8rem', marginBottom: '0.25rem' }}>📺</span>
+            <span style={{ fontSize: '0.7rem', fontWeight: 700, opacity: 0.6, color: 'var(--text-sub)', letterSpacing: '0.05em' }}>NO IMAGE</span>
+            <span style={{ 
+              fontSize: '0.8rem', 
+              fontWeight: 600, 
+              marginTop: '0.5rem',
+              display: '-webkit-box',
+              WebkitLineClamp: 2,
+              WebkitBoxOrient: 'vertical',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              lineHeight: '1.3'
+            }}>
+              {video.title.replace(/\(ABEMA無料配信(中|予定)\)/, '')}
+            </span>
+          </div>
+        ) : (
+          <img 
+            src={video.thumbnailUrl} 
+            alt={video.title} 
+            className="thumbnail-img" 
+            loading="lazy"
+            referrerPolicy="no-referrer"
+            onError={() => setImageError(true)}
+          />
+        )}
         {isUpcoming ? (
           <div className="upcoming-overlay">
             <span className="upcoming-icon">🎬</span>
@@ -277,15 +323,185 @@ export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite,
         
         {/* バッジ表示 */}
         <div className="card-badges">
+          {video.seasonInfo && (
+            <span className="badge-item badge-season" style={{ background: 'linear-gradient(135deg, #a855f7 0%, #7c3aed 100%)', fontWeight: 700 }}>
+              ✨ {video.seasonInfo}
+            </span>
+          )}
           {isMangaFavorite && (
             <span className="badge-item badge-manga-fav">
               💖 原作お気に入り
             </span>
           )}
-          {video.mangaSaleInfo?.hasSale && (
-            <span className="badge-item badge-manga-sale">
-              📚 原作セール中（最大{video.mangaSaleInfo.maxDiscount}%OFF）
+          {isGameFavorite && (
+            <span className="badge-item badge-game-fav" style={{ background: 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)', fontWeight: 700 }}>
+              🎮 ゲームお気に入り
             </span>
+          )}
+          {video.mangaSaleInfo?.hasSale && (
+            <div 
+              className="badge-item-wrapper"
+              style={{ position: 'relative', display: 'inline-block' }}
+              onMouseEnter={() => setShowSaleTooltip(true)}
+              onMouseLeave={() => setShowSaleTooltip(false)}
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowSaleTooltip(!showSaleTooltip);
+              }}
+            >
+              <span className="badge-item badge-manga-sale" style={{ cursor: 'pointer' }}>
+                📚 原作セール中（最大{video.mangaSaleInfo.maxDiscount}%OFF）
+              </span>
+              
+              {showSaleTooltip && (
+                <div className="sale-details-tooltip" style={{
+                  position: 'absolute',
+                  bottom: '125%',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+                  background: 'rgba(15, 23, 42, 0.95)',
+                  border: '1px solid rgba(236, 72, 153, 0.3)',
+                  borderRadius: '10px',
+                  padding: '0.75rem 1rem',
+                  width: '240px',
+                  boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 0 15px rgba(236, 72, 153, 0.15)',
+                  zIndex: 20,
+                  fontSize: '0.8rem',
+                  lineHeight: '1.4',
+                  color: 'var(--text-main)',
+                  pointerEvents: 'auto',
+                  backdropFilter: 'blur(12px)',
+                  textAlign: 'left',
+                  boxSizing: 'border-box'
+                }} onClick={(e) => e.stopPropagation()}>
+                  <div style={{ fontWeight: 700, color: '#f472b6', marginBottom: '0.35rem', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                    <span>📚</span> 原作コミックスお得情報
+                  </div>
+                  <div style={{ marginBottom: '0.25rem' }}>
+                    割引率: <strong style={{ color: '#ec4899', fontSize: '0.9rem' }}>最大 {video.mangaSaleInfo.maxDiscount}% OFF</strong>
+                  </div>
+                  <div style={{ marginBottom: '0.5rem' }}>
+                    最安値: <strong style={{ color: '#fff' }}>{video.mangaSaleInfo.minPrice}円〜</strong>
+                  </div>
+                  <a 
+                    href={video.mangaSaleInfo.mangaUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: 'block',
+                      background: 'linear-gradient(135deg, #db2777 0%, #be185d 100%)',
+                      color: '#fff',
+                      textDecoration: 'none',
+                      textAlign: 'center',
+                      padding: '0.35rem 0.5rem',
+                      borderRadius: '6px',
+                      fontWeight: 700,
+                      fontSize: '0.75rem',
+                      marginTop: '0.5rem',
+                      transition: 'opacity 0.2s'
+                    }}
+                    onMouseEnter={(e) => e.currentTarget.style.opacity = '0.9'}
+                    onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
+                  >
+                    漫画セール情報ナビで見る ➔
+                  </a>
+                  {/* 下矢印 */}
+                  <div style={{
+                    position: 'absolute',
+                    top: '100%',
+                    left: '50%',
+                    marginLeft: '-5px',
+                    borderWidth: '5px',
+                    borderStyle: 'solid',
+                    borderColor: 'rgba(15, 23, 42, 0.95) transparent transparent transparent',
+                  }} />
+                </div>
+              )}
+            </div>
+          )}
+          {video.gameSaleInfo?.hasSale && (
+            <div 
+              className="badge-item-wrapper"
+              style={{ position: 'relative', display: 'inline-block' }}
+              onMouseEnter={() => setShowGameTooltip(true)}
+              onMouseLeave={() => setShowGameTooltip(false)}
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowGameTooltip(!showGameTooltip);
+              }}
+            >
+              <span className="badge-item badge-game-sale" style={{ cursor: 'pointer', background: 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)' }}>
+                🎮 関連ゲームセール中（{video.gameSaleInfo.discountRate}%OFF）
+              </span>
+              
+              {showGameTooltip && (
+                <div className="sale-details-tooltip" style={{
+                  position: 'absolute',
+                  bottom: '125%',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+                  background: 'rgba(15, 23, 42, 0.95)',
+                  border: '1px solid rgba(59, 130, 246, 0.3)',
+                  borderRadius: '10px',
+                  padding: '0.75rem 1rem',
+                  width: '240px',
+                  boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 0 15px rgba(59, 130, 246, 0.15)',
+                  zIndex: 20,
+                  fontSize: '0.8rem',
+                  lineHeight: '1.4',
+                  color: 'var(--text-main)',
+                  pointerEvents: 'auto',
+                  backdropFilter: 'blur(12px)',
+                  textAlign: 'left',
+                  boxSizing: 'border-box'
+                }} onClick={(e) => e.stopPropagation()}>
+                  <div style={{ fontWeight: 700, color: '#60a5fa', marginBottom: '0.35rem', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                    <span>🎮</span> 関連ゲームお得情報
+                  </div>
+                  <div style={{ marginBottom: '0.25rem' }}>
+                    タイトル: <strong style={{ color: '#fff' }}>{video.gameSaleInfo.title}</strong>
+                  </div>
+                  <div style={{ marginBottom: '0.25rem' }}>
+                    割引率: <strong style={{ color: '#3b82f6', fontSize: '0.9rem' }}>{video.gameSaleInfo.discountRate}% OFF</strong>
+                  </div>
+                  <div style={{ marginBottom: '0.5rem' }}>
+                    セール価格: <strong style={{ color: '#fff' }}>¥{video.gameSaleInfo.salePrice.toLocaleString()}</strong>
+                  </div>
+                  <a 
+                    href={video.gameSaleInfo.storeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: 'block',
+                      background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)',
+                      color: '#fff',
+                      textDecoration: 'none',
+                      textAlign: 'center',
+                      padding: '0.35rem 0.5rem',
+                      borderRadius: '6px',
+                      fontWeight: 700,
+                      fontSize: '0.75rem',
+                      marginTop: '0.5rem',
+                      transition: 'opacity 0.2s'
+                    }}
+                    onMouseEnter={(e) => e.currentTarget.style.opacity = '0.9'}
+                    onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
+                  >
+                    ストアで詳細を見る ➔
+                  </a>
+                  {/* 下矢印 */}
+                  <div style={{
+                    position: 'absolute',
+                    top: '100%',
+                    left: '50%',
+                    marginLeft: '-5px',
+                    borderWidth: '5px',
+                    borderStyle: 'solid',
+                    borderColor: 'rgba(15, 23, 42, 0.95) transparent transparent transparent',
+                  }} />
+                </div>
+              )}
+            </div>
           )}
           {isUpcoming && <span className="badge-item badge-upcoming" style={{ background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)' }}>公開前</span>}
           {video.isLatest && <span className="badge-item badge-latest" style={{ background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)' }}>最新話</span>}
@@ -489,6 +705,21 @@ export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite,
                 id={`btn-manga-sale-${video.id}`}
               >
                 📚 漫画ナビでセールをチェック ({video.mangaSaleInfo.maxDiscount}%OFF)
+              </a>
+            )}
+            {video.gameSaleInfo?.hasSale && (
+              <a
+                href={video.gameSaleInfo.storeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="affiliate-btn btn-game-sale"
+                style={{
+                  background: 'linear-gradient(135deg, #1d4ed8 0%, #1e1b4b 100%)',
+                  borderColor: 'rgba(59, 130, 246, 0.4)'
+                }}
+                id={`btn-game-sale-${video.id}`}
+              >
+                🎮 ゲームナビでセールをチェック ({video.gameSaleInfo.discountRate}%OFF)
               </a>
             )}
           </div>
