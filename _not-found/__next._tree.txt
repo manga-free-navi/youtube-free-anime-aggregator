@@ -1,2 +1,2 @@
-:HL["/youtube-free-anime-aggregator/_next/static/chunks/12zwx358idii0.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"zrocg5WQyHvTxtDObOfD0"}
+:HL["/youtube-free-anime-aggregator/_next/static/chunks/0rz5audchc28m.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"wIBGhyeBwwrTetb4Isz34"}
