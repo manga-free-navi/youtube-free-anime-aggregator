@@ -20,6 +20,13 @@ export interface Video {
   episodeInfo?: string;
   isBulk?: boolean;
   isLatest?: boolean;
+  mangaSaleInfo?: {
+    hasSale: boolean;
+    maxDiscount: number;
+    minPrice: number;
+    id: string;
+    mangaUrl: string;
+  } | null;
 }
 
 interface VideoCardProps {
@@ -27,14 +34,38 @@ interface VideoCardProps {
   onPlay: (video: Video) => void;
   isFavorite: boolean;
   onToggleFavorite: (id: string) => void;
+  isMangaFavorite: boolean;
 }
 
-export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite }: VideoCardProps) {
+export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite, isMangaFavorite }: VideoCardProps) {
   const textRef = useRef<HTMLParagraphElement>(null);
   const [showReadMore, setShowReadMore] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [copied, setCopied] = useState(false);
+
+  // Googleカレンダー登録URLの生成
+  const getGoogleCalendarUrl = (video: Video) => {
+    try {
+      const pubDate = new Date(video.publishedAt);
+      if (isNaN(pubDate.getTime())) return '#';
+      
+      const formatToUTC = (date: Date) => {
+        return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+      };
+      
+      const startFormat = formatToUTC(pubDate);
+      const endDate = new Date(pubDate.getTime() + 30 * 60 * 1000); // 30分間の枠
+      const endFormat = formatToUTC(endDate);
+      
+      const text = `【公式無料配信開始】${video.title}`;
+      const details = `${video.channelName}にて配信予定のアニメです。\n\n配信URL: ${video.url || `https://www.youtube.com/watch?v=${video.id}`}\n\nアニメ公式無料配信情報ナビより登録`;
+      
+      return `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(text)}&dates=${startFormat}/${endFormat}&details=${encodeURIComponent(details)}`;
+    } catch (e) {
+      return '#';
+    }
+  };
 
   useEffect(() => {
     setMounted(true);
@@ -207,6 +238,16 @@ export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite 
           <div className="upcoming-overlay">
             <span className="upcoming-icon">🎬</span>
             <span className="upcoming-label">配信予定</span>
+            <a
+              href={getGoogleCalendarUrl(video)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="calendar-add-btn"
+              onClick={(e) => e.stopPropagation()}
+              title="Googleカレンダーに登録"
+            >
+              📅 カレンダーに登録
+            </a>
           </div>
         ) : (
           <div className="play-overlay">
@@ -235,6 +276,16 @@ export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite 
         
         {/* バッジ表示 */}
         <div className="card-badges">
+          {isMangaFavorite && (
+            <span className="badge-item badge-manga-fav">
+              💖 原作お気に入り
+            </span>
+          )}
+          {video.mangaSaleInfo?.hasSale && (
+            <span className="badge-item badge-manga-sale">
+              📚 原作セール中（最大{video.mangaSaleInfo.maxDiscount}%OFF）
+            </span>
+          )}
           {isUpcoming && <span className="badge-item badge-upcoming" style={{ background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)' }}>公開前</span>}
           {video.isLatest && <span className="badge-item badge-latest" style={{ background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)' }}>最新話</span>}
           {video.isBulk && <span className="badge-item badge-bulk" style={{ background: 'linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)' }}>一挙公開</span>}
@@ -251,23 +302,37 @@ export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite 
 
       {/* カードコンテンツ */}
       <div className="card-body">
-        <div className="publish-date">
-          {isUpcoming ? (
-            <span style={{ color: '#fbbf24', fontWeight: 700 }}>⏰ {formatDate(video.publishedAt)} 配信予定</span>
-          ) : (
-            <>公開日: {formatDate(video.publishedAt)}</>
-          )}
-          {mounted && remainingDaysText && (
-            <span 
-              className={`remaining-badge ${diffDaysVal !== null && diffDaysVal <= 3 && diffDaysVal >= 0 ? 'urgent' : ''}`}
-              style={{ 
-                color: remainingDaysText.includes('終了！') || remainingDaysText.includes('あと') ? '#ff1744' : '#f02fc2', 
-                marginLeft: '0.75rem', 
-                fontWeight: 700 
-              }}
+        <div className="publish-date" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.5rem', width: '100%' }}>
+          <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>
+            {isUpcoming ? (
+              <span style={{ color: '#fbbf24', fontWeight: 700 }}>⏰ {formatDate(video.publishedAt)} 配信予定</span>
+            ) : (
+              <>公開日: {formatDate(video.publishedAt)}</>
+            )}
+            {mounted && remainingDaysText && (
+              <span 
+                className={`remaining-badge ${diffDaysVal !== null && diffDaysVal <= 3 && diffDaysVal >= 0 ? 'urgent' : ''}`}
+                style={{ 
+                  color: remainingDaysText.includes('終了！') || remainingDaysText.includes('あと') ? '#ff1744' : '#f02fc2', 
+                  marginLeft: '0.75rem', 
+                  fontWeight: 700 
+                }}
+              >
+                ⏰ {diffDaysVal !== null && diffDaysVal <= 3 && diffDaysVal >= 0 ? '⚠️ ' : ''}{remainingDaysText}
+              </span>
+            )}
+          </div>
+          {isUpcoming && (
+            <a
+              href={getGoogleCalendarUrl(video)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="calendar-btn-inline"
+              onClick={(e) => e.stopPropagation()}
+              title="Googleカレンダーに登録"
             >
-              ⏰ {diffDaysVal !== null && diffDaysVal <= 3 && diffDaysVal >= 0 ? '⚠️ ' : ''}{remainingDaysText}
-            </span>
+              📅 登録
+            </a>
           )}
         </div>
         
@@ -401,7 +466,7 @@ export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite 
             </div>
           )}
           <div className="affiliate-label">原作コミックをチェック</div>
-          <div className="affiliate-buttons">
+          <div className="affiliate-buttons" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             <a 
               href={getRakutenUrl(video.title, video.originalWorkTitle)} 
               target="_blank" 
@@ -414,6 +479,17 @@ export default function VideoCard({ video, onPlay, isFavorite, onToggleFavorite 
               </svg>
               楽天で書籍を検索
             </a>
+            {video.mangaSaleInfo?.hasSale && (
+              <a
+                href={video.mangaSaleInfo.mangaUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="affiliate-btn btn-manga-sale"
+                id={`btn-manga-sale-${video.id}`}
+              >
+                📚 漫画ナビでセールをチェック ({video.mangaSaleInfo.maxDiscount}%OFF)
+              </a>
+            )}
           </div>
         </div>
       </div>

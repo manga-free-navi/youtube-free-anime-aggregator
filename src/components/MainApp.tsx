@@ -25,6 +25,16 @@ interface Video {
   endDate?: string | null;
   playlistId?: string;
   url?: string;
+  episodeInfo?: string;
+  isBulk?: boolean;
+  isLatest?: boolean;
+  mangaSaleInfo?: {
+    hasSale: boolean;
+    maxDiscount: number;
+    minPrice: number;
+    id: string;
+    mangaUrl: string;
+  } | null;
 }
 
 export default function MainApp() {
@@ -39,6 +49,10 @@ export default function MainApp() {
   const [hideUpcoming, setHideUpcoming] = useState(false);
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [favorites, setFavorites] = useState<string[]>([]);
+  
+  // 新規追加：プラットフォーム（配信元）ステート、および漫画お気に入りIDリスト（横断同期用）
+  const [selectedPlatform, setSelectedPlatform] = useState('all');
+  const [mangaFavorites, setMangaFavorites] = useState<string[]>([]);
 
   // マウント時に閲覧設定を復元
   useEffect(() => {
@@ -49,6 +63,7 @@ export default function MainApp() {
       const savedHideUpcoming = localStorage.getItem('anime_hide_upcoming');
       const savedShowFavoritesOnly = localStorage.getItem('anime_show_favorites_only');
       const savedFavorites = localStorage.getItem('anime_favorites');
+      const savedPlatform = localStorage.getItem('anime_filter_platform');
       
       if (savedChannel) setSelectedChannelId(savedChannel);
       if (savedCategory) setSelectedCategory(savedCategory);
@@ -58,6 +73,15 @@ export default function MainApp() {
       if (savedFavorites) {
         try {
           setFavorites(JSON.parse(savedFavorites));
+        } catch (e) { console.error(e); }
+      }
+      if (savedPlatform) setSelectedPlatform(savedPlatform);
+
+      // 同一ドメイン共有領域から、漫画ナビ側のお気に入り「manga_favorites」を読み取る！
+      const savedMangaFavs = localStorage.getItem('manga_favorites');
+      if (savedMangaFavs) {
+        try {
+          setMangaFavorites(JSON.parse(savedMangaFavs));
         } catch (e) { console.error(e); }
       }
     } catch (e) {
@@ -84,6 +108,13 @@ export default function MainApp() {
     setSortBy(sort);
     try {
       localStorage.setItem('anime_sort_by', sort);
+    } catch (e) { console.error(e); }
+  };
+
+  const handlePlatformChange = (platform: string) => {
+    setSelectedPlatform(platform);
+    try {
+      localStorage.setItem('anime_filter_platform', platform);
     } catch (e) { console.error(e); }
   };
 
@@ -150,9 +181,14 @@ export default function MainApp() {
       // お気に入りのみ表示
       const matchesFavorites = !showFavoritesOnly || favorites.includes(video.id);
 
-      return matchesSearch && matchesChannel && matchesCategory && matchesUpcoming && matchesFavorites;
+      // プラットフォーム（配信元）絞り込み
+      const matchesPlatform = selectedPlatform === 'all' || 
+        (selectedPlatform === 'youtube' && !video.url) || 
+        (selectedPlatform === 'abema' && video.url && video.url.includes('abema.tv'));
+
+      return matchesSearch && matchesChannel && matchesCategory && matchesUpcoming && matchesFavorites && matchesPlatform;
     });
-  }, [allVideos, searchTerm, selectedChannelId, selectedCategory, hideUpcoming, showFavoritesOnly, favorites]);
+  }, [allVideos, searchTerm, selectedChannelId, selectedCategory, hideUpcoming, showFavoritesOnly, favorites, selectedPlatform]);
 
   // 3. ソート処理（手動注目動画を常に最上部に優先ピン留め）
   const sortedVideos = useMemo(() => {
@@ -168,6 +204,10 @@ export default function MainApp() {
         return new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime();
       } else if (sortBy === 'channel') {
         return a.channelName.localeCompare(b.channelName, 'ja');
+      } else if (sortBy === 'urgency') {
+        const timeA = a.endDate ? new Date(a.endDate).getTime() : Infinity;
+        const timeB = b.endDate ? new Date(b.endDate).getTime() : Infinity;
+        return timeA - timeB;
       }
       return 0;
     });
@@ -213,6 +253,8 @@ export default function MainApp() {
         onToggleHideUpcoming={handleToggleHideUpcoming}
         showFavoritesOnly={showFavoritesOnly}
         onToggleShowFavoritesOnly={handleToggleShowFavoritesOnly}
+        selectedPlatform={selectedPlatform}
+        onSelectPlatform={handlePlatformChange}
       />
 
       {/* 件数表示 */}
@@ -231,6 +273,7 @@ export default function MainApp() {
                 onPlay={handlePlayVideo} 
                 isFavorite={favorites.includes(video.id)}
                 onToggleFavorite={handleToggleFavorite}
+                isMangaFavorite={video.mangaSaleInfo?.id ? mangaFavorites.includes(video.mangaSaleInfo.id) : false}
               />
             );
 

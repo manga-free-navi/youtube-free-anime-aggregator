@@ -14,7 +14,8 @@
     "url": "https://abema.tv/search?q=%E7%8C%AB%E3%81%A8%E7%AB%9C",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ko44Oq44K5",
@@ -31,7 +32,8 @@
     "url": "https://abema.tv/search?q=%E3%82%A8%E3%83%AA%E3%82%B9%E3%81%AE%E8%81%96%E6%9D%AF",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aW944GN44Gq",
@@ -48,7 +50,8 @@
     "url": "https://abema.tv/search?q=%E5%A5%BD%E3%81%8D%E3%81%AA%E5%AD%90%E3%81%8C%E3%82%81%E3%81%8C%E3%81%AD%E3%82%92%E5%BF%98%E3%82%8C%E3%81%9F",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KG44KL44Kt",
@@ -65,7 +68,8 @@
     "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3%20SEASON2",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -82,7 +86,8 @@
     "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E8%96%AC%E5%B1%80",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GG44Gh44Gu",
@@ -99,7 +104,8 @@
     "url": "https://abema.tv/search?q=%E3%81%86%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%81%8C%E3%82%A6%E3%82%B6%E3%81%99%E3%81%8E%E3%82%8B%EF%BC%81",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-VFbjgqLjg4vj",
@@ -116,7 +122,8 @@
     "url": "https://abema.tv/search?q=TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A%EF%BC%94%E3%80%8D",
     "episodeInfo": "第1話〜第25話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aSP55uu5Y+L",
@@ -133,7 +140,8 @@
     "url": "https://abema.tv/search?q=%E5%A4%8F%E7%9B%AE%E5%8F%8B%E4%BA%BA%E5%B8%B3%20%E9%99%B8",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kq44O844OQ",
@@ -150,7 +158,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%E2%85%A2",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GG44Gh44Gu",
@@ -167,7 +176,8 @@
     "url": "https://abema.tv/search?q=%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aer5qeY4oCc",
@@ -184,7 +194,8 @@
     "url": "https://abema.tv/search?q=%E5%A7%AB%E6%A7%98%E2%80%9C%E6%8B%B7%E5%95%8F%E2%80%9D%E3%81%AE%E6%99%82%E9%96%93%E3%81%A7%E3%81%99",
     "episodeInfo": "第1話〜第24話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OQ44Kr44Go",
@@ -201,7 +212,8 @@
     "url": "https://abema.tv/search?q=%E3%83%90%E3%82%AB%E3%81%A8%E3%83%86%E3%82%B9%E3%83%88%E3%81%A8%E5%8F%AC%E5%96%9A%E7%8D%A3%E3%81%AB%E3%81%A3%EF%BC%81",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6IGW5Ymj5L2/",
@@ -218,7 +230,8 @@
     "url": "https://abema.tv/search?q=%E8%81%96%E5%89%A3%E4%BD%BF%E3%81%84%E3%81%AE%E7%A6%81%E5%91%AA%E8%A9%A0%E5%94%B1",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OH44K544Oe",
@@ -235,7 +248,8 @@
     "url": "https://abema.tv/search?q=%E3%83%87%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%81%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%8B%82%E6%83%B3%E6%9B%B2",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OW44Or44O8",
@@ -252,7 +266,8 @@
     "url": "https://abema.tv/search?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%20VS.%20U-20%20JAPAN",
     "episodeInfo": "第25話〜第38話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GT44Gu57Sg",
@@ -269,7 +284,8 @@
     "url": "https://abema.tv/search?q=%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OY44Or44Oi",
@@ -286,7 +302,8 @@
     "url": "https://abema.tv/search?q=%E3%83%98%E3%83%AB%E3%83%A2%E3%83%BC%E3%83%89",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -303,7 +320,8 @@
     "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E9%AD%94%E7%8E%8B%E3%81%A8%E5%8F%AC%E5%96%9A%E5%B0%91%E5%A5%B3%E3%81%AE%E5%A5%B4%E9%9A%B7%E9%AD%94%E8%A1%93",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GR44GE44GK",
@@ -320,7 +338,8 @@
     "url": "https://abema.tv/search?q=%E3%81%91%E3%81%84%E3%81%8A%E3%82%93!",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-56eB44Gr5aSp",
@@ -337,7 +356,8 @@
     "url": "https://abema.tv/search?q=%E7%A7%81%E3%81%AB%E5%A4%A9%E4%BD%BF%E3%81%8C%E8%88%9E%E3%81%84%E9%99%8D%E3%82%8A%E3%81%9F%EF%BC%81",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GU5rOo5paH",
@@ -354,7 +374,8 @@
     "url": "https://abema.tv/search?q=%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pyq56K66KqN",
@@ -371,7 +392,8 @@
     "url": "https://abema.tv/search?q=%E6%9C%AA%E7%A2%BA%E8%AA%8D%E3%81%A7%E9%80%B2%E8%A1%8C%E5%BD%A2",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GT44Gu57Sg",
@@ -388,7 +410,8 @@
     "url": "https://abema.tv/search?q=%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%EF%BC%93",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Oh44Kk44OJ",
@@ -405,7 +428,8 @@
     "url": "https://abema.tv/search?q=%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U6YO957K+",
@@ -422,7 +446,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E9%83%BD%E7%B2%BE%E5%85%B5%E3%81%AE%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%962",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6YqA6a2CJw",
@@ -439,7 +464,8 @@
     "url": "https://abema.tv/search?q=%E9%8A%80%E9%AD%82'",
     "episodeInfo": "第212話〜第215話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K144Op44Oq",
@@ -456,7 +482,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B5%E3%83%A9%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%B3%E3%81%8C%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%9F%E3%82%89%E5%9B%9B%E5%A4%A9%E7%8E%8B%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E8%A9%B1",
     "episodeInfo": "第1話〜第8話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OB44Kn44Oz",
@@ -473,7 +500,8 @@
     "url": "https://abema.tv/search?q=%E3%83%81%E3%82%A7%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%9E%E3%83%B3",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6JC956ys6LOi",
@@ -490,7 +518,8 @@
     "url": "https://abema.tv/search?q=%E8%90%BD%E7%AC%AC%E8%B3%A2%E8%80%85",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5p2x5Lqs5Zaw",
@@ -507,7 +536,8 @@
     "url": "https://abema.tv/search?q=%E6%9D%B1%E4%BA%AC%E5%96%B0%E7%A8%AE%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC%E3%82%B0%E3%83%BC%E3%83%AB",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -524,7 +554,8 @@
     "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6%20%E3%82%B3%E3%83%AA%E3%82%A6%E3%82%B9%E3%81%AE%E5%A4%A2",
     "episodeInfo": "第1話〜第3話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U5rOV56eR",
@@ -541,7 +572,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F%20%E8%BF%BD%E6%86%B6%E7%B7%A8",
     "episodeInfo": "第1話〜第3話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5q275Lqh6YGK",
@@ -558,7 +590,8 @@
     "url": "https://abema.tv/search?q=%E6%AD%BB%E4%BA%A1%E9%81%8A%E6%88%AF%E3%81%A7%E9%A3%AF%E3%82%92%E9%A3%9F%E3%81%86%E3%80%82",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -575,7 +608,8 @@
     "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6%20OAD",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aSJ5oWL546L",
@@ -592,7 +626,8 @@
     "url": "https://abema.tv/search?q=%E5%A4%89%E6%85%8B%E7%8E%8B%E5%AD%90%E3%81%A8%E7%AC%91%E3%82%8F%E3%81%AA%E3%81%84%E7%8C%AB%E3%80%82",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U5rOV56eR",
@@ -609,7 +644,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F%20%E7%AC%AC3%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5bmy54mp5aa5",
@@ -626,7 +662,8 @@
     "url": "https://abema.tv/search?q=%E5%B9%B2%E7%89%A9%E5%A6%B9%EF%BC%81%E3%81%86%E3%81%BE%E3%82%8B%E3%81%A1%E3%82%83%E3%82%93R",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gy44GS44KS",
@@ -643,7 +680,8 @@
     "url": "https://abema.tv/search?q=%E3%81%B2%E3%81%92%E3%82%92%E5%89%83%E3%82%8B%E3%80%82%E3%81%9D%E3%81%97%E3%81%A6%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%82%92%E6%8B%BE%E3%81%86%E3%80%82",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Yu844Gu6Yys",
@@ -660,7 +698,8 @@
     "url": "https://abema.tv/search?q=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB%20%E5%98%86%E3%81%8D%E3%81%AE%E4%B8%98%E3%81%AE%E8%81%96%E3%81%AA%E3%82%8B%E6%98%9F",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U5rOV56eR",
@@ -677,7 +716,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F%20%E6%9D%A5%E8%A8%AA%E8%80%85%E7%B7%A8",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5YWs5aWz5q6/",
@@ -694,7 +734,8 @@
     "url": "https://abema.tv/search?q=%E5%85%AC%E5%A5%B3%E6%AE%BF%E4%B8%8B%E3%81%AE%E5%AE%B6%E5%BA%AD%E6%95%99%E5%B8%AB",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5bmy54mp5aa5",
@@ -711,7 +752,8 @@
     "url": "https://abema.tv/search?q=%E5%B9%B2%E7%89%A9%E5%A6%B9%EF%BC%81%E3%81%86%E3%81%BE%E3%82%8B%E3%81%A1%E3%82%83%E3%82%93",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gh44Gz44K0",
@@ -728,7 +770,8 @@
     "url": "https://abema.tv/search?q=%E3%81%A1%E3%81%B3%E3%82%B4%E3%82%B8%E3%83%A9%E3%81%AE%E9%80%86%E8%A5%B2",
     "episodeInfo": "第111話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6LWk6auq44Gu",
@@ -745,7 +788,8 @@
     "url": "https://abema.tv/search?q=%E8%B5%A4%E9%AB%AA%E3%81%AE%E7%99%BD%E9%9B%AA%E5%A7%ABOVA%E3%80%8E%E3%81%AA%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%AE%9D%E7%89%A9%E3%80%81%E3%81%93%E3%81%AE%E9%A0%81%E3%80%8F",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5YaS6Zm66ICF",
@@ -762,7 +806,8 @@
     "url": "https://abema.tv/search?q=%E5%86%92%E9%99%BA%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84%E3%81%A8%E9%83%BD%E3%81%AB%E5%87%BA%E3%81%A6%E8%A1%8C%E3%81%A3%E3%81%9F%E5%A8%98%E3%81%8C%EF%BC%B3%E3%83%A9%E3%83%B3%E3%82%AF%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kq44O844Or",
@@ -779,7 +824,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%A1%E3%82%A4%E3%83%89",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pS/5a6X44GP",
@@ -796,7 +842,8 @@
     "url": "https://abema.tv/search?q=%E6%94%BF%E5%AE%97%E3%81%8F%E3%82%93%E3%81%AE%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8R",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6LWk6auq44Gu",
@@ -813,7 +860,8 @@
     "url": "https://abema.tv/search?q=%E8%B5%A4%E9%AB%AA%E3%81%AE%E7%99%BD%E9%9B%AA%E5%A7%AB%202nd%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3",
     "episodeInfo": "第13話〜第24話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-Tm8gcHJvZ3Jh",
@@ -830,7 +878,8 @@
     "url": "https://abema.tv/search?q=No%20programme",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6LWk6auq44Gu",
@@ -847,7 +896,8 @@
     "url": "https://abema.tv/search?q=%E8%B5%A4%E9%AB%AA%E3%81%AE%E7%99%BD%E9%9B%AA%E5%A7%AB",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5ra85a6u44OP",
@@ -864,7 +914,8 @@
     "url": "https://abema.tv/search?q=%E6%B6%BC%E5%AE%AE%E3%83%8F%E3%83%AB%E3%83%92%E3%81%AE%E6%86%82%E9%AC%B1",
     "episodeInfo": "第15話〜第28話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pyA5byx54Sh",
@@ -881,7 +932,8 @@
     "url": "https://abema.tv/search?q=%E6%9C%80%E5%BC%B1%E7%84%A1%E6%95%97%E3%81%AE%E7%A5%9E%E8%A3%85%E6%A9%9F%E7%AB%9C%E3%80%8A%E3%83%90%E3%83%8F%E3%83%A0%E3%83%BC%E3%83%88%E3%80%8B",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KI44GG44GT",
@@ -898,7 +950,8 @@
     "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8%203rd%20Season",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K044Oq44Op",
@@ -915,7 +968,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B4%E3%83%AA%E3%83%A9%E3%81%AE%E5%8A%A0%E8%AD%B7%E4%BB%A4%E5%AC%A2",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5b+N6ICF44Go",
@@ -932,7 +986,8 @@
     "url": "https://abema.tv/search?q=%E5%BF%8D%E8%80%85%E3%81%A8%E6%AE%BA%E3%81%97%E5%B1%8B%E3%81%AE%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%90%E3%82%89%E3%81%97",
     "episodeInfo": "第1話〜第8話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Z2S44GE6Iqx",
@@ -949,7 +1004,8 @@
     "url": "https://abema.tv/search?q=%E9%9D%92%E3%81%84%E8%8A%B1",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OB44CCIOKA",
@@ -966,7 +1022,8 @@
     "url": "https://abema.tv/search?q=%E3%83%81%E3%80%82%20%E2%80%95%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E2%80%95",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pyI44GM5bCO",
@@ -983,7 +1040,8 @@
     "url": "https://abema.tv/search?q=%E6%9C%88%E3%81%8C%E5%B0%8E%E3%81%8F%E7%95%B0%E4%B8%96%E7%95%8C%E9%81%93%E4%B8%AD%20%E7%AC%AC%E4%BA%8C%E5%B9%95",
     "episodeInfo": "第1話〜第25話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KI44GG44GT",
@@ -1000,7 +1058,8 @@
     "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B82nd%20Season",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5Zyw57ib5bCR",
@@ -1017,7 +1076,8 @@
     "url": "https://abema.tv/search?q=%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E3%81%8F%E3%82%93",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6buS44Gu5Y+s",
@@ -1034,7 +1094,8 @@
     "url": "https://abema.tv/search?q=%E9%BB%92%E3%81%AE%E5%8F%AC%E5%96%9A%E5%A3%AB",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5bm86aa05p+T",
@@ -1051,7 +1112,8 @@
     "url": "https://abema.tv/search?q=%E5%B9%BC%E9%A6%B4%E6%9F%93%E3%81%A8%E3%81%AF%E3%83%A9%E3%83%96%E3%82%B3%E3%83%A1%E3%81%AB%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KG44KL44Kt",
@@ -1068,7 +1130,8 @@
     "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KI44GG44GT",
@@ -1085,7 +1148,8 @@
     "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-U1BZw5dGQU1J",
@@ -1102,7 +1166,8 @@
     "url": "https://abema.tv/search?q=SPY%C3%97FAMILY%20Season%202",
     "episodeInfo": "第26話〜第37話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kr44Ok44Gh",
@@ -1119,7 +1184,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%82%B3%E3%83%AF%E3%81%8F%E3%81%AA%E3%81%84",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5Zue5b6p6KGT",
@@ -1136,7 +1202,8 @@
     "url": "https://abema.tv/search?q=%E5%9B%9E%E5%BE%A9%E8%A1%93%E5%A3%AB%E3%81%AE%E3%82%84%E3%82%8A%E7%9B%B4%E3%81%97",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-Q0xBTk5BRCBB",
@@ -1153,7 +1220,8 @@
     "url": "https://abema.tv/search?q=CLANNAD%20AFTER%20STORY",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Od44O844K3",
@@ -1170,7 +1238,8 @@
     "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%81%E3%82%8F%E3%81%8C%E8%BA%AB%E3%82%92%E5%8A%A9%E3%81%91%E3%82%8B",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-54++5a6f5Li7",
@@ -1187,7 +1256,8 @@
     "url": "https://abema.tv/search?q=%E7%8F%BE%E5%AE%9F%E4%B8%BB%E7%BE%A9%E5%8B%87%E8%80%85%E3%81%AE%E7%8E%8B%E5%9B%BD%E5%86%8D%E5%BB%BA%E8%A8%98",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-54Sh6IG344Gu",
@@ -1204,7 +1274,8 @@
     "url": "https://abema.tv/search?q=%E7%84%A1%E8%81%B7%E3%81%AE%E8%8B%B1%E9%9B%84",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Od44O844K3",
@@ -1221,7 +1292,8 @@
     "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%A0%BC%E3%81%BF%E3%81%A7%E7%94%9F%E3%81%8D%E5%BB%B6%E3%81%B3%E3%81%BE%E3%81%99%EF%BC%81",
     "episodeInfo": "第1話〜第10話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Ieq5YuV6LKp",
@@ -1238,7 +1310,8 @@
     "url": "https://abema.tv/search?q=%E8%87%AA%E5%8B%95%E8%B2%A9%E5%A3%B2%E6%A9%9F%E3%81%AB%E7%94%9F%E3%81%BE%E3%82%8C%E5%A4%89%E3%82%8F%E3%81%A3%E3%81%9F%E4%BF%BA%E3%81%AF%E8%BF%B7%E5%AE%AE%E3%82%92%E5%BD%B7%E5%BE%A8%E3%81%86%203rd",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-R09BTE9VUzUg",
@@ -1255,7 +1328,8 @@
     "url": "https://abema.tv/search?q=GOALOUS5%20%E5%A3%B0%E7%A6%8F%E7%94%9F%E6%94%BE%E9%80%81%202026",
     "episodeInfo": "第5話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5ZCb44Gr5bGK",
@@ -1272,7 +1346,8 @@
     "url": "https://abema.tv/search?q=%E5%90%9B%E3%81%AB%E5%B1%8A%E3%81%91%202ND%20SEASON",
     "episodeInfo": "第0話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GK5YWE44Gh",
@@ -1289,7 +1364,8 @@
     "url": "https://abema.tv/search?q=%E3%81%8A%E5%85%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%81%8A%E3%81%97%E3%81%BE%E3%81%84%EF%BC%81",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OH44OD44OJ",
@@ -1306,7 +1382,8 @@
     "url": "https://abema.tv/search?q=%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-54mH55Sw6IiO",
@@ -1323,7 +1400,8 @@
     "url": "https://abema.tv/search?q=%E7%89%87%E7%94%B0%E8%88%8E%E3%81%AE%E3%81%8A%E3%81%A3%E3%81%95%E3%82%93%E3%80%81%E5%89%A3%E8%81%96%E3%81%AB%E3%81%AA%E3%82%8B",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OA44Oz44K4",
@@ -1340,7 +1418,8 @@
     "url": "https://abema.tv/search?q=%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AB%E5%87%BA%E4%BC%9A%E3%81%84%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E3%81%AE%E3%81%AF%E9%96%93%E9%81%95%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B%20%E5%A4%96%E4%BC%9D%20%E3%82%BD%E3%83%BC%E3%83%89%E3%83%BB%E3%82%AA%E3%83%A9%E3%83%88%E3%83%AA%E3%82%A2",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K544OG44Gk",
@@ -1357,7 +1436,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B9%E3%83%86%E3%81%A4%E3%82%88",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OH44OW44Go",
@@ -1374,7 +1454,8 @@
     "url": "https://abema.tv/search?q=%E3%83%87%E3%83%96%E3%81%A8%E3%83%A9%E3%83%96%E3%81%A8%E9%81%8E%E3%81%A1%E3%81%A8%EF%BC%81",
     "episodeInfo": "第1話〜第9話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-56We57Wx6KiY",
@@ -1391,7 +1472,8 @@
     "url": "https://abema.tv/search?q=%E7%A5%9E%E7%B5%B1%E8%A8%98%EF%BC%88%E3%83%86%E3%82%AA%E3%82%B4%E3%83%8B%E3%82%A2%EF%BC%89",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ky44O844K7",
@@ -1408,7 +1490,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B2%E3%83%BC%E3%82%BB%E3%83%B3%E5%B0%91%E5%A5%B3%E3%81%A8%E7%95%B0%E6%96%87%E5%8C%96%E4%BA%A4%E6%B5%81",
     "episodeInfo": "第1話〜第9話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K344Oj44Oz",
@@ -1425,7 +1508,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%94%E3%83%8B%E3%82%AA%E3%83%B3%E3%81%AE%E9%AD%94%E5%A5%B3",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GX44KN44Gy",
@@ -1442,7 +1526,8 @@
     "url": "https://abema.tv/search?q=%E3%81%97%E3%82%8D%E3%81%B2%E3%82%88",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55u+44Gu5YuH",
@@ -1459,7 +1544,8 @@
     "url": "https://abema.tv/search?q=%E7%9B%BE%E3%81%AE%E5%8B%87%E8%80%85%E3%81%AE%E6%88%90%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8A%20Season%203",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5ZiG44GN44Gu",
@@ -1476,7 +1562,8 @@
     "url": "https://abema.tv/search?q=%E5%98%86%E3%81%8D%E3%81%AE%E4%BA%A1%E9%9C%8A%E3%81%AF%E5%BC%95%E9%80%80%E3%81%97%E3%81%9F%E3%81%84",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OQ44Kr44Go",
@@ -1493,7 +1580,8 @@
     "url": "https://abema.tv/search?q=%E3%83%90%E3%82%AB%E3%81%A8%E3%83%86%E3%82%B9%E3%83%88%E3%81%A8%E5%8F%AC%E5%96%9A%E7%8D%A3",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5a6H5a6Z44KI",
@@ -1510,7 +1598,8 @@
     "url": "https://abema.tv/search?q=%E5%AE%87%E5%AE%99%E3%82%88%E3%82%8A%E3%82%82%E9%81%A0%E3%81%84%E5%A0%B4%E6%89%80",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OJ44Oh44K5",
@@ -1527,7 +1616,8 @@
     "url": "https://abema.tv/search?q=%E3%83%89%E3%83%A1%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%81%AA%E5%BD%BC%E5%A5%B3",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -1544,7 +1634,8 @@
     "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%204th",
     "episodeInfo": "第67話〜第77話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6LK05peP6Lui",
@@ -1561,7 +1652,8 @@
     "url": "https://abema.tv/search?q=%E8%B2%B4%E6%97%8F%E8%BB%A2%E7%94%9F",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K344Ol44K/",
@@ -1578,7 +1670,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3%E3%82%BA%E3%83%BB%E3%82%B2%E3%83%BC%E3%83%88%20%E3%82%BC%E3%83%AD",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ks44O044Oq",
@@ -1595,7 +1688,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AC%E3%83%B4%E3%83%AA%E3%83%BC%E3%83%AB%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%A2%E3%82%A6%E3%83%88",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5LqU562J5YiG",
@@ -1612,7 +1706,8 @@
     "url": "https://abema.tv/search?q=%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5Y2D5q2z44GP",
@@ -1629,7 +1724,8 @@
     "url": "https://abema.tv/search?q=%E5%8D%83%E6%AD%B3%E3%81%8F%E3%82%93%E3%81%AF%E3%83%A9%E3%83%A0%E3%83%8D%E7%93%B6%E3%81%AE%E3%81%AA%E3%81%8B",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-26-75",
@@ -1637,7 +1733,7 @@
     "channelId": "abema",
     "channelName": "ABEMA",
     "category": "アニメ",
-    "publishedAt": "2026-06-20T11:45:08.753Z",
+    "publishedAt": "2026-06-20T12:24:06.257Z",
     "description": "テレビアニメ「鬼滅の刃」 - 竈門炭治郎 立志編等、今期アニメ(最新作)の見逃し配信から懐かしの名作まで充実したアニメのラインナップを好きな時に何度でも楽しめます。また、ABEMAでは多彩な作品を無料で24時間どこでも視聴できます。",
     "thumbnailUrl": "https://image.p-c2-x.abema-tv.com/image/series/26-75/thumb.png?height=720&quality=75&version=1765182681&width=1280",
     "originalWorkTitle": "鬼滅の刃",
@@ -1646,7 +1742,8 @@
     "url": "https://abema.tv/video/title/26-75",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-19-171",
@@ -1654,7 +1751,7 @@
     "channelId": "abema",
     "channelName": "ABEMA",
     "category": "アニメ",
-    "publishedAt": "2026-06-20T11:45:07.476Z",
+    "publishedAt": "2026-06-20T12:24:04.950Z",
     "description": "葬送のフリーレン - 葬送のフリーレン等、今期アニメ(最新作)の見逃し配信から懐かしの名作まで充実したアニメのラインナップを好きな時に何度でも楽しめます。また、ABEMAでは多彩な作品を無料で24時間どこでも視聴できます。",
     "thumbnailUrl": "https://image.p-c2-x.abema-tv.com/image/series/19-171/thumb.png?height=720&quality=75&version=1774674561&width=1280",
     "originalWorkTitle": "葬送のフリーレン",
@@ -1663,7 +1760,42 @@
     "url": "https://abema.tv/video/title/19-171",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
+  },
+  {
+    "id": "CYsqXJ1GE2U",
+    "title": "TVアニメ『淡島百景』第11話【2026年4月よりフジテレビほかにて、好評放送中！】",
+    "channelId": "UCY5fcqgSrQItPAX_Z5Frmwg",
+    "channelName": "KADOKAWA",
+    "category": "アニメ",
+    "publishedAt": "2026-06-20T12:00:33+00:00",
+    "description": "『夢みる少女たちの光と影。』\n志村貴子が送る文化庁メディア芸術祭優秀賞受賞歌劇学校青春グラフィティ\nTVアニメ「淡島百景」2026年4月よりフジテレビほかにて、好評放送中！\n\n・イントロダクション\n淡島（あわじま）歌劇学校には、\n舞台に立つことを夢みる少女たちが全国から集まってくる。\nミュージカルスターに憧れて入学した、新入生の若菜。\n親友の思いを背負って学び続ける、寮長の絹枝。\n圧倒的な存在感を放つ、美しき特待生の絵美。\n彼女に憧れ、妬み、視線を求め続けた桂子とその家族――。\n彼女たちのかけがえのない日々が、\n人物の視点を変え、交錯しながらゆるやかに繋がっていく。\n今を生きる少女たちの、\n瑞々しく鮮烈な青春グラフィティ。\n\n・スタッフ\n原作：志村貴子（『淡島百景』太田出版）\n監督：浅香守生\nキャラクターデザイン：濱田邦彦\nシリーズ構成：中⻄やすひろ\n美術監督：中村豪希\n色彩設計：大野春恵\n撮影監督：酒井淳子\n音楽：小畑貴裕\nアニメーション制作：マッドハウス\n\n・キャスト\n田畑若菜：中林新夏\n竹原絹枝：大地 葉\n上田良子：茅野愛衣\n岡部絵美：藤原夏海\n伊吹桂子：恒松あゆみ\n\n・公式X\n@Awajima_anime #淡島百景\n\n・公式HP\nhttps://awajima-anime.com/\n\n©志村貴子・太田出版／淡島百景製作委員会",
+    "thumbnailUrl": "https://i4.ytimg.com/vi/CYsqXJ1GE2U/hqdefault.jpg",
+    "originalWorkTitle": "",
+    "endDate": null,
+    "isManual": false,
+    "episodeInfo": "第11話",
+    "isBulk": false,
+    "isLatest": false,
+    "mangaSaleInfo": null
+  },
+  {
+    "id": "oJh2lFlMhzw",
+    "title": "【魔女っ子60周年】魔法のマコちゃん 第6話『再会の涙』【期間限定】",
+    "channelId": "UCUUekIrulAiJnUOawqBRwZQ",
+    "channelName": "東映アニメ",
+    "category": "アニメ",
+    "publishedAt": "2026-06-20T12:00:00+00:00",
+    "description": "#魔法のマコちゃん #東映アニメーションミュージアムチャンネル\n★★東映アニメ魔女っ子60周年記念を記念して、\n東映アニメーションで人気の歴代魔女っ子シリーズを、毎日21時に1話ずつ配信☆彡\n第3弾は、魔法のマコちゃん！なんと第1話～第48話（最終話）まで全話配信！\n各話2週間の期間限定のため、お見逃しなく！\n------------------------------------------------\n Prime Videoチャンネル「東映アニメチャンネル」にて\n『魔法のマコちゃん』絶賛配信中🧜‍♀️\nhttps://www.amazon.co.jp/gp/video/detail/B0FXSLK8MX/\n配信で見れるのはここだけ！この機会にチェック✅\n👇登録はこちらから👇\nhttps://www.amazon.co.jp/gp/video/offers/ref=atv_3p_amz_c_Tkvfrs_1_1?benefitId=toeianimejp\n------------------------------------------------\n✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿✿\n【魔法のマコちゃん】作品概要\n\n■ストーリー\n人魚の国の竜王の末娘・マコは、人間の世界にあこがれ、掟を破って海上に顔を出してしまう。 \nそこではじめて見た人間・アキラに恋をしてしまったマコは、再び人魚に戻れないことを承知で、もの知りおばばに人間にしてもらう。 \n動物好きの浦島老人の家へ身を寄せ、アキラとの再会を願うマコ。 \n父にもらったペンダントの不思議な力をもって人魚姫マコは、さまざまな人間との出会いを通して、本当の人間になっていく。\n\n■解説\n魔女っ子シリーズ第3弾。主人公の年齢も前2作より上がり、恋愛がテーマになるなどして、物語もやや大人向けになっている。原作を漫画に求めていないオリジナル作品。\n\n■番組情報\n放送開始：1970年11月2日\n放送終了：1971年9月27日\n毎週月曜日　19:00～19:30\nNET（現テレビ朝日）系列\n全48話\n\n■スタッフ\n企画：原 徹、横山賢二、宮崎慎一(NET)\n原作：浦川しのぶ\n脚本：辻 真先、雪室俊一、岡本克己、ほか\n演出：芹川有吾、高見義雄、久岡敬史、ほか\nキャラクターデザイン：高橋信也\n美術：遠藤重義、山崎 誠、横井三郎、ほか\n音楽：渡辺岳夫\n\n■キャラクター／キャスト\nマコ：杉山佳寿子\nパパ：谷津 勲\nママ：平井道子\n太郎：丸山裕子\n次郎：友近恵子\n浦島老人：梶 哲也\n番長：大竹 宏\n\n■主題歌／挿入歌\nオープニング楽曲　\n「魔法のマコちゃん」\n作詞：渡辺岳夫\n作曲：渡辺岳夫\nうた：堀江美都子\n\nエンディング楽曲\n「ボクはマコについてゆく」\n作詞：渡辺岳夫\n作曲：渡辺岳夫\nうた：堀江美都子　コロムビア・メール・ハーモニー\n\n（C）東映アニメーション",
+    "thumbnailUrl": "https://i4.ytimg.com/vi/oJh2lFlMhzw/hqdefault.jpg",
+    "originalWorkTitle": "",
+    "endDate": null,
+    "isManual": false,
+    "episodeInfo": "第6話",
+    "isBulk": false,
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "YT_jSHCWxPE",
@@ -1679,7 +1811,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -1696,7 +1829,8 @@
     "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E5%B1%85%E9%85%92%E5%B1%8B%EF%BD%9E%E5%8F%A4%E9%83%BD%E3%82%A2%E3%82%A4%E3%83%86%E3%83%BC%E3%83%AA%E3%82%A2%E3%81%AE%E5%B1%85%E9%85%92%E5%B1%8B%E3%81%AE%E3%81%B6%EF%BD%9E",
     "episodeInfo": "第1話〜第24話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44ON44OI5YWF",
@@ -1713,7 +1847,8 @@
     "url": "https://abema.tv/search?q=%E3%83%8D%E3%83%88%E5%85%85%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1",
     "episodeInfo": "第1話〜第10話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5rGf5oi45YmN",
@@ -1730,7 +1865,8 @@
     "url": "https://abema.tv/search?q=%E6%B1%9F%E6%88%B8%E5%89%8D%E3%82%A8%E3%83%AB%E3%83%95",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kz44O844OJ",
@@ -1747,7 +1883,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9%20%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5%20R2",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -1764,7 +1901,8 @@
     "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%A7%E3%83%81%E3%83%BC%E3%83%88%E8%83%BD%E5%8A%9B%E3%82%92%E6%89%8B%E3%81%AB%E3%81%97%E3%81%9F%E4%BF%BA%E3%81%AF%E3%80%81%E7%8F%BE%E5%AE%9F%E4%B8%96%E7%95%8C%E3%82%92%E3%82%82%E7%84%A1%E5%8F%8C%E3%81%99%E3%82%8B",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "mL1_IZZHo2Q",
@@ -1780,7 +1918,8 @@
     "isManual": false,
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "8If56hzNW3I",
@@ -1796,7 +1935,8 @@
     "isManual": false,
     "episodeInfo": "第19話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "ugjIeJM6_O0",
@@ -1812,7 +1952,8 @@
     "isManual": false,
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "1p7rYsjmepM",
@@ -1828,7 +1969,8 @@
     "isManual": false,
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "_1XlN0A3svg",
@@ -1844,7 +1986,8 @@
     "isManual": false,
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "y4kbtspBmCs",
@@ -1860,7 +2003,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "GJ_2FsAdWWQ",
@@ -1876,7 +2020,8 @@
     "isManual": false,
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Lnhjn5_ym7E",
@@ -1892,7 +2037,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Oe44Kt44KZ",
@@ -1909,7 +2055,8 @@
     "url": "https://abema.tv/search?q=%E3%83%9E%E3%82%AD%E3%82%99%20%E3%82%B7%E3%83%B3%E3%83%88%E3%82%99%E3%83%8F%E3%82%99%E3%83%83%E3%83%88%E3%82%99%E3%81%AE%E5%86%92%E9%99%BA",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Ui93XOy15lQ",
@@ -1925,7 +2072,8 @@
     "isManual": false,
     "episodeInfo": "第113話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Od44Oz44Kz",
@@ -1942,7 +2090,8 @@
     "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%B3%E3%82%B3%E3%83%84%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%EF%BD%9E%E9%AD%94%E7%8E%8B%E3%81%A8%E6%B4%BE%E9%81%A3%E3%81%AE%E9%AD%94%E7%89%A9%E3%81%9F%E3%81%A1%EF%BD%9E",
     "episodeInfo": "第1話〜第3話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "LK_sHw3bEUc",
@@ -1958,7 +2107,8 @@
     "isManual": false,
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Z9oSP8EocUA",
@@ -1974,7 +2124,8 @@
     "isManual": false,
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-RmF0ZS9zdGF5",
@@ -1991,7 +2142,8 @@
     "url": "https://abema.tv/search?q=Fate%2Fstay%20night",
     "episodeInfo": "第0話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pyA5by344K/",
@@ -2008,7 +2160,8 @@
     "url": "https://abema.tv/search?q=%E6%9C%80%E5%BC%B7%E3%82%BF%E3%83%B3%E3%82%AF%E3%81%AE%E8%BF%B7%E5%AE%AE%E6%94%BB%E7%95%A5",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OR44O844OG",
@@ -2025,7 +2178,8 @@
     "url": "https://abema.tv/search?q=%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%81%8B%E3%82%89%E8%BF%BD%E6%94%BE%E3%81%95%E3%82%8C%E3%81%9F%E3%81%9D%E3%81%AE%E6%B2%BB%E7%99%92%E5%B8%AB%E3%80%81%E5%AE%9F%E3%81%AF%E6%9C%80%E5%BC%B7%E3%81%AB%E3%81%A4%E3%81%8D",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aSi6KaL44KL",
@@ -2042,7 +2196,8 @@
     "url": "https://abema.tv/search?q=%E5%A4%A2%E8%A6%8B%E3%82%8B%E7%94%B7%E5%AD%90%E3%81%AF%E7%8F%BE%E5%AE%9F%E4%B8%BB%E7%BE%A9%E8%80%85",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gu44KT44Gu",
@@ -2059,7 +2214,8 @@
     "url": "https://abema.tv/search?q=%E3%81%AE%E3%82%93%E3%81%AE%E3%82%93%E3%81%B3%E3%82%88%E3%82%8A%20%E3%81%AE%E3%82%93%E3%81%99%E3%81%A8%E3%81%A3%E3%81%B7",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-Q0xBTk5BRA",
@@ -2076,7 +2232,8 @@
     "url": "https://abema.tv/search?q=CLANNAD",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5a6f44Gv5L+6",
@@ -2093,7 +2250,8 @@
     "url": "https://abema.tv/search?q=%E5%AE%9F%E3%81%AF%E4%BF%BA%E3%80%81%E6%9C%80%E5%BC%B7%E3%81%A7%E3%81%97%E3%81%9F%EF%BC%9F",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OA44Kk44Ok",
@@ -2110,7 +2268,8 @@
     "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA%20act%E2%85%A1%20-Second%20Season-",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5LiK5LyK6YKj",
@@ -2127,7 +2286,8 @@
     "url": "https://abema.tv/search?q=%E4%B8%8A%E4%BC%8A%E9%82%A3%E3%81%BC%E3%81%9F%E3%82%93%E3%80%81%E9%85%92%E3%81%AE%E8%82%B4%E3%81%AB%E3%81%AA%E3%82%8B%E8%A9%B1%E3%80%80%E4%B9%BE%E6%9D%AF",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OA44Kk44Kt",
@@ -2144,7 +2304,8 @@
     "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F19",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "v2eLPurl-FM",
@@ -2160,7 +2321,8 @@
     "isManual": false,
     "episodeInfo": "第4話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "1gIjnLnS9xQ",
@@ -2176,7 +2338,8 @@
     "isManual": false,
     "episodeInfo": "第30話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "bVfYxvxRj6o",
@@ -2192,7 +2355,8 @@
     "isManual": false,
     "episodeInfo": "第5話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-U0hJQlVZQSBB",
@@ -2209,7 +2373,8 @@
     "url": "https://abema.tv/search?q=SHIBUYA%20ANIME%20BASE",
     "episodeInfo": "第89話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "CwMmrVyaPoE",
@@ -2225,7 +2390,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "-IgP2SpFPos",
@@ -2241,7 +2407,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "0UB5dbWYTOY",
@@ -2257,7 +2424,8 @@
     "isManual": false,
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "W3-i92yK8Q4",
@@ -2273,7 +2441,8 @@
     "isManual": false,
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "kypb6-6hD6Y",
@@ -2289,7 +2458,8 @@
     "isManual": false,
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GK5rCX5qW9",
@@ -2306,7 +2476,8 @@
     "url": "https://abema.tv/search?q=%E3%81%8A%E6%B0%97%E6%A5%BD%E9%A0%98%E4%B8%BB%E3%81%AE%E6%A5%BD%E3%81%97%E3%81%84%E9%A0%98%E5%9C%B0%E9%98%B2%E8%A1%9B",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kq44O844OQ",
@@ -2323,7 +2494,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%E2%85%A1",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kr44OD44Kz",
@@ -2340,7 +2512,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%83%E3%82%B3%E3%82%A6%E3%81%AE%E8%A8%B1%E5%AB%81Season2",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GU5rOo5paH",
@@ -2357,7 +2530,8 @@
     "url": "https://abema.tv/search?q=%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%20BLOOM",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Go44GC44KL",
@@ -2374,7 +2548,8 @@
     "url": "https://abema.tv/search?q=%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2S",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "szQf0THYvy0",
@@ -2390,7 +2565,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "cXqvu_OWKBw",
@@ -2406,7 +2582,8 @@
     "isManual": false,
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "vB7Q5pGSsF8",
@@ -2422,7 +2599,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "6cpXOrvialg",
@@ -2438,7 +2616,8 @@
     "isManual": false,
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "8-x90weQtD4",
@@ -2454,7 +2633,8 @@
     "isManual": false,
     "episodeInfo": "第37話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "WfaZcc-eexY",
@@ -2470,7 +2650,8 @@
     "isManual": false,
     "episodeInfo": "第4話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "rEOJUvyEfSY",
@@ -2486,7 +2667,8 @@
     "isManual": false,
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "lpR0KRZKZ9E",
@@ -2502,7 +2684,8 @@
     "isManual": false,
     "episodeInfo": "第301話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "546JkvzSLcA",
@@ -2518,7 +2701,8 @@
     "isManual": false,
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -2535,7 +2719,8 @@
     "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%AE%E5%8D%B5%E3%81%A0%E3%81%A3%E3%81%9F%EF%BD%9E%E6%9C%80%E5%BC%B7%E4%BB%A5%E5%A4%96%E7%9B%AE%E6%8C%87%E3%81%95%E3%81%AD%E3%81%87%EF%BD%9E",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44G144Gf44KK",
@@ -2552,7 +2737,8 @@
     "url": "https://abema.tv/search?q=%E3%81%B5%E3%81%9F%E3%82%8A%E3%82%BD%E3%83%AD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "iSMlbESVp0s",
@@ -2568,7 +2754,8 @@
     "isManual": false,
     "episodeInfo": "第32話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44ON44Ks44Od",
@@ -2585,7 +2772,8 @@
     "url": "https://abema.tv/search?q=%E3%83%8D%E3%82%AC%E3%83%9D%E3%82%B8%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%A9%E3%83%BC",
     "episodeInfo": "第1話〜第10話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6ZeH44OS44O8",
@@ -2602,7 +2790,8 @@
     "url": "https://abema.tv/search?q=%E9%97%87%E3%83%92%E3%83%BC%E3%83%A9%E3%83%BC",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gu44KT44Gu",
@@ -2619,7 +2808,8 @@
     "url": "https://abema.tv/search?q=%E3%81%AE%E3%82%93%E3%81%AE%E3%82%93%E3%81%B3%E3%82%88%E3%82%8A%20%E3%82%8A%E3%81%B4%E3%83%BC%E3%81%A8",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OA44Kk44Ok",
@@ -2636,7 +2826,8 @@
     "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA",
     "episodeInfo": "第1話〜第8話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GK44Gt44GM",
@@ -2653,7 +2844,8 @@
     "url": "https://abema.tv/search?q=%E3%81%8A%E3%81%AD%E3%81%8C%E3%81%84%E3%82%A2%E3%82%A4%E3%83%97%E3%83%AA",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5YuH6ICF44Gu",
@@ -2670,7 +2862,8 @@
     "url": "https://abema.tv/search?q=%E5%8B%87%E8%80%85%E3%81%AE%E3%82%AF%E3%82%BA",
     "episodeInfo": "第22話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GT44KB44GL",
@@ -2687,7 +2880,8 @@
     "url": "https://abema.tv/search?q=%E3%81%93%E3%82%81%E3%81%8B%E3%81%BF%E3%81%A3%EF%BC%81Girls",
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5YWD56WW77yB",
@@ -2704,7 +2898,8 @@
     "url": "https://abema.tv/search?q=%E5%85%83%E7%A5%96%EF%BC%81%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA%E3%81%A1%E3%82%83%E3%82%93",
     "episodeInfo": "第37話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6LOi6ICF44Gu",
@@ -2721,7 +2916,8 @@
     "url": "https://abema.tv/search?q=%E8%B3%A2%E8%80%85%E3%81%AE%E5%AD%AB",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Zyn5bC+44OV",
@@ -2738,7 +2934,8 @@
     "url": "https://abema.tv/search?q=%E9%9C%A7%E5%B0%BE%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%96",
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6buS54yr44Go",
@@ -2755,7 +2952,8 @@
     "url": "https://abema.tv/search?q=%E9%BB%92%E7%8C%AB%E3%81%A8%E9%AD%94%E5%A5%B3%E3%81%AE%E6%95%99%E5%AE%A4",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "UxwfaQgAQos",
@@ -2771,7 +2969,8 @@
     "isManual": false,
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-TUFP",
@@ -2788,7 +2987,8 @@
     "url": "https://abema.tv/search?q=MAO",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Jas5bGL44Gu",
@@ -2805,7 +3005,8 @@
     "url": "https://abema.tv/search?q=%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8",
     "episodeInfo": "第1話〜第24話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gy44GN44GT",
@@ -2822,7 +3023,8 @@
     "url": "https://abema.tv/search?q=%E3%81%B2%E3%81%8D%E3%81%93%E3%81%BE%E3%82%8A%E5%90%B8%E8%A1%80%E5%A7%AB%E3%81%AE%E6%82%B6%E3%80%85",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-RHIuU1RPTkUg",
@@ -2839,7 +3041,8 @@
     "url": "https://abema.tv/search?q=Dr.STONE%20SCIENCE%20FUTURE",
     "episodeInfo": "第36話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aer6aiO5aOr",
@@ -2856,7 +3059,8 @@
     "url": "https://abema.tv/search?q=%E5%A7%AB%E9%A8%8E%E5%A3%AB%E3%81%AF%E8%9B%AE%E6%97%8F%E3%81%AE%E5%AB%81",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "DB348iURxXk",
@@ -2872,7 +3076,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "CMikjW2RC2Y",
@@ -2888,7 +3093,8 @@
     "isManual": false,
     "episodeInfo": "第14話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "XIP5DenkzXM",
@@ -2904,7 +3110,8 @@
     "isManual": false,
     "episodeInfo": "第4話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5paw57Gz44Kq",
@@ -2921,7 +3128,8 @@
     "url": "https://abema.tv/search?q=%E6%96%B0%E7%B1%B3%E3%82%AA%E3%83%83%E3%82%B5%E3%83%B3%E5%86%92%E9%99%BA%E8%80%85%E3%80%81%E6%9C%80%E5%BC%B7%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%81%AB%E6%AD%BB%E3%81%AC%E3%81%BB%E3%81%A9%E9%8D%9B%E3%81%88%E3%82%89%E3%82%8C%E3%81%A6%E7%84%A1%E6%95%B5%E3%81%AB%E3%81%AA%E3%82%8B%E3%80%82",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GT44Gu57Sg",
@@ -2938,7 +3146,8 @@
     "url": "https://abema.tv/search?q=%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%EF%BC%92",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OR44Oq44OU",
@@ -2955,7 +3164,8 @@
     "url": "https://abema.tv/search?q=%E3%83%91%E3%83%AA%E3%83%94%E5%AD%94%E6%98%8E",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5qGc6Jit6auY",
@@ -2972,7 +3182,8 @@
     "url": "https://abema.tv/search?q=%E6%A1%9C%E8%98%AD%E9%AB%98%E6%A0%A1%E3%83%9B%E3%82%B9%E3%83%88%E9%83%A8",
     "episodeInfo": "第14話〜第26話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -2989,7 +3200,8 @@
     "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%203rd",
     "episodeInfo": "第51話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "JwZRyOTRA_I",
@@ -3005,7 +3217,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "vOGQBh0B7Ao",
@@ -3021,7 +3234,8 @@
     "isManual": false,
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "UA-Az5COdi8",
@@ -3037,7 +3251,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "OJE4VsyvJlE",
@@ -3053,7 +3268,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "htHBHQyRoYs",
@@ -3069,7 +3285,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Yu844Gu6Yys",
@@ -3086,7 +3303,8 @@
     "url": "https://abema.tv/search?q=%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB%20FULLMETAL%20ALCHEMIST",
     "episodeInfo": "第33話〜第48話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5oKq6aOf5Luk",
@@ -3103,7 +3321,8 @@
     "url": "https://abema.tv/search?q=%E6%82%AA%E9%A3%9F%E4%BB%A4%E5%AC%A2%E3%81%A8%E7%8B%82%E8%A1%80%E5%85%AC%E7%88%B5",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GG44KL44KP",
@@ -3120,7 +3339,8 @@
     "url": "https://abema.tv/search?q=%E3%81%86%E3%82%8B%E3%82%8F%E3%81%97%E3%81%AE%E5%AE%B5%E3%81%AE%E6%9C%88",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "AuXC0_hx8As",
@@ -3136,7 +3356,8 @@
     "isManual": false,
     "episodeInfo": "第6話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "3FfhOWyfjo8",
@@ -3152,7 +3373,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Y1i2x9byDTw",
@@ -3168,7 +3390,8 @@
     "isManual": false,
     "episodeInfo": "第31話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aSx5qC857SL",
@@ -3185,7 +3408,8 @@
     "url": "https://abema.tv/search?q=%E5%A4%B1%E6%A0%BC%E7%B4%8B%E3%81%AE%E6%9C%80%E5%BC%B7%E8%B3%A2%E8%80%85",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5ZCb44Gv5Yal",
@@ -3202,7 +3426,8 @@
     "url": "https://abema.tv/search?q=%E5%90%9B%E3%81%AF%E5%86%A5%E5%9C%9F%E6%A7%98%E3%80%82",
     "episodeInfo": "第1話〜第10話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-54u844Go6aaZ",
@@ -3219,7 +3444,8 @@
     "url": "https://abema.tv/search?q=%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99%20MERCHANT%20MEETS%20THE%20WISE%20WOLF",
     "episodeInfo": "第13話〜第22話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6KOc5Yqp6a2U",
@@ -3236,7 +3462,8 @@
     "url": "https://abema.tv/search?q=%E8%A3%9C%E5%8A%A9%E9%AD%94%E6%B3%95",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55yf44O76YCy",
@@ -3253,7 +3480,8 @@
     "url": "https://abema.tv/search?q=%E7%9C%9F%E3%83%BB%E9%80%B2%E5%8C%96%E3%81%AE%E5%AE%9F%EF%BD%9E%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%81%86%E3%81%A1%E3%81%AB%E5%8B%9D%E3%81%A1%E7%B5%84%E4%BA%BA%E7%94%9F%EF%BD%9E",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K944O844OJ",
@@ -3270,7 +3498,8 @@
     "url": "https://abema.tv/search?q=%E3%82%BD%E3%83%BC%E3%83%89%E3%82%A2%E3%83%BC%E3%83%88%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U546L44Gu",
@@ -3287,7 +3516,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E7%8E%8B%E3%81%AE%E5%A8%98%E3%81%AF%E5%84%AA%E3%81%97%E3%81%99%E3%81%8E%E3%82%8B!!",
     "episodeInfo": "第1話〜第6話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pyI44GM5bCO",
@@ -3304,7 +3534,8 @@
     "url": "https://abema.tv/search?q=%E6%9C%88%E3%81%8C%E5%B0%8E%E3%81%8F%E7%95%B0%E4%B8%96%E7%95%8C%E9%81%93%E4%B8%AD",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5L+644Gv5pif",
@@ -3321,7 +3552,8 @@
     "url": "https://abema.tv/search?q=%E4%BF%BA%E3%81%AF%E6%98%9F%E9%96%93%E5%9B%BD%E5%AE%B6%E3%81%AE%E6%82%AA%E5%BE%B3%E9%A0%98%E4%B8%BB%EF%BC%81",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5LiN5q276Lqr",
@@ -3338,7 +3570,8 @@
     "url": "https://abema.tv/search?q=%E4%B8%8D%E6%AD%BB%E8%BA%AB%E3%81%AA%E5%83%95%E3%81%AE%E6%97%A5%E5%B8%B8%20%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B33",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55m+6ay85aSc",
@@ -3355,7 +3588,8 @@
     "url": "https://abema.tv/search?q=%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E6%8A%84",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aSn6LOi6ICF",
@@ -3372,7 +3606,8 @@
     "url": "https://abema.tv/search?q=%E5%A4%A7%E8%B3%A2%E8%80%85%E3%83%AA%E3%83%89%E3%83%AB%E3%81%AE%E6%99%82%E9%96%93%E9%80%86%E8%A1%8C",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U54mp5Zaw",
@@ -3389,7 +3624,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E7%89%A9%E5%96%B0%E3%82%89%E3%81%84%E3%81%AE%E5%86%92%E9%99%BA%E8%80%85%EF%BD%9E%E4%BF%BA%E3%81%A0%E3%81%91%E9%AD%94%E7%89%A9%E3%82%92%E5%96%B0%E3%82%89%E3%81%A3%E3%81%A6%E5%BC%B7%E3%81%8F%E3%81%AA%E3%82%8B%EF%BD%9E",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aSn44GN44GE",
@@ -3406,7 +3642,8 @@
     "url": "https://abema.tv/search?q=%E5%A4%A7%E3%81%8D%E3%81%84%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%AF%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kk44Oz44K0",
@@ -3423,7 +3660,8 @@
     "url": "https://abema.tv/search?q=%E3%82%A4%E3%83%B3%E3%82%B4%E3%82%AF%E3%83%80%E3%83%B3%E3%83%81",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pig55S744GR",
@@ -3440,7 +3678,8 @@
     "url": "https://abema.tv/search?q=%E6%98%A0%E7%94%BB%E3%81%91%E3%81%84%E3%81%8A%E3%82%93!",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GE44GP44Gg",
@@ -3457,7 +3696,8 @@
     "url": "https://abema.tv/search?q=%E3%81%84%E3%81%8F%E3%81%A0%E3%82%82%E3%82%82%EF%BC%81%E3%81%9D%E3%81%B3%E3%83%BC",
     "episodeInfo": "第1話〜第6話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-bW9mdXNhbmQg",
@@ -3474,7 +3714,8 @@
     "url": "https://abema.tv/search?q=mofusand%20animation",
     "episodeInfo": "第24話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6YCD44GM44GX",
@@ -3491,7 +3732,8 @@
     "url": "https://abema.tv/search?q=%E9%80%83%E3%81%8C%E3%81%97%E3%81%9F%E9%AD%9A%E3%81%AF%E5%A4%A7%E3%81%8D%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%8C%E9%87%A3%E3%82%8A%E3%81%82%E3%81%92%E3%81%9F%E9%AD%9A%E3%81%8C%E5%A4%A7%E3%81%8D%E3%81%99%E3%81%8E%E3%81%9F%E4%BB%B6",
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-56We44Gu6Zur",
@@ -3508,7 +3750,8 @@
     "url": "https://abema.tv/search?q=%E7%A5%9E%E3%81%AE%E9%9B%AB",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ks44Oz44OQ",
@@ -3525,7 +3768,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AC%E3%83%B3%E3%83%90%E3%83%AC%EF%BC%81%E4%B8%AD%E6%9D%91%E3%81%8F%E3%82%93%EF%BC%81%EF%BC%81",
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5b285aWz44CB",
@@ -3542,7 +3786,8 @@
     "url": "https://abema.tv/search?q=%E5%BD%BC%E5%A5%B3%E3%80%81%E3%81%8A%E5%80%9F%E3%82%8A%E3%81%97%E3%81%BE%E3%81%99",
     "episodeInfo": "第5話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Ieq56ew5oKq",
@@ -3559,7 +3804,8 @@
     "url": "https://abema.tv/search?q=%E8%87%AA%E7%A7%B0%E6%82%AA%E5%BD%B9%E4%BB%A4%E5%AC%A2%E3%81%AA%E5%A9%9A%E7%B4%84%E8%80%85%E3%81%AE%E8%A6%B3%E5%AF%9F%E8%A8%98%E9%8C%B2%E3%80%82",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -3576,7 +3822,8 @@
     "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%E3%80%804th",
     "episodeInfo": "第77話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "DsHR7xiwqg0",
@@ -3592,7 +3839,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OA44Kk44Kt",
@@ -3609,7 +3857,8 @@
     "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F17",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KI44KP44KI",
@@ -3626,7 +3875,8 @@
     "url": "https://abema.tv/search?q=%E3%82%88%E3%82%8F%E3%82%88%E3%82%8F%E5%85%88%E7%94%9F%20%E3%82%AA%E3%83%B3%E3%82%A8%E3%82%A2ver.",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "MCER9lgOUkM",
@@ -3642,7 +3892,8 @@
     "isManual": false,
     "episodeInfo": "第47話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "L93bke7mPUw",
@@ -3658,7 +3909,8 @@
     "isManual": false,
     "episodeInfo": "第3話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5LiA55Wz6ZaT",
@@ -3675,7 +3927,8 @@
     "url": "https://abema.tv/search?q=%E4%B8%80%E7%95%B3%E9%96%93%E3%81%BE%E3%82%93%E3%81%8D%E3%81%A4%E6%9A%AE%E3%82%89%E3%81%97%EF%BC%81",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-UHJvamVjdCBQ",
@@ -3692,7 +3945,8 @@
     "url": "https://abema.tv/search?q=Project%20PRISMation",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "QRcvKeysbiY",
@@ -3708,7 +3962,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-MjnmrbPni6zo",
@@ -3725,7 +3980,8 @@
     "url": "https://abema.tv/search?q=29%E6%AD%B3%E7%8B%AC%E8%BA%AB%E4%B8%AD%E5%A0%85%E5%86%92%E9%99%BA%E8%80%85%E3%81%AE%E6%97%A5%E5%B8%B8",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aSa6IGe44GP",
@@ -3742,7 +3998,8 @@
     "url": "https://abema.tv/search?q=%E5%A4%9A%E8%81%9E%E3%81%8F%E3%82%93%E4%BB%8A%E3%81%A9%E3%81%A3%E3%81%A1%EF%BC%81%EF%BC%9F",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "5vtFOSI7G4I",
@@ -3758,7 +4015,8 @@
     "isManual": false,
     "episodeInfo": "第26話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "X1os8fN56KY",
@@ -3774,7 +4032,8 @@
     "isManual": false,
     "episodeInfo": "第23話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "i7TzqZISNrI",
@@ -3790,7 +4049,8 @@
     "isManual": false,
     "episodeInfo": "第24話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -3807,7 +4067,8 @@
     "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%202nd%20season",
     "episodeInfo": "第26話〜第50話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55u+44Gu5YuH",
@@ -3824,7 +4085,8 @@
     "url": "https://abema.tv/search?q=%E7%9B%BE%E3%81%AE%E5%8B%87%E8%80%85%E3%81%AE%E6%88%90%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8A%20Season%202",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gu44GG44KK",
@@ -3841,7 +4103,8 @@
     "url": "https://abema.tv/search?q=%E3%81%AE%E3%81%86%E3%82%8A%E3%82%93",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-U1BZw5dGQU1J",
@@ -3858,7 +4121,8 @@
     "url": "https://abema.tv/search?q=SPY%C3%97FAMILY%20Season%201",
     "episodeInfo": "第1話〜第25話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6IGW6ICF54Sh",
@@ -3875,7 +4139,8 @@
     "url": "https://abema.tv/search?q=%E8%81%96%E8%80%85%E7%84%A1%E5%8F%8C",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KI44GG44GT",
@@ -3892,7 +4157,8 @@
     "url": "https://abema.tv/search?q=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8%204th%20Season",
     "episodeInfo": "第1話〜第14話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GR44GE44GK",
@@ -3909,7 +4175,8 @@
     "url": "https://abema.tv/search?q=%E3%81%91%E3%81%84%E3%81%8A%E3%82%93%EF%BC%81%EF%BC%81",
     "episodeInfo": "第1話〜第24話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Ccfc_dJabYI",
@@ -3925,7 +4192,8 @@
     "isManual": false,
     "episodeInfo": "第30話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5by344GP44Gm",
@@ -3942,7 +4210,8 @@
     "url": "https://abema.tv/search?q=%E5%BC%B7%E3%81%8F%E3%81%A6%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%82%AC",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5rCX57W25YuH",
@@ -3959,7 +4228,8 @@
     "url": "https://abema.tv/search?q=%E6%B0%97%E7%B5%B6%E5%8B%87%E8%80%85%E3%81%A8%E6%9A%97%E6%AE%BA%E5%A7%AB",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55S35aWz44Gu",
@@ -3976,7 +4246,8 @@
     "url": "https://abema.tv/search?q=%E7%94%B7%E5%A5%B3%E3%81%AE%E5%8F%8B%E6%83%85%E3%81%AF%E6%88%90%E7%AB%8B%E3%81%99%E3%82%8B%EF%BC%9F%EF%BC%88%E3%81%84%E3%82%84%E3%80%81%E3%81%97%E3%81%AA%E3%81%84%E3%81%A3!!%EF%BC%89",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5Zyw57ib5bCR",
@@ -3993,7 +4264,8 @@
     "url": "https://abema.tv/search?q=%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E3%81%8F%E3%82%93%EF%BC%92",
     "episodeInfo": "第13話〜第23話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Oq44Kj44Oz",
@@ -4010,7 +4282,8 @@
     "url": "https://abema.tv/search?q=%E3%83%AA%E3%82%A3%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E8%8A%B1%E5%BC%81",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5reh5bO255m+",
@@ -4027,7 +4300,8 @@
     "url": "https://abema.tv/search?q=%E6%B7%A1%E5%B3%B6%E7%99%BE%E6%99%AF",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5p2x5Lqs44Oq",
@@ -4044,7 +4318,8 @@
     "url": "https://abema.tv/search?q=%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA",
     "episodeInfo": "第1話〜第24話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5YuH6ICF44Gu",
@@ -4061,7 +4336,8 @@
     "url": "https://abema.tv/search?q=%E5%8B%87%E8%80%85%E3%81%AE%E8%82%8B%E9%AA%A8",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-RElHSU1PTiBC",
@@ -4078,7 +4354,8 @@
     "url": "https://abema.tv/search?q=DIGIMON%20BEATBREAK",
     "episodeInfo": "第35話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kr44OK44Oz",
@@ -4095,7 +4372,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%8A%E3%83%B3%E6%A7%98%E3%81%AF%E3%81%82%E3%81%8F%E3%81%BE%E3%81%A7%E3%83%81%E3%83%A7%E3%83%AD%E3%81%84",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pys5aW944GN",
@@ -4112,7 +4390,8 @@
     "url": "https://abema.tv/search?q=%E6%9C%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E4%B8%8B%E5%89%8B%E4%B8%8A%20%E9%A0%98%E4%B8%BB%E3%81%AE%E9%A4%8A%E5%A5%B3",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Os44OX44Oq",
@@ -4129,7 +4408,8 @@
     "url": "https://abema.tv/search?q=%E3%83%AC%E3%83%97%E3%83%AA%E3%82%AB%E3%81%A0%E3%81%A3%E3%81%A6%E3%80%81%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B%E3%80%82",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "0Soi_qBL8Bg",
@@ -4145,7 +4425,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -4162,7 +4443,8 @@
     "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6",
     "episodeInfo": "第4話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KK44KF44GG",
@@ -4179,7 +4461,8 @@
     "url": "https://abema.tv/search?q=%E3%82%8A%E3%82%85%E3%81%86%E3%81%8A%E3%81%86%E3%81%AE%E3%81%8A%E3%81%97%E3%81%94%E3%81%A8%EF%BC%81",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5oSb44GX44Gm",
@@ -4196,7 +4479,8 @@
     "url": "https://abema.tv/search?q=%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%92%E7%B5%82%E3%82%8F%E3%82%89%E3%81%9B%E3%81%9F%E3%81%84",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "BJeMESxU_kg",
@@ -4212,7 +4496,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Z2S5pil44OW",
@@ -4229,7 +4514,8 @@
     "url": "https://abema.tv/search?q=%E9%9D%92%E6%98%A5%E3%83%96%E3%82%BF%E9%87%8E%E9%83%8E%E3%81%AF%E3%83%90%E3%83%8B%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%AB%E5%85%88%E8%BC%A9%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%81%AA%E3%81%84",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OA44Kk44Kt",
@@ -4246,7 +4532,8 @@
     "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F16",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "xJH1nXAiuvc",
@@ -4262,7 +4549,8 @@
     "isManual": false,
     "episodeInfo": "第47話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "ASGjh-b1EDc",
@@ -4278,7 +4566,8 @@
     "isManual": false,
     "episodeInfo": "第2話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "ERGhsGtce9E",
@@ -4294,7 +4583,8 @@
     "isManual": false,
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6ICB5b6M44Gr",
@@ -4311,7 +4601,8 @@
     "url": "https://abema.tv/search?q=%E8%80%81%E5%BE%8C%E3%81%AB%E5%82%99%E3%81%88%E3%81%A6%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%A78%E4%B8%87%E6%9E%9A%E3%81%AE%E9%87%91%E8%B2%A8%E3%82%92%E8%B2%AF%E3%82%81%E3%81%BE%E3%81%99",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KG44KL44Kt",
@@ -4328,7 +4619,8 @@
     "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3%20SEASON3",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "9_se_iYoaPY",
@@ -4344,7 +4636,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aOw5qWtIH7l",
@@ -4361,7 +4654,8 @@
     "url": "https://abema.tv/search?q=%E5%A3%B0%E6%A5%AD%20~%E5%91%BD%E3%82%92%E5%90%B9%E3%81%8D%E8%BE%BC%E3%82%80%E5%A3%B0~",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-UmU644K844Ot",
@@ -4378,7 +4672,8 @@
     "url": "https://abema.tv/search?q=Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB",
     "episodeInfo": "第1話〜第25話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5oim6ZeY5ZOh",
@@ -4395,7 +4690,8 @@
     "url": "https://abema.tv/search?q=%E6%88%A6%E9%97%98%E5%93%A1%E3%80%81%E6%B4%BE%E9%81%A3%E3%81%97%E3%81%BE%E3%81%99%EF%BC%81",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U5rOV56eR",
@@ -4412,23 +4708,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E7%A7%91%E9%AB%98%E6%A0%A1%E3%81%AE%E5%8A%A3%E7%AD%89%E7%94%9F",
     "episodeInfo": "第1話〜第26話",
     "isBulk": true,
-    "isLatest": false
-  },
-  {
-    "id": "P7C-q5qD768",
-    "title": "新生活・新社会人応援『はたらキッズマイハム組』第29話「嫉妬の星！だめだめダンシングクィーン！！」【公式】",
-    "channelId": "UCUUekIrulAiJnUOawqBRwZQ",
-    "channelName": "東映アニメ",
-    "category": "アニメ",
-    "publishedAt": "2026-06-16T03:00:06+00:00",
-    "description": "ハムスターたちもお仕事頑張ってます！\n新生活/新社会人に贈る『はたらキッズマイハム組』は、\n平日お昼12:00にプレミア公開チュー！\n※土・日・祝は配信をお休みします。\n\n☆彡☆彡☆彡\n見放題サービス『東映アニメチャンネル』にて、約11,000本の人気アニメを配信中！！\nhttps://x.gd/DgobT\n☆彡☆彡☆彡\n\n■ストーリー\n「マイハム」とは\n登場するハムスターたちは普通とちょっと違います。彼らはマイスターハムスターです。\n\nマイスター試験に合格したものだけに与えられたマイスターバッチの力により人間の言葉を話し、「マイハム」に変身するのです。\n人間たちに気付かれぬよう街を抜けだし、あちこちで仕事に励む彼ら。その行動範囲は、実はもの凄く広いのでした。\nあっと驚くような活躍をし、事件が解決すると、何くわぬ顔をしてハムスターハウスの中に戻り、ひまわりのタネをかじっています。\n自分が「マイハム」であることを伝えられるのは、飼い主ただ一人だけ。\n彼らの活躍を知らない人間たちは、ただその姿を見て「かわいい｣と言うだけですが、「マイハム」たちは、日夜、自らの技術を磨くための努力を惜しみません。\n子供たちが飼っているハムスターが、仕事の尊さを教え、ときには夢を叶えてくれる。そんなファンタジー・アニメーションです。\n\n\n■解説\n「はたらキッズ マイハム組」は、普段はおうちでのんびり暮らすかわいいペットのハムスターたちが、それぞれの特殊技能を発揮して「ミッション」を解決していくノンストップ「仕事人」アクション系ハムスターアニメです。\n本作では、ペットの人気アンケートでも常に上位をキープし、子どもたちを中心に性別を問わず、幅広い年齢層に人気のあるハムスターが主人公です。\n今や、ペットも家族の一員の時代、動物と人間の心の交流、子どもから大人までを取り込む、心温まる物語を展開します。\nまた、子どもたちの間で、仕事をするうえでの特殊技能をもったスペシャリスト（マイスター）が人気を集め、学校での職業体験の授業など注目を集めています。作品の中でも、特殊技能を持ったハムスターはマイハムとなり、難問を次々と解決していきます。子どもたちが飼っているペットのハムスターが、仕事の尊さを教え、時には夢を叶えてくれる、ファンタジーアニメーションです。\n\n\n■番組情報\n放送開始：2007年10月7日\n放送終了：2008年10月5日\n毎週日曜日　6時30分～7時00分\nテレビ朝日系列\n全50話\n\n\n■スタッフ\n原作：東堂いづみ\n企画：梶 淳(テレビ朝日)、関 弘美（東映アニメーション）、ギャルマト・ボグダン（東映アニメーション）\nシリーズ構成：山田隆司\nシリーズディレクター：今澤哲男\nキャラクターデザイン：山室直儀\n作画監督：梨澤孝司\n美術：本多 敬\n音楽：猪股義周\n製作担当：額賀康彦\n\n\n■キャスト\nガウディ：野沢雅子\nシルビー：千葉千恵巳\nジーン：小松由佳\nスティーブ：永田 彬\nアレック：腹筋善之介\n元締め：菊池正美\n\nカイト：鈴木真仁\nミズキ：前田 愛\nマリナ：川田妙子\n大介：雪野五月\n消防署長：茶風林\n\nケイスケ：置鮎龍太郎\nマサミ：井上喜久子\nダイキ：楠 大典\nサツキ：熊谷ニーナ\n\n\n■主題歌情報\nオープニングテーマ曲\n「はたらキッズ マイハム組」\n作詞：岩崎貴文\n作曲：岩崎貴文\n編曲：岩崎貴文\nうた：マイハム組\n\nエンディングテーマ曲\n「なーれ なーれ マイ マイスター！」\n作詞：高取ヒデアキ\n作曲：高取ヒデアキ\n編曲：籠島裕昌\nうた：宮本佳那子　\nコーラス：ヤング・フレッシュ",
-    "thumbnailUrl": "https://i1.ytimg.com/vi/P7C-q5qD768/hqdefault.jpg",
-    "originalWorkTitle": "",
-    "endDate": null,
-    "isManual": false,
-    "episodeInfo": "第29話",
-    "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Op44K554K6",
@@ -4445,7 +4726,8 @@
     "url": "https://abema.tv/search?q=%E3%83%A9%E3%82%B9%E7%82%BA",
     "episodeInfo": "第1話〜第10話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Hz3UWLv9wY0",
@@ -4461,7 +4743,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5ou35ZWP44OQ",
@@ -4478,7 +4761,8 @@
     "url": "https://abema.tv/search?q=%E6%8B%B7%E5%95%8F%E3%83%90%E3%82%A4%E3%83%88%E3%81%8F%E3%82%93%E3%81%AE%E6%97%A5%E5%B8%B8",
     "episodeInfo": "第1話〜第8話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6JC956ys6aiO",
@@ -4495,7 +4779,8 @@
     "url": "https://abema.tv/search?q=%E8%90%BD%E7%AC%AC%E9%A8%8E%E5%A3%AB%E3%81%AE%E8%8B%B1%E9%9B%84%E8%AD%9A",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K044Oq44Op",
@@ -4512,7 +4797,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B4%E3%83%AA%E3%83%A9%E3%81%AE%E7%A5%9E%E3%81%8B%E3%82%89%E5%8A%A0%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E4%BB%A4%E5%AC%A2%E3%81%AF%E7%8E%8B%E7%AB%8B%E9%A8%8E%E5%A3%AB%E5%9B%A3%E3%81%A7%E5%8F%AF%E6%84%9B%E3%81%8C%E3%82%89%E3%82%8C%E3%82%8B",
     "episodeInfo": "第1話〜第10話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Lui55Sf6LOi",
@@ -4529,7 +4815,8 @@
     "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E8%B3%A2%E8%80%85",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Kqw44K95b28",
@@ -4546,7 +4833,8 @@
     "url": "https://abema.tv/search?q=%E8%AA%B0%E3%82%BD%E5%BD%BC%E3%83%9B%E3%83%86%E3%83%AB",
     "episodeInfo": "第1話〜第5話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-U0FPIOOCquOD",
@@ -4563,7 +4851,8 @@
     "url": "https://abema.tv/search?q=SAO%20%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%20%E3%82%AC%E3%83%B3%E3%82%B2%E3%82%A4%E3%83%AB%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E2%85%A1",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kt44Oj44OX",
@@ -4580,7 +4869,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E7%BF%BC%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3%EF%BC%92%20%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%A6%E3%83%BC%E3%82%B9%E7%B7%A8",
     "episodeInfo": "第1話〜第14話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6L+95pS+55m9",
@@ -4597,7 +4887,8 @@
     "url": "https://abema.tv/search?q=%E8%BF%BD%E6%94%BE%E7%99%BD%E9%AD%94%E5%B0%8E%E5%B8%AB",
     "episodeInfo": "第1話〜第7話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5Y+L6YGU44Gu",
@@ -4614,7 +4905,8 @@
     "url": "https://abema.tv/search?q=%E5%8F%8B%E9%81%94%E3%81%AE%E5%A6%B9%E3%81%8C%E4%BF%BA%E3%81%AB%E3%81%A0%E3%81%91%E3%82%A6%E3%82%B6%E3%81%84",
     "episodeInfo": "第1話〜第9話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kv44K444Oe",
@@ -4631,7 +4923,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AF%E3%82%B8%E3%83%9E%E6%AD%8C%E3%81%88%E3%81%B0%E5%AE%B6%E3%81%BB%E3%82%8D%E3%82%8D",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-TElBUiBHQU1F",
@@ -4648,7 +4941,8 @@
     "url": "https://abema.tv/search?q=LIAR%20GAME",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44G+44Gf5q66",
@@ -4665,7 +4959,8 @@
     "url": "https://abema.tv/search?q=%E3%81%BE%E3%81%9F%E6%AE%BA%E3%81%95%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%99%E3%81%AD%E3%80%81%E6%8E%A2%E5%81%B5%E6%A7%98",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "aZskeNRvHxI",
@@ -4681,7 +4976,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OA44Kk44Kt",
@@ -4698,7 +4994,8 @@
     "url": "https://abema.tv/search?q=%E3%83%80%E3%82%A4%E3%82%AD%E3%83%B3%E7%A9%BA%E6%B0%97%E4%BA%88%E5%A0%B1%206%2F15",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U5YWl44KK",
@@ -4715,7 +5012,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E5%85%A5%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81%E5%85%A5%E9%96%93%E3%81%8F%E3%82%93%20%E7%AC%AC%EF%BC%94%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "1BIQVAMbaP8",
@@ -4731,7 +5029,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5Lq65aSW5pWZ",
@@ -4748,7 +5047,8 @@
     "url": "https://abema.tv/search?q=%E4%BA%BA%E5%A4%96%E6%95%99%E5%AE%A4%E3%81%AE%E4%BA%BA%E9%96%93%E5%AB%8C%E3%81%84%E6%95%99%E5%B8%AB",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5ZCb44Gr5bGK",
@@ -4765,7 +5065,8 @@
     "url": "https://abema.tv/search?q=%E5%90%9B%E3%81%AB%E5%B1%8A%E3%81%91",
     "episodeInfo": "第13話〜第25話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5bCP5p6X44GV",
@@ -4782,7 +5083,8 @@
     "url": "https://abema.tv/search?q=%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3",
     "episodeInfo": "第1話〜第14話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-77yY77yW4oCV",
@@ -4799,7 +5101,8 @@
     "url": "https://abema.tv/search?q=%EF%BC%98%EF%BC%96%E2%80%95%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E2%80%95",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6YCG5aKD54Sh",
@@ -4816,7 +5119,8 @@
     "url": "https://abema.tv/search?q=%E9%80%86%E5%A2%83%E7%84%A1%E9%A0%BC%20%E3%82%AB%E3%82%A4%E3%82%B8%20%E7%A0%B4%E6%88%92%E9%8C%B2%E7%AF%87",
     "episodeInfo": "第1話〜第26話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OA44Oz44K4",
@@ -4833,7 +5137,8 @@
     "url": "https://abema.tv/search?q=%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AB%E5%87%BA%E4%BC%9A%E3%81%84%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E3%81%AE%E3%81%AF%E9%96%93%E9%81%95%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B",
     "episodeInfo": "第1話〜第15話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "hoGUcMPq4MA",
@@ -4849,7 +5154,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "5NMOVNdmLNA",
@@ -4865,7 +5171,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aSq6Zm944KI",
@@ -4882,7 +5189,8 @@
     "url": "https://abema.tv/search?q=%E5%A4%AA%E9%99%BD%E3%82%88%E3%82%8A%E3%82%82%E7%9C%A9%E3%81%97%E3%81%84%E6%98%9F",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5YuH6ICF44OR",
@@ -4899,7 +5207,8 @@
     "url": "https://abema.tv/search?q=%E5%8B%87%E8%80%85%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%81%AB%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E5%AD%90%E3%81%8C%E3%81%84%E3%81%9F%E3%81%AE%E3%81%A7%E3%80%81%E5%91%8A%E7%99%BD%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F%E3%80%82",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5bCP5biC5rCR",
@@ -4916,7 +5225,8 @@
     "url": "https://abema.tv/search?q=%E5%B0%8F%E5%B8%82%E6%B0%91%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44KG44KL44KG",
@@ -4933,7 +5243,8 @@
     "url": "https://abema.tv/search?q=%E3%82%86%E3%82%8B%E3%82%86%E3%82%8A",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GY44GE44GV",
@@ -4950,7 +5261,8 @@
     "url": "https://abema.tv/search?q=%E3%81%98%E3%81%84%E3%81%95%E3%82%93%E3%81%B0%E3%81%82%E3%81%95%E3%82%93%E8%8B%A5%E8%BF%94%E3%82%8B",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ki44Od44Kr",
@@ -4967,7 +5279,8 @@
     "url": "https://abema.tv/search?q=%E3%82%A2%E3%83%9D%E3%82%AB%E3%83%AA%E3%83%97%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB",
     "episodeInfo": "第1話〜第6話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Zmw44Gu5a6f",
@@ -4984,7 +5297,8 @@
     "url": "https://abema.tv/search?q=%E9%99%B0%E3%81%AE%E5%AE%9F%E5%8A%9B%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%A6%EF%BC%812nd%20season",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6JGs6YCB44Gu",
@@ -5001,7 +5315,8 @@
     "url": "https://abema.tv/search?q=%E8%91%AC%E9%80%81%E3%81%AE%E3%83%95%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%B3",
     "episodeInfo": "第1話〜第28話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OL44Ov44OI",
@@ -5018,7 +5333,8 @@
     "url": "https://abema.tv/search?q=%E3%83%8B%E3%83%AF%E3%83%88%E3%83%AA%E3%83%BB%E3%83%95%E3%82%A1%E3%82%A4%E3%82%BF%E3%83%BC",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-54Gw5Y6f44GP",
@@ -5035,7 +5351,8 @@
     "url": "https://abema.tv/search?q=%E7%81%B0%E5%8E%9F%E3%81%8F%E3%82%93%E3%81%AE%E5%BC%B7%E3%81%8F%E3%81%A6%E9%9D%92%E6%98%A5%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K044O844K5",
@@ -5052,7 +5369,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%88%20%3A%20missing%20Songs",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5bem44GN44GN",
@@ -5069,7 +5387,8 @@
     "url": "https://abema.tv/search?q=%E5%B7%A6%E3%81%8D%E3%81%8D%E3%81%AE%E3%82%A8%E3%83%AC%E3%83%B3",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Od44Oz44Kz",
@@ -5086,7 +5405,8 @@
     "url": "https://abema.tv/search?q=%E3%83%9D%E3%83%B3%E3%82%B3%E3%83%84%E9%A2%A8%E7%B4%80%E5%A7%94%E5%93%A1%E3%81%A8%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%88%E4%B8%88%E3%81%8C%E4%B8%8D%E9%81%A9%E5%88%87%E3%81%AA%EF%BC%AA%EF%BC%AB%E3%81%AE%E8%A9%B1",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U5rOV44Gu",
@@ -5103,7 +5423,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pyA5by344Gu",
@@ -5120,7 +5441,8 @@
     "url": "https://abema.tv/search?q=%E6%9C%80%E5%BC%B7%E3%81%AE%E7%8E%8B%E6%A7%98%E3%80%81%E4%BA%8C%E5%BA%A6%E7%9B%AE%E3%81%AE%E4%BA%BA%E7%94%9F%E3%81%AF%E4%BD%95%E3%82%92%E3%81%99%E3%82%8B%EF%BC%9F",
     "episodeInfo": "第23話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-U1RFSU5TO0dB",
@@ -5137,7 +5459,8 @@
     "url": "https://abema.tv/search?q=STEINS%3BGATE",
     "episodeInfo": "第13話〜第24話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Zmw44Gu5a6f",
@@ -5154,7 +5477,8 @@
     "url": "https://abema.tv/search?q=%E9%99%B0%E3%81%AE%E5%AE%9F%E5%8A%9B%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%A6%EF%BC%81",
     "episodeInfo": "第1話〜第20話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pys5aW944GN",
@@ -5171,7 +5495,8 @@
     "url": "https://abema.tv/search?q=%E6%9C%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E4%B8%8B%E5%89%8B%E4%B8%8A",
     "episodeInfo": "第13話〜第25話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-SnVzdCBCZWNh",
@@ -5188,7 +5513,8 @@
     "url": "https://abema.tv/search?q=Just%20Because!",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5rC36I+T",
@@ -5205,7 +5531,8 @@
     "url": "https://abema.tv/search?q=%E6%B0%B7%E8%8F%93",
     "episodeInfo": "第1話〜第22話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6YqA5rKz6YmE",
@@ -5222,7 +5549,8 @@
     "url": "https://abema.tv/search?q=%E9%8A%80%E6%B2%B3%E9%89%84%E9%81%93999",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U5aWz44Gu",
@@ -5239,7 +5567,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E5%A5%B3%E3%81%AE%E6%97%85%E3%80%85",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -5256,7 +5585,8 @@
     "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%8A%E3%81%98%E3%81%95%E3%82%93",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-56eB44CB6IO9",
@@ -5273,7 +5603,8 @@
     "url": "https://abema.tv/search?q=%E7%A7%81%E3%80%81%E8%83%BD%E5%8A%9B%E3%81%AF%E5%B9%B3%E5%9D%87%E5%80%A4%E3%81%A7%E3%81%A3%E3%81%A6%E8%A8%80%E3%81%A3%E3%81%9F%E3%82%88%E3%81%AD%EF%BC%81",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6buS5a2Q44Gu",
@@ -5290,7 +5621,8 @@
     "url": "https://abema.tv/search?q=%E9%BB%92%E5%AD%90%E3%81%AE%E3%83%90%E3%82%B9%E3%82%B1",
     "episodeInfo": "第1話〜第25話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kt44Oz6IKJ",
@@ -5307,7 +5639,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5ZGq6KGT5bu7",
@@ -5324,7 +5657,8 @@
     "url": "https://abema.tv/search?q=%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6",
     "episodeInfo": "第48話〜第59話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5ZCN5o6i5YG1",
@@ -5341,7 +5675,8 @@
     "url": "https://abema.tv/search?q=%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%EF%BC%81",
     "episodeInfo": "第19話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GX44GL44Gu",
@@ -5358,7 +5693,8 @@
     "url": "https://abema.tv/search?q=%E3%81%97%E3%81%8B%E3%81%AE%E3%81%93%E3%81%AE%E3%81%93%E3%81%AE%E3%81%93%E3%81%93%E3%81%97%E3%81%9F%E3%82%93%E3%81%9F%E3%82%93",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kt44Oj44Oz",
@@ -5375,7 +5711,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%82%AB%E3%83%AA%E3%82%A8%E3%82%B9",
     "episodeInfo": "第9話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-VFbjgqLjg4vj",
@@ -5392,7 +5729,8 @@
     "url": "https://abema.tv/search?q=TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%82%B3%E3%82%A6%E3%83%9A%E3%83%B3%E3%81%A1%E3%82%83%E3%82%93%E3%80%8F",
     "episodeInfo": "第63話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OR44Oa44OD",
@@ -5409,7 +5747,8 @@
     "url": "https://abema.tv/search?q=%E3%83%91%E3%83%9A%E3%83%83%E3%83%88%E3%82%B9%E3%83%B3%E3%82%B9%E3%83%B3",
     "episodeInfo": "第48話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ki44OL44Oh",
@@ -5426,7 +5765,8 @@
     "url": "https://abema.tv/search?q=%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%AA%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9E%E3%80%8D%EF%BC%88Rilakkuma%EF%BC%89",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5L+644Gg44GR",
@@ -5443,7 +5783,8 @@
     "url": "https://abema.tv/search?q=%E4%BF%BA%E3%81%A0%E3%81%91%E5%85%A5%E3%82%8C%E3%82%8B%E9%9A%A0%E3%81%97%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U546L44Gu",
@@ -5460,7 +5801,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E7%8E%8B%E3%81%AE%E4%BF%BA%E3%81%8C%E5%A5%B4%E9%9A%B7%E3%82%A8%E3%83%AB%E3%83%95%E3%82%92%E5%AB%81%E3%81%AB%E3%81%97%E3%81%9F%E3%82%93%E3%81%A0%E3%81%8C%E3%80%81%E3%81%A9%E3%81%86%E6%84%9B%E3%81%A7%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84%EF%BC%9F%201%E3%80%9C12",
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ok44Oz44Kt",
@@ -5477,7 +5819,8 @@
     "url": "https://abema.tv/search?q=%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%8F%E3%83%A0%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B31",
     "episodeInfo": "第1話〜第26話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Oh44Kk44OJ",
@@ -5494,7 +5837,8 @@
     "url": "https://abema.tv/search?q=%E3%83%A1%E3%82%A4%E3%83%89%E3%81%95%E3%82%93%E3%81%AF%E9%A3%9F%E3%81%B9%E3%82%8B%E3%81%A0%E3%81%91",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gf44Gg44GE",
@@ -5511,7 +5855,8 @@
     "url": "https://abema.tv/search?q=%E3%81%9F%E3%81%A0%E3%81%84%E3%81%BE%E3%80%81%E3%81%8A%E3%81%98%E3%82%83%E3%81%BE%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99%EF%BC%81",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -5528,7 +5873,8 @@
     "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E5%A4%B1%E6%A0%BC",
     "episodeInfo": "第1話〜第9話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kv44Op44K5",
@@ -5545,7 +5891,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%A72%E7%95%AA%E7%9B%AE%E3%81%AB%E5%8F%AF%E6%84%9B%E3%81%84%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%A8%E5%8F%8B%E3%81%A0%E3%81%A1%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K544Kt44OD",
@@ -5562,7 +5909,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%95%E3%82%A1%E3%83%BC",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5pil5aSP56eL",
@@ -5579,7 +5927,8 @@
     "url": "https://abema.tv/search?q=%E6%98%A5%E5%A4%8F%E7%A7%8B%E5%86%AC%E4%BB%A3%E8%A1%8C%E8%80%85%20%E6%98%A5%E3%81%AE%E8%88%9E",
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-TkVFRFkgR0lS",
@@ -5596,7 +5945,8 @@
     "url": "https://abema.tv/search?q=NEEDY%20GIRL%20OVERDOSE",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GC44GL44Gt",
@@ -5613,7 +5963,8 @@
     "url": "https://abema.tv/search?q=%E3%81%82%E3%81%8B%E3%81%AD%E5%99%BA",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kt44Or44Ki",
@@ -5630,7 +5981,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AD%E3%83%AB%E3%82%A2%E3%82%AA",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ok44Oz44Kt",
@@ -5647,7 +5999,8 @@
     "url": "https://abema.tv/search?q=%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%8F%E3%83%A0%E3%82%B9%E3%82%BF%E3%83%BC%20%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B34",
     "episodeInfo": "第39話〜第50話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ki44OL44Oh",
@@ -5664,7 +6017,8 @@
     "url": "https://abema.tv/search?q=%E3%82%A2%E3%83%8B%E3%83%A1%E9%91%91%E5%AE%9A%E5%A3%AB%E4%BB%AE",
     "episodeInfo": "第12話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kq44K/44Kv",
@@ -5681,7 +6035,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AA%E3%82%BF%E3%82%AF%E3%81%AB%E5%84%AA%E3%81%97%E3%81%84%E3%82%AE%E3%83%A3%E3%83%AB%E3%81%AF%E3%81%84%E3%81%AA%E3%81%84!%3F",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gh44GE44GL",
@@ -5698,7 +6053,8 @@
     "url": "https://abema.tv/search?q=%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F",
     "episodeInfo": "第166話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K544O844OR",
@@ -5715,7 +6071,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%81%AE%E8%A3%8F%E3%81%A7%E3%83%A4%E3%83%8B%E5%90%B8%E3%81%86%E3%81%B5%E3%81%9F%E3%82%8A",
     "episodeInfo": "第1話〜第6話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5oWO6YeN5YuH",
@@ -5732,7 +6089,8 @@
     "url": "https://abema.tv/search?q=%E6%85%8E%E9%87%8D%E5%8B%87%E8%80%85",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Ko44Ot44Oe",
@@ -5749,7 +6107,8 @@
     "url": "https://abema.tv/search?q=%E3%82%A8%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%AC%E5%85%88%E7%94%9F",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OH44Kt44KL",
@@ -5766,7 +6125,8 @@
     "url": "https://abema.tv/search?q=%E3%83%87%E3%82%AD%E3%82%8B%E7%8C%AB%E3%81%AF%E4%BB%8A%E6%97%A5%E3%82%82%E6%86%82%E9%AC%B1",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kz44O844OJ",
@@ -5783,7 +6143,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9%20%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5",
     "episodeInfo": "第13話〜第25話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6IGW5aWz44Gu",
@@ -5800,7 +6161,8 @@
     "url": "https://abema.tv/search?q=%E8%81%96%E5%A5%B3%E3%81%AE%E9%AD%94%E5%8A%9B%E3%81%AF%E4%B8%87%E8%83%BD%E3%81%A7%E3%81%99%20Season2",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6buE5rOJ44Gu",
@@ -5817,7 +6179,8 @@
     "url": "https://abema.tv/search?q=%E9%BB%84%E6%B3%89%E3%81%AE%E3%83%84%E3%82%AC%E3%82%A4",
     "episodeInfo": "第1話〜第10話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kq44O844OQ",
@@ -5834,7 +6197,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89",
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Oe44Ku",
@@ -5851,7 +6215,8 @@
     "url": "https://abema.tv/search?q=%E3%83%9E%E3%82%AE",
     "episodeInfo": "第1話〜第25話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-56We44Gu5bqt",
@@ -5868,7 +6233,8 @@
     "url": "https://abema.tv/search?q=%E7%A5%9E%E3%81%AE%E5%BA%AD%E4%BB%98%E3%81%8D%E6%A5%A0%E6%9C%A8%E9%82%B8",
     "episodeInfo": "第1話〜第10話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6IGW5aWz44Gu",
@@ -5885,7 +6251,8 @@
     "url": "https://abema.tv/search?q=%E8%81%96%E5%A5%B3%E3%81%AE%E9%AD%94%E5%8A%9B%E3%81%AF%E4%B8%87%E8%83%BD%E3%81%A7%E3%81%99",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Od44Kx44OD",
@@ -5902,7 +6269,8 @@
     "url": "https://abema.tv/search?q=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%20%E6%96%B0%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
     "episodeInfo": "第140話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-RmF0ZS9aZXJv",
@@ -5919,7 +6287,8 @@
     "url": "https://abema.tv/search?q=Fate%2FZero",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5YuY6YGV44GE",
@@ -5936,7 +6305,8 @@
     "url": "https://abema.tv/search?q=%E5%8B%98%E9%81%95%E3%81%84%E3%81%AE%E5%B7%A5%E6%88%BF%E4%B8%BB",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6LaF5Lq66auY",
@@ -5953,7 +6323,8 @@
     "url": "https://abema.tv/search?q=%E8%B6%85%E4%BA%BA%E9%AB%98%E6%A0%A1%E7%94%9F%E3%81%9F%E3%81%A1%E3%81%AF%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%A7%E3%82%82%E4%BD%99%E8%A3%95%E3%81%A7%E7%94%9F%E3%81%8D%E6%8A%9C%E3%81%8F%E3%82%88%E3%81%86%E3%81%A7%E3%81%99%EF%BC%81",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Go44KT44GM",
@@ -5970,7 +6341,8 @@
     "url": "https://abema.tv/search?q=%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8",
     "episodeInfo": "第1話〜第11話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gs44GE44K5",
@@ -5987,7 +6359,8 @@
     "url": "https://abema.tv/search?q=%E3%81%AC%E3%81%84%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC2",
     "episodeInfo": "第86話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gh44Gv44KE",
@@ -6004,7 +6377,8 @@
     "url": "https://abema.tv/search?q=%E3%81%A1%E3%81%AF%E3%82%84%E3%81%B5%E3%82%8B",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GK6Zqj44Gu",
@@ -6021,7 +6395,8 @@
     "url": "https://abema.tv/search?q=%E3%81%8A%E9%9A%A3%E3%81%AE%E5%A4%A9%E4%BD%BF%E6%A7%98",
     "episodeInfo": "第2話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5p2W44Go5Ymj",
@@ -6038,7 +6413,8 @@
     "url": "https://abema.tv/search?q=%E6%9D%96%E3%81%A8%E5%89%A3%E3%81%AE%E3%82%A6%E3%82%A3%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2%20Season2",
     "episodeInfo": "第21話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55eb44GE44Gu",
@@ -6055,7 +6431,8 @@
     "url": "https://abema.tv/search?q=%E7%97%9B%E3%81%84%E3%81%AE%E3%81%AF%E5%AB%8C%E3%81%AA%E3%81%AE%E3%81%A7%E9%98%B2%E5%BE%A1%E5%8A%9B%E3%81%AB%E6%A5%B5%E6%8C%AF%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E6%80%9D%E3%81%84%E3%81%BE%E3%81%99%E3%80%82",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44G+44GK44KG",
@@ -6072,7 +6449,8 @@
     "url": "https://abema.tv/search?q=%E3%81%BE%E3%81%8A%E3%82%86%E3%81%86%E9%AD%94%E7%8E%8B%E5%8B%87%E8%80%85",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Gu44KT44Gu",
@@ -6089,7 +6467,8 @@
     "url": "https://abema.tv/search?q=%E3%81%AE%E3%82%93%E3%81%AE%E3%82%93%E3%81%B3%E3%82%88%E3%82%8A",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5aSc5qGc44GV",
@@ -6106,7 +6485,8 @@
     "url": "https://abema.tv/search?q=%E5%A4%9C%E6%A1%9C%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E5%A4%A7%E4%BD%9C%E6%88%A6",
     "episodeInfo": "第2話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6a2U6KGT5bir",
@@ -6123,7 +6503,8 @@
     "url": "https://abema.tv/search?q=%E9%AD%94%E8%A1%93%E5%B8%AB%E3%82%AF%E3%83%8E%E3%83%B3%E3%81%AF%E8%A6%8B%E3%81%88%E3%81%A6%E3%81%84%E3%82%8B",
     "episodeInfo": "第1話〜第13話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5bCP5p6X5Y2D",
@@ -6140,7 +6521,8 @@
     "url": "https://abema.tv/search?q=%E5%B0%8F%E6%9E%97%E5%8D%83%E6%99%83%E3%81%AEPARTY%C3%97PARTY",
     "episodeInfo": "第62話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Oe44Oq44OD",
@@ -6157,7 +6539,8 @@
     "url": "https://abema.tv/search?q=%E3%83%9E%E3%83%AA%E3%83%83%E3%82%B8%E3%83%88%E3%82%AD%E3%82%B7%E3%83%B3",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Lui55Sf44GX",
@@ -6174,7 +6557,8 @@
     "url": "https://abema.tv/search?q=%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6%20%E8%BB%A2%E3%82%B9%E3%83%A9%E6%97%A5%E8%A8%98",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-6Yi05p2R5YGl",
@@ -6191,7 +6575,8 @@
     "url": "https://abema.tv/search?q=%E9%88%B4%E6%9D%91%E5%81%A5%E4%B8%80%E3%81%AE%E3%83%A9%E3%82%B8%E3%83%99%E3%83%BC%E3%82%B9",
     "episodeInfo": "第220話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44K544OO44Km",
@@ -6208,7 +6593,8 @@
     "url": "https://abema.tv/search?q=%E3%82%B9%E3%83%8E%E3%82%A6%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%B9",
     "episodeInfo": "第11話",
     "isBulk": false,
-    "isLatest": true
+    "isLatest": true,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5LiK5LyK6YKj",
@@ -6225,7 +6611,8 @@
     "url": "https://abema.tv/search?q=%E4%B8%8A%E4%BC%8A%E9%82%A3%E3%81%BC%E3%81%9F%E3%82%93%E3%80%81%E9%85%92%E3%81%AE%E8%82%B4%E3%81%AB%E3%81%AA%E3%82%8B%E8%A9%B1%E3%80%80%E3%81%8A%E3%81%8B%E3%82%8F%E3%82%8A",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5paJ6Jek5aOu",
@@ -6242,7 +6629,8 @@
     "url": "https://abema.tv/search?q=%E6%96%89%E8%97%A4%E5%A3%AE%E9%A6%AC%20Strange%20dayS",
     "episodeInfo": "第285話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-5LiK5LyK6YKj",
@@ -6259,7 +6647,8 @@
     "url": "https://abema.tv/search?q=%E4%B8%8A%E4%BC%8A%E9%82%A3%E3%81%BC%E3%81%9F%E3%82%93%E3%80%81%E9%85%94%E3%81%B8%E3%82%8B%E5%A7%BF%E3%81%AF%E7%99%BE%E5%90%88%E3%81%AE%E8%8A%B1",
     "episodeInfo": "第10話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44OW44Or44O8",
@@ -6276,7 +6665,8 @@
     "url": "https://abema.tv/search?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "fCuCHEPKHEQ",
@@ -6292,7 +6682,8 @@
     "isManual": false,
     "episodeInfo": "第29話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GV44GP44KJ",
@@ -6309,7 +6700,8 @@
     "url": "https://abema.tv/search?q=%E3%81%95%E3%81%8F%E3%82%89%E3%82%82%E3%82%82%E3%81%93%E5%8A%87%E5%A0%B4%20%E3%82%B3%E3%82%B8%E3%82%B3%E3%82%B8",
     "episodeInfo": "第86話〜第100話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55eb44GE44Gu",
@@ -6326,7 +6718,8 @@
     "url": "https://abema.tv/search?q=%E7%97%9B%E3%81%84%E3%81%AE%E3%81%AF%E5%AB%8C%E3%81%AA%E3%81%AE%E3%81%A7%E9%98%B2%E5%BE%A1%E5%8A%9B%E3%81%AB%E6%A5%B5%E6%8C%AF%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E6%80%9D%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%EF%BC%92",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-55Ww5LiW55WM",
@@ -6343,7 +6736,8 @@
     "url": "https://abema.tv/search?q=%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AE%E6%B2%99%E6%B1%B0%E3%81%AF%E7%A4%BE%E7%95%9C%E6%AC%A1%E7%AC%AC",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Kr44OD44Kz",
@@ -6360,7 +6754,8 @@
     "url": "https://abema.tv/search?q=%E3%82%AB%E3%83%83%E3%82%B3%E3%82%A6%E3%81%AE%E8%A8%B1%E5%AB%81",
     "episodeInfo": "第1話〜第24話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44GU5rOo5paH",
@@ -6377,7 +6772,8 @@
     "url": "https://abema.tv/search?q=%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%EF%BC%9F",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-44Go44GC44KL",
@@ -6394,7 +6790,8 @@
     "url": "https://abema.tv/search?q=%E3%81%A8%E3%81%82%E3%82%8B%E7%A7%91%E5%AD%A6%E3%81%AE%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2",
     "episodeInfo": "第13話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "abema-auto-57Sg5p2Q5o6h",
@@ -6411,7 +6808,8 @@
     "url": "https://abema.tv/search?q=%E7%B4%A0%E6%9D%90%E6%8E%A1%E5%8F%96%E5%AE%B6%E3%81%AE%E7%95%B0%E4%B8%96%E7%95%8C%E6%97%85%E8%A1%8C%E8%A8%98",
     "episodeInfo": "第1話〜第12話",
     "isBulk": true,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "oEfSdh920sQ",
@@ -6427,7 +6825,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "SfY08aHf2-A",
@@ -6443,7 +6842,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Wiajo1OAyw0",
@@ -6459,7 +6859,8 @@
     "isManual": false,
     "episodeInfo": "第48話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "LCdXxbOsuIk",
@@ -6475,7 +6876,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "No-tu-sa1zc",
@@ -6491,7 +6893,8 @@
     "isManual": false,
     "episodeInfo": "第48話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "sMnqkzzhinI",
@@ -6507,7 +6910,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "gAIpqcIWrew",
@@ -6523,7 +6927,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "_EmFgyQmlnM",
@@ -6539,7 +6944,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "vFwS6MJszUU",
@@ -6555,7 +6961,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "plUaKDg3938",
@@ -6571,7 +6978,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "trDqfdtr3O8",
@@ -6587,7 +6995,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Ft_GOnQVrCY",
@@ -6603,7 +7012,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "ldF9SKWA2W4",
@@ -6619,7 +7029,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "-KvsGYj22Xs",
@@ -6635,7 +7046,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Ti11E_NVctQ",
@@ -6651,7 +7063,8 @@
     "isManual": false,
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "IhqafcigRps",
@@ -6667,7 +7080,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "vjchELMlrYI",
@@ -6683,7 +7097,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "orzw_5GqbK8",
@@ -6699,7 +7114,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "Y5vLEp9fC08",
@@ -6715,7 +7131,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "JxK5JpWlkeQ",
@@ -6731,7 +7148,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "SxA3pY5yuiM",
@@ -6747,7 +7165,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "6giUk3Xs0To",
@@ -6763,7 +7182,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "vfp4ch8yf_8",
@@ -6779,7 +7199,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "fV454_C3mD8",
@@ -6795,7 +7216,8 @@
     "isManual": false,
     "episodeInfo": "第1155話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "WeLUYj9jccI",
@@ -6811,7 +7233,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "SDWChEQkHFk",
@@ -6827,7 +7250,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "aUcSjA-EYgw",
@@ -6843,7 +7267,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "fifw2OX12yg",
@@ -6859,7 +7284,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "yjVHaxkmLcY",
@@ -6875,7 +7301,8 @@
     "isManual": false,
     "episodeInfo": "第9話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "-TfmKw3VisU",
@@ -6891,7 +7318,8 @@
     "isManual": false,
     "episodeInfo": "第8話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "KUl6q26RtXY",
@@ -6907,7 +7335,8 @@
     "isManual": false,
     "episodeInfo": "第7話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "3v37QZpbQ8Q",
@@ -6923,7 +7352,8 @@
     "isManual": false,
     "episodeInfo": "第6話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "VCBANBeLoxU",
@@ -6939,7 +7369,8 @@
     "isManual": false,
     "episodeInfo": "第5話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "89lctUYNGLg",
@@ -6955,7 +7386,8 @@
     "isManual": false,
     "episodeInfo": "第4話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "EqmuRqB5EXs",
@@ -6971,7 +7403,8 @@
     "isManual": false,
     "episodeInfo": "第3話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "KBLMtJtFn-M",
@@ -6987,7 +7420,8 @@
     "isManual": false,
     "episodeInfo": "第2話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "PtpKFwMQ5fQ",
@@ -7003,7 +7437,8 @@
     "isManual": false,
     "episodeInfo": "第2話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "k_OuSlWJWZo",
@@ -7019,7 +7454,8 @@
     "isManual": false,
     "episodeInfo": "第1話",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "W5GAI1FIzms",
@@ -7035,7 +7471,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "CHA-50qF7wg",
@@ -7051,7 +7488,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "WYLgWb-A7ks",
@@ -7067,7 +7505,8 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   },
   {
     "id": "2qF_TBY5Kk4",
@@ -7083,6 +7522,7 @@
     "isManual": false,
     "episodeInfo": "",
     "isBulk": false,
-    "isLatest": false
+    "isLatest": false,
+    "mangaSaleInfo": null
   }
 ]

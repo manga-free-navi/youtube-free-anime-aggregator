@@ -460,6 +460,60 @@ async function fetchAbemaFromEPG(youtubeVideos) {
   }
 }
 
+/**
+ * 漫画ナビの本番セールデータ(sales.json)を取得する
+ */
+async function fetchMangaSales() {
+  const envUrl = process.env.NEXT_PUBLIC_MANGA_SITE_URL;
+  
+  // 1. 環境変数が設定されており、かつ HTTP(S) URL の場合
+  if (envUrl && (envUrl.startsWith('http://') || envUrl.startsWith('https://'))) {
+    const url = `${envUrl.replace(/\/$/, '')}/data/sales.json`;
+    console.log(`Fetching manga sales data from configured HTTP URL: ${url}...`);
+    try {
+      const response = await axios.get(url, { timeout: 10000 });
+      return response.data || [];
+    } catch (e) {
+      console.error(`Failed to fetch from HTTP URL: ${e.message}`);
+    }
+  }
+  
+  // 2. 相対パスまたはファイルパスの場合、ローカルファイルを探索
+  if (envUrl) {
+    let localPath = '';
+    if (envUrl.includes('/out/')) {
+      // ユーザーの .env 設定 "../manga-sale-aggregator/out/index.html" から推測して、隣のsrc/data/sales.json を読みに行く
+      const baseDir = envUrl.split('/out/')[0];
+      localPath = path.resolve(__dirname, '..', '..', baseDir, 'src', 'data', 'sales.json');
+    } else {
+      localPath = path.resolve(__dirname, envUrl);
+    }
+
+    console.log(`Checking local file path for sales.json: ${localPath}...`);
+    if (fs.existsSync(localPath)) {
+      try {
+        console.log(`Loading manga sales data from local path: ${localPath}...`);
+        const content = fs.readFileSync(localPath, 'utf8');
+        return JSON.parse(content) || [];
+      } catch (e) {
+        console.error(`Failed to read local sales.json: ${e.message}`);
+      }
+    }
+  }
+
+  // 3. フォールバックとして本番のURLを使用
+  const fallbackUrl = 'https://manga-free-navi.github.io/manga-sale-aggregator/data/sales.json';
+  console.log(`Fetching manga sales data from production fallback URL: ${fallbackUrl}...`);
+  try {
+    const response = await axios.get(fallbackUrl, { timeout: 10000 });
+    return response.data || [];
+  } catch (e) {
+    console.error(`Failed to fetch manga sales from fallback URL: ${e.message}`);
+  }
+  
+  return [];
+}
+
 async function main() {
   let allVideos = [];
   
@@ -507,6 +561,60 @@ async function main() {
   // すべての動画をマージ (YouTube + 手動ABEMA + EPG自動ABEMA)
   const mergedVideos = filteredVideos.concat(abemaVideos).concat(abemaEpgVideos);
   
+  // 漫画セールの自動連動データのフェッチとマージ
+  try {
+    const mangaSales = await fetchMangaSales();
+    const mangaSalesMap = new Map();
+    for (const sale of mangaSales) {
+      const title = sale.title || "";
+      const originalWork = sale.originalWorkTitle || "";
+      
+      let maxDiscount = 0;
+      let minPrice = Infinity;
+      const mangaUrl = "https://manga-free-navi.github.io/manga-sale-aggregator/";
+      
+      if (sale.stores) {
+        for (const store of Object.values(sale.stores)) {
+          if (store.discountRate && store.discountRate > maxDiscount) {
+            maxDiscount = store.discountRate;
+          }
+          if (store.salePrice !== undefined && store.salePrice < minPrice) {
+            minPrice = store.salePrice;
+          }
+        }
+      }
+      
+      const saleInfo = {
+        hasSale: true,
+        maxDiscount,
+        minPrice: minPrice === Infinity ? 0 : minPrice,
+        id: sale.id,
+        mangaUrl: `${mangaUrl}#book-${sale.id}`
+      };
+      
+      if (originalWork) mangaSalesMap.set(originalWork, saleInfo);
+      if (title) mangaSalesMap.set(title, saleInfo);
+    }
+    
+    for (const video of mergedVideos) {
+      let saleInfo = null;
+      if (video.originalWorkTitle && mangaSalesMap.has(video.originalWorkTitle)) {
+        saleInfo = mangaSalesMap.get(video.originalWorkTitle);
+      } else if (video.title) {
+        for (const [key, info] of mangaSalesMap.entries()) {
+          if (video.title.includes(key) || key.includes(video.title)) {
+            saleInfo = info;
+            break;
+          }
+        }
+      }
+      video.mangaSaleInfo = saleInfo;
+    }
+    console.log("Successfully matched and merged manga sales data with anime videos.");
+  } catch (e) {
+    console.error("Failed to match and merge manga sales data:", e.message);
+  }
+
   // 日付順（新しい順）にソート
   mergedVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   

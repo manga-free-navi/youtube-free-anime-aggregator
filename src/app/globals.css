@@ -999,3 +999,85 @@ html, body {
   transform: translateY(-1px);
 }
 
+/* 5大機能用スタイル */
+
+/* 1. Googleカレンダー連携ボタン */
+.calendar-add-btn {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #ffffff;
+  color: #0b0f19 !important;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.calendar-add-btn:hover {
+  transform: translateY(-1px) scale(1.05);
+  background: #fbbf24;
+  box-shadow: 0 6px 15px rgba(251, 191, 36, 0.4);
+}
+
+.calendar-btn-inline {
+  padding: 0.2rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: rgba(251, 191, 36, 0.1);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  color: #fbbf24 !important;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  transition: all 0.2s ease;
+}
+
+.calendar-btn-inline:hover {
+  background: rgba(251, 191, 36, 0.2);
+  border-color: #fbbf24;
+  transform: translateY(-1px);
+}
+
+/* 2. 原作お気に入りバッジ */
+.badge-manga-fav {
+  background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(244, 63, 94, 0.4) !important;
+  box-shadow: 0 0 10px rgba(244, 63, 94, 0.4);
+  animation: badge-pulse 2s infinite alternate;
+}
+
+/* 3. 原作セール中バッジ */
+.badge-manga-sale {
+  background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(124, 58, 237, 0.4) !important;
+  box-shadow: 0 0 10px rgba(124, 58, 237, 0.4);
+}
+
+@keyframes badge-pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.03); }
+}
+
+/* 4. 漫画ナビセールボタン */
+.btn-manga-sale {
+  background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.25);
+}
+
+.btn-manga-sale:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(124, 58, 237, 0.4);
+  background: linear-gradient(135deg, #b066ff 0%, #8b5cf6 100%) !important;
+}

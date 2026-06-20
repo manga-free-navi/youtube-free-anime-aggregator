@@ -21,6 +21,8 @@ interface FilterBarProps {
   onToggleHideUpcoming: () => void;
   showFavoritesOnly: boolean;
   onToggleShowFavoritesOnly: () => void;
+  selectedPlatform: string;
+  onSelectPlatform: (platform: string) => void;
 }
 
 export default function FilterBar({
@@ -37,6 +39,8 @@ export default function FilterBar({
   onToggleHideUpcoming,
   showFavoritesOnly,
   onToggleShowFavoritesOnly,
+  selectedPlatform,
+  onSelectPlatform,
 }: FilterBarProps) {
   // 重複しないカテゴリリストの作成
   const categories = ['すべて', ...Array.from(new Set(channels.map((c) => c.category)))];
@@ -84,6 +88,7 @@ export default function FilterBar({
           >
             <option value="newest">公開日が新しい順</option>
             <option value="oldest">公開日が古い順</option>
+            <option value="urgency">配信終了が近い順</option>
             <option value="channel">チャンネル順</option>
           </select>
         </div>
@@ -131,6 +136,34 @@ export default function FilterBar({
               {chan.displayName}
             </button>
           ))}
+        </div>
+      </div>
+
+      {/* 配信元プラットフォーム絞り込み */}
+      <div className="filter-row" style={{ borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '0.75rem' }}>
+        <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)', fontWeight: 600, minWidth: '70px' }}>配信元:</span>
+        <div className="filter-group">
+          <button
+            className={`filter-btn ${selectedPlatform === 'all' ? 'active' : ''}`}
+            onClick={() => onSelectPlatform('all')}
+            id="btn-platform-all"
+          >
+            すべて表示
+          </button>
+          <button
+            className={`filter-btn ${selectedPlatform === 'youtube' ? 'active' : ''}`}
+            onClick={() => onSelectPlatform('youtube')}
+            id="btn-platform-youtube"
+          >
+            📺 YouTubeのみ
+          </button>
+          <button
+            className={`filter-btn ${selectedPlatform === 'abema' ? 'active' : ''}`}
+            onClick={() => onSelectPlatform('abema')}
+            id="btn-platform-abema"
+          >
+            🟢 ABEMAのみ
+          </button>
         </div>
       </div>
 
