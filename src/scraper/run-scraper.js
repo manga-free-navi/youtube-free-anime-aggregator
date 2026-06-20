@@ -285,6 +285,139 @@ async function fetchAbemaMetadata(item) {
   }
 }
 
+// EPG自動収集用のチャンネルID
+const ABEMA_TARGET_CHANNELS = new Set([
+  'abema-anime', 'abema-anime-2', 'abema-anime-3',
+  'special-plus-7', 'anime-special-2',
+  'isekai-anime', 'isekai-anime-2', 'isekai-anime-3',
+  'lovecomedy-anime', 'dailylife-anime', 'late-night-anime',
+  'anime-live', 'anime-live2'
+]);
+
+// EPGの時刻形式 (20260612150000 +0000) を ISO形式 (2026-06-12T15:00:00.000Z) に変換する
+function parseEPGTime(timeStr) {
+  if (!timeStr) return new Date().toISOString();
+  const match = timeStr.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})\s+([\+\-]\d{4})/);
+  if (!match) return new Date().toISOString();
+  const [_, year, month, day, hour, min, sec, tz] = match;
+  return `${year}-${month}-${day}T${hour}:${min}:${sec}Z`;
+}
+
+// タイトルのクレンジング
+function cleanProgramTitle(title) {
+  let clean = title;
+  clean = clean.replace(/【.*?】/g, '');
+  clean = clean.replace(/\[.*?\]/g, '');
+  clean = clean.replace(/\(.*?\)/g, '');
+  clean = clean.replace(/\s*#\s*\d+.*$/, '');
+  clean = clean.replace(/\s*第\s*\d+\s*[話期].*$/, '');
+  clean = clean.replace(/\s*\d+\s*話.*$/, '');
+  clean = clean.replace(/^『(.*?)』$/, '$1');
+  clean = clean.replace(/^「(.*?)」$/, '$1');
+  clean = clean.replace(/・見逃し放送.*/g, '');
+  clean = clean.replace(/・見逃し.*/g, '');
+  clean = clean.replace(/一挙.*/g, '');
+  return clean.trim();
+}
+
+// EPG XMLからABEMAの無料アニメ番組情報を全自動収集する
+async function fetchAbemaFromEPG(youtubeVideos) {
+  const url = 'https://raw.githubusercontent.com/dbghelp/Abema-TV-EPG/refs/heads/main/abema.xml';
+  console.log(`Fetching ABEMA EPG from ${url}...`);
+  try {
+    const response = await axios.get(url, { timeout: 15000 });
+    const $ = cheerio.load(response.data, { xmlMode: true });
+    
+    const uniquePrograms = new Map();
+    
+    // YouTube動画から「原作名」と「画像URL」のマップを作成（名寄せ用）
+    const youtubeTitleMap = new Map();
+    for (const v of youtubeVideos) {
+      if (v.originalWorkTitle && v.thumbnailUrl) {
+        youtubeTitleMap.set(v.originalWorkTitle, v.thumbnailUrl);
+      }
+      const cleanYtTitle = cleanProgramTitle(v.title);
+      if (cleanYtTitle && v.thumbnailUrl) {
+        youtubeTitleMap.set(cleanYtTitle, v.thumbnailUrl);
+      }
+    }
+
+    $('programme').each((i, el) => {
+      const channel = $(el).attr('channel');
+      if (!ABEMA_TARGET_CHANNELS.has(channel)) return;
+
+      const rawTitle = $(el).find('title').text();
+      const desc = $(el).find('desc').text() || '';
+      const start = $(el).attr('start');
+      
+      const cleanTitle = cleanProgramTitle(rawTitle);
+      
+      // 無駄な特番や枠を除外
+      if (cleanTitle.length <= 1 || 
+          cleanTitle === 'アニメ' || 
+          cleanTitle === '特別番組' || 
+          cleanTitle.includes('ABEMAアニメ') ||
+          cleanTitle.includes('アベマ') ||
+          cleanTitle.includes('声優と夜あそび') ||
+          cleanTitle.includes('宣伝') ||
+          cleanTitle.includes('特番')) {
+        return;
+      }
+
+      // 重複は最初に見つかったものを優先
+      if (!uniquePrograms.has(cleanTitle)) {
+        let matchedThumbnail = '';
+        let originalWork = '';
+        
+        // 1. YouTubeタイトルマップから直接一致を探す
+        if (youtubeTitleMap.has(cleanTitle)) {
+          matchedThumbnail = youtubeTitleMap.get(cleanTitle);
+          originalWork = cleanTitle;
+        } else {
+          // 2. 部分一致を探索
+          for (const [key, thumb] of youtubeTitleMap.entries()) {
+            if (cleanTitle.includes(key) || key.includes(cleanTitle)) {
+              matchedThumbnail = thumb;
+              originalWork = key;
+              break;
+            }
+          }
+        }
+
+        // 名寄せできなかった場合は美しい汎用プレースホルダー画像
+        if (!matchedThumbnail) {
+          matchedThumbnail = 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=60';
+        }
+
+        const searchUrl = `https://abema.tv/search?q=${encodeURIComponent(cleanTitle)}`;
+        const startIso = parseEPGTime(start);
+        const safeId = Buffer.from(cleanTitle).toString('base64').replace(/=/g, '').substring(0, 12);
+        
+        uniquePrograms.set(cleanTitle, {
+          id: `abema-auto-${safeId}`,
+          title: `${cleanTitle} (ABEMA無料配信中)`,
+          channelId: 'abema-epg',
+          channelName: 'ABEMA',
+          category: 'アニメ',
+          publishedAt: startIso,
+          description: desc || `${cleanTitle}のABEMA無料配信情報です。`,
+          thumbnailUrl: matchedThumbnail,
+          originalWorkTitle: originalWork || cleanTitle,
+          endDate: null,
+          isManual: true,
+          url: searchUrl
+        });
+      }
+    });
+
+    console.log(`Successfully extracted ${uniquePrograms.size} unique Anime programs from ABEMA EPG.`);
+    return Array.from(uniquePrograms.values());
+  } catch (error) {
+    console.error('Failed to auto-import ABEMA from EPG:', error.message);
+    return [];
+  }
+}
+
 async function main() {
   let allVideos = [];
   
@@ -306,7 +439,7 @@ async function main() {
     filteredVideos = allVideos.filter(video => !isPvOrClip(video.title));
   }
   
-  // ABEMAタイトルのロードとフェッチ
+  // ABEMAタイトルのロードとフェッチ (手動管理分)
   const abemaTitlesPath = path.join(__dirname, 'abema_titles.json');
   let abemaVideos = [];
   if (fs.existsSync(abemaTitlesPath)) {
@@ -326,8 +459,11 @@ async function main() {
     }
   }
 
-  // YouTube動画とABEMA動画をマージ
-  const mergedVideos = filteredVideos.concat(abemaVideos);
+  // EPGからの全自動無料アニメ収集
+  const abemaEpgVideos = await fetchAbemaFromEPG(filteredVideos);
+
+  // すべての動画をマージ (YouTube + 手動ABEMA + EPG自動ABEMA)
+  const mergedVideos = filteredVideos.concat(abemaVideos).concat(abemaEpgVideos);
   
   // 日付順（新しい順）にソート
   mergedVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
