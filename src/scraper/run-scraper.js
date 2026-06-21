@@ -810,11 +810,21 @@ async function main() {
     console.error("Failed to match and merge manga sales data:", e.message);
   }
 
+  // 最終マージされた動画リストの重複排除 (ID基準)
+  const uniqueVideosMap = new Map();
+  for (const video of mergedVideos) {
+    if (video.id) {
+      uniqueVideosMap.set(video.id, video);
+    }
+  }
+  const finalMergedVideos = Array.from(uniqueVideosMap.values());
+  console.log(`[名寄せ] 総アニメ数: ${mergedVideos.length}件 -> ユニーク数: ${finalMergedVideos.length}件`);
+
   // 日付順（新しい順）にソート
-  mergedVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  finalMergedVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   
   // JSONファイルとして書き出し
-  fs.writeFileSync(outputPath, JSON.stringify(mergedVideos, null, 2), 'utf8');
+  fs.writeFileSync(outputPath, JSON.stringify(finalMergedVideos, null, 2), 'utf8');
 
   // public/videos.json にも保存（他サイトからのクロスフェッチ用）
   try {
@@ -823,7 +833,7 @@ async function main() {
     if (!fs.existsSync(publicDir)) {
       fs.mkdirSync(publicDir, { recursive: true });
     }
-    fs.writeFileSync(publicOutputPath, JSON.stringify(mergedVideos, null, 2), 'utf8');
+    fs.writeFileSync(publicOutputPath, JSON.stringify(finalMergedVideos, null, 2), 'utf8');
     console.log(`パブリックデータの書き込み完了: ${publicOutputPath}`);
   } catch (publicError) {
     console.warn('パブリックディレクトリへのデータ書き込みに失敗しました:', publicError.message);
