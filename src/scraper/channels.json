@@ -48,7 +48,7 @@
     "category": "コミック・ホビー"
   },
   {
-    "id": "UC9iC5kXiHNJCCDjEi1lD3UA",
+    "id": "UCKlXiCjg_VI0eZ9kKBeNJgw",
     "name": "avex pictures",
     "displayName": "エイベックス",
     "category": "アニメ"
@@ -81,6 +81,12 @@
     "id": "UCzRA6MmLND4-zIZ-GdrrolQ",
     "name": "手塚プロダクション公式チャンネル",
     "displayName": "手塚プロダクション",
+    "category": "アニメ"
+  },
+  {
+    "id": "UC9iC5kXiHNJCCDjEi1lD3UA",
+    "name": "アニメタイムズ公式",
+    "displayName": "アニメタイムズ",
     "category": "アニメ"
   },
   {

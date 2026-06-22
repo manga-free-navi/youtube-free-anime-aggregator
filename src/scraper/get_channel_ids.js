@@ -10,7 +10,8 @@ const handles = [
   '@TMSanimeJP',
   '@corocoro',
   '@avexpictures',
-  '@nbcuniversalanimemusic'
+  '@nbcuniversalanimemusic',
+  '@animetimes-ch'
 ];
 
 async function getChannelId(handle) {
