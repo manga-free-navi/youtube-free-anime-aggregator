@@ -85,20 +85,27 @@ function extractEpisodeMeta(title) {
     seasonInfo = seasonMatch[0].trim();
   }
 
-  // 1. 複数話一挙の検出 (例: #1〜11, 第1〜12話, #1-6, #1~5)
-  let rangeMatch = title.match(/(?:#|第)\s*(\d+)\s*(?:〜|～|~|-|－)\s*(\d+)\s*[話期]?/);
+  // 1. 複数話一挙の検出 (各種パターン)
+  // パターンA: プレフィックスがある範囲 (例: #1〜#10, 第1話〜第12話, Eps#37-Eps#38, ＃5-8)
+  let rangeMatch = title.match(/(?:#|＃|第|Eps\s*#|Ep\s*#)\s*(\d+)\s*話?\s*(?:〜|～|~|-|－|—)\s*(?:#|＃|第|Eps\s*#|Ep\s*#)?\s*(\d+)\s*話?/i);
+  
+  // パターンB: プレフィックスなし、サフィックス「話」あり (例: 1〜7話, 1-4話)
   if (!rangeMatch) {
-    // プレフィックスがない場合のフォールバック (例: 1〜7話、1～7話、1-7話)
-    // 日付表現 (2026-06-20 等) と競合しないよう、波線かつ後ろに「話」がある場合、または明確に日付っぽくない場合に限定
-    rangeMatch = title.match(/(?<!\d|年|月|日)(\d+)\s*(?:〜|～|~)\s*(\d+)\s*話/);
+    rangeMatch = title.match(/(?<!\d|年|月|日)(\d+)\s*(?:〜|～|~|-|－|—)\s*(\d+)\s*話/);
+  }
+  
+  // パターンC: プレフィックスなし、サフィックス「話」なし、明確な話数範囲 (例: 1〜12, 1～8)
+  // 日付や西暦等と競合しないよう、波線区切りに限定
+  if (!rangeMatch) {
+    rangeMatch = title.match(/(?<!\d|年|月|日|¥|￥|[a-zA-Z0-9])(\d{1,3})\s*(?:〜|～|~)\s*(\d{1,3})(?![a-zA-Z0-9]|\s*(?:円|年|月|日|分|秒|kb|mb|gb|%|off))/i);
   }
 
   if (rangeMatch) {
     episodeInfo = `第${rangeMatch[1]}話〜第${rangeMatch[2]}話`;
     isBulk = true;
   } else {
-    // 2. 単一話数の検出 (例: #10, 第10話, # 140)
-    let singleMatch = title.match(/(?:#|第|#\s*)(\d+)\s*話?/);
+    // 2. 単一話数の検出 (例: #10, 第10話, # 140, ＃10)
+    let singleMatch = title.match(/(?:#|＃|第|#\s*|Eps\s*#|Ep\s*#)(\d+)\s*話?/i);
     if (!singleMatch) {
       // プレフィックスがない場合のフォールバック (例: 10話)
       singleMatch = title.match(/(?<!\d|年|月|日)(\d+)\s*話/);
@@ -749,6 +756,19 @@ async function main() {
 
   // すべての動画をマージ (YouTube + 手動ABEMA + EPG自動ABEMAマージ後)
   const mergedVideos = filteredVideos.concat(abemaVideos).concat(finalAbemaEpgVideos);
+  
+  // アーカイブから復元された過去データも含め、最新の一挙公開判定ルールを再適用
+  for (const video of mergedVideos) {
+    if (video.title) {
+      const epMeta = extractEpisodeMeta(video.title);
+      if (epMeta.isBulk) {
+        video.isBulk = true;
+        if (epMeta.episodeInfo) {
+          video.episodeInfo = epMeta.episodeInfo;
+        }
+      }
+    }
+  }
   
   // 漫画セールの自動連動データのフェッチとマージ
   try {
