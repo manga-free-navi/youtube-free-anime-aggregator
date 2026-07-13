@@ -840,11 +840,22 @@ async function main() {
   const finalMergedVideos = Array.from(uniqueVideosMap.values());
   console.log(`[名寄せ] 総アニメ数: ${mergedVideos.length}件 -> ユニーク数: ${finalMergedVideos.length}件`);
 
+  // 配信終了日を過ぎた番組を排除するクレンジング
+  const todayStr = new Date().toISOString().split('T')[0];
+  const activeVideos = finalMergedVideos.filter(v => {
+    // 終了日があり、かつ終了日が今日未満の場合は除外
+    if (v.endDate && v.endDate < todayStr) {
+      return false;
+    }
+    return true;
+  });
+  console.log(`[クレンジング] 配信終了済みの番組を除外: ${finalMergedVideos.length}件 -> ${activeVideos.length}件`);
+
   // 日付順（新しい順）にソート
-  finalMergedVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  activeVideos.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   
   // JSONファイルとして書き出し
-  fs.writeFileSync(outputPath, JSON.stringify(finalMergedVideos, null, 2), 'utf8');
+  fs.writeFileSync(outputPath, JSON.stringify(activeVideos, null, 2), 'utf8');
 
   // public/videos.json にも保存（他サイトからのクロスフェッチ用）
   try {
@@ -853,7 +864,7 @@ async function main() {
     if (!fs.existsSync(publicDir)) {
       fs.mkdirSync(publicDir, { recursive: true });
     }
-    fs.writeFileSync(publicOutputPath, JSON.stringify(finalMergedVideos, null, 2), 'utf8');
+    fs.writeFileSync(publicOutputPath, JSON.stringify(activeVideos, null, 2), 'utf8');
     console.log(`パブリックデータの書き込み完了: ${publicOutputPath}`);
   } catch (publicError) {
     console.warn('パブリックディレクトリへのデータ書き込みに失敗しました:', publicError.message);

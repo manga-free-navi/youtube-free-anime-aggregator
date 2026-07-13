@@ -422,7 +422,19 @@ export default function MainApp() {
         (selectedPlatform === 'youtube' && !video.url) || 
         (selectedPlatform === 'abema' && video.url && video.url.includes('abema.tv'));
 
-      return matchesSearch && matchesChannel && matchesCategory && matchesUpcoming && matchesFavorites && matchesBulk && matchesPlatform;
+      // 配信終了（過去公開）の判定 (終了日があり、かつそれが現在時刻を過ぎている場合は非表示)
+      let isEnded = false;
+      if (video.endDate) {
+        const end = new Date(video.endDate);
+        // 日付のみ指定（YYYY-MM-DD）されている場合は、その日の終わり（23:59:59.999）まで有効とする
+        if (video.endDate.length <= 10) {
+          end.setHours(23, 59, 59, 999);
+        }
+        isEnded = end < now;
+      }
+      const matchesActive = !isEnded;
+
+      return matchesSearch && matchesChannel && matchesCategory && matchesUpcoming && matchesFavorites && matchesBulk && matchesPlatform && matchesActive;
     });
   }, [allVideosWithCrossInfo, searchTerm, selectedChannelId, selectedCategory, hideUpcoming, showFavoritesOnly, favorites, showBulkOnly, selectedPlatform]);
 
